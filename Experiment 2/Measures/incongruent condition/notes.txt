@@ -1,0 +1,1 @@
+default files have congruent block order between the IAT and SC-IATs. For the incongruent block order, swap out the excel files here with those in the superordinate folder. 
