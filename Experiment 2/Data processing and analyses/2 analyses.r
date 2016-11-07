@@ -1,7 +1,12 @@
 ###################################################################
-# Analyse data from learning via CC experiment 1
+# Analyse data from learning via CC experiment 2
 ###################################################################
 # Author: Ian Hussey (ian.hussey@ugent.be)
+
+# NB R treats the two conditions alphabetically, so that all effects
+# sizes are retured as negative despite being in line with the hypotheses. 
+# All are inverted when reported in the manuscript to make the reported 
+# results congruent with the wording of the hypothesis.
 
 ###################################################################
 # Clean the workspace
@@ -9,9 +14,7 @@ rm(list=ls())
 
 ###################################################################
 ## Dependencies
-library(readr)
-library(tidyr)
-library(dplyr)
+library(tidyverse)
 library(psych)
 library(effsize)
 library(pwr)
@@ -23,9 +26,10 @@ library(BayesFactor)
 
 ###################################################################
 ## Data acquisition
-setwd("~/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 2/Analysis")
-data_df <- read.csv("dataset.csv")
+setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 2/Analyses/")
 
+data_df <- read.csv("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 2/Analyses/dataset.csv")  # acquire data
+  
 
 ###################################################################
 ## Descriptives
@@ -200,7 +204,7 @@ cat("\n")
 descriptives_by_condition
 cat("\n")
 cat("\n")
-cat("###################     hypothesis test - change in ratings of chinese characters between conditions \n")
+cat("###################     frequentist hypothesis test - change in ratings of chinese characters between conditions \n")
 ratings_independent_t_test
 ratings_d
 cat("\n")

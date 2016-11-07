@@ -3,15 +3,18 @@
 ###################################################################
 # Author: Ian Hussey (ian.hussey@ugent.be)
 
+# NB R treats the two conditions alphabetically, so that all effects
+# sizes are retured as negative despite being in line with the hypotheses. 
+# All are inverted when reported in the manuscript to make the reported 
+# results congruent with the wording of the hypothesis.
+
 ###################################################################
 # Clean the workspace
 rm(list=ls())
 
 ###################################################################
 ## Dependencies
-library(readr)
-library(tidyr)
-library(dplyr)
+library(tidyverse)
 library(psych)
 library(effsize)
 library(pwr)
@@ -23,8 +26,9 @@ library(BayesFactor)
 
 ###################################################################
 ## Data acquisition
-setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 1/Analysis/")
-data_df <- read.csv("dataset.csv")
+setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 1/Analyses/")
+
+data_df <- read.csv("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 1/Analyses/dataset.csv")  # acquire data
 
 
 ###################################################################

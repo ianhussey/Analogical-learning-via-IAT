@@ -17,7 +17,7 @@ library(data.table)
 ########################################################################
 
 # Set the working directory in which to look for data files, then read them in.
-setwd("~/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 2/Master data")
+setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 2/Data")
 files <- list.files(pattern = "\\.csv$")
 data_df <- tbl_df(rbind.fill(lapply(files, fread, header=TRUE)))
 
@@ -51,7 +51,6 @@ data_df <-
          likert_Valence_item = likert_Valence_item + 1, # recitify 0-9 to 1-10
          gender = ifelse(gender == "M", "m", # correct M to m
                          ifelse (gender == "FALSE", "f", gender))) # correct F (which R reads in as FALSE) to f
-
 
 ########################################################################
 # Extract demographics data

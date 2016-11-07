@@ -9,12 +9,19 @@ rm(list=ls())
 
 ########################################################################
 # Dependencies
-library(plyr) #must import before dplyr
-library(dplyr)
-library(tidyr)
-library(readr)
-library(data.table)
 
+# function to check if libraries are not already installed, and if not it installs them
+auto_install_dependencies <- function(pkg){
+  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
+  if (length(new.pkg)) 
+    install.packages(new.pkg, dependencies = TRUE)
+}
+packages <- c("plyr", "tidyverse", "data.table")
+auto_install_dependencies(packages)
+
+library(plyr) # must import before dplyr
+library(tidyverse)
+library(data.table)
 
 ########################################################################
 # Data acquisition and cleaning
