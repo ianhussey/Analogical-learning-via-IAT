@@ -10,15 +10,6 @@ rm(list=ls())
 ########################################################################
 # Dependencies
 
-# function to check if libraries are not already installed, and if not it installs them
-auto_install_dependencies <- function(pkg){
-  new.pkg <- pkg[!(pkg %in% installed.packages()[, "Package"])]
-  if (length(new.pkg)) 
-    install.packages(new.pkg, dependencies = TRUE)
-}
-packages <- c("plyr", "tidyverse", "data.table")
-auto_install_dependencies(packages)
-
 library(plyr) # must import before dplyr
 library(tidyverse)
 library(data.table)
@@ -27,7 +18,7 @@ library(data.table)
 # Data acquisition and cleaning
 
 # Set the working directory in which to look for data files
-setwd("~/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 1/Master data")
+setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 1/Data/Raw data/")
 
 # Create a list of these files
 files <- list.files(pattern = "\\.csv$")
@@ -122,6 +113,7 @@ D1_data <-
                        D1, 
                        "error"))) %>%
   select(participant,
+         block_order,
          D1,
          condition,
          IAT_mean_RT) 
@@ -160,5 +152,5 @@ df_output <-
 
 ########################################################################
 # Write to file
-df_output %>% write.csv(file = "/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 1/Analysis/dataset.csv", row.names=FALSE)
+df_output %>% write.csv(file = "/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 1/Data/processed data.csv", row.names=FALSE)
 

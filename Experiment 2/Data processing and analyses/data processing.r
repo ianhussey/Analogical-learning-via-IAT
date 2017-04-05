@@ -17,7 +17,7 @@ library(data.table)
 ########################################################################
 
 # Set the working directory in which to look for data files, then read them in.
-setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Analogical learning via IAT - OSF files/Experiment 2/Data")
+setwd("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 2/Data/Raw data/")
 files <- list.files(pattern = "\\.csv$")
 data_df <- tbl_df(rbind.fill(lapply(files, fread, header=TRUE)))
 
@@ -170,13 +170,19 @@ IAT_condition_df <-
   mutate(valence_of_IAT_contrast_category = ifelse(IAT_condition == 1 | IAT_condition == 2,
                                                    "flowers", 
                                                    ifelse(IAT_condition == 3 | IAT_condition == 4,
-                                                          "insects")))
+                                                          "insects")),
+         block_order = ifelse(IAT_condition == 1 | IAT_condition == 4, 
+                              "consistent_first", 
+                              ifelse(
+                                IAT_condition == 2 | IAT_condition == 3, 
+                                "inconsistent_first", 
+                                "error")))
                                                    
 
 # SC-IAT condition
 SCIAT_condition_df <-
   data_df %>%
-  filter(SCIAT1 == 0) %>% # select only rows that corrispond to the IAT data
+  filter(SCIAT1 == 0) %>% # select only rows that corrispond to the SCIAT data
   group_by(participant) %>%
   distinct(condition) %>%
   rename(SCIAT_condition = condition) %>%
@@ -252,6 +258,7 @@ output_df <-
   output_df %>%
   select(participant,
          valence_of_IAT_contrast_category,  # condition
+         block_order,
          ratings_pre,
          ratings_post,
          ratings_change_scores,
@@ -274,4 +281,4 @@ output_df <-
 
 ########################################################################
 # Write to file
-output_df %>% write.csv(file = "~/Dropbox/Work/Manuscripts/Hussey & De Houwer, Learning via IAT CC/Experiment 2/Analysis/dataset.csv", row.names=FALSE)
+output_df %>% write.csv(file = "/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 2/Data/processed data.csv", row.names=FALSE)
