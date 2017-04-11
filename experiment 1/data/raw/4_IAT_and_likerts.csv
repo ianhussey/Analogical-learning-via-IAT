@@ -1,0 +1,1041 @@
+instruction,exemplar,subscale,orStimulus,block,nBlockRepeats,attribute2,attribute1,target2,condition,target1,stimulusColour,stimulus,feedbackResponse,feedbackAllowed,trialtype,requiredResponse,requiredAllowed,imageStimulus,likertPre.thisRepN,likertPre.thisTrialN,likertPre.thisN,likertPre.thisIndex,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,likertPost.thisRepN,likertPost.thisTrialN,likertPost.thisN,likertPost.thisIndex,rating.response,requiredResponse.keys,requiredResponse.corr,requiredResponse.rt,feedbackResponse.keys,feedbackResponse.corr,feedbackResponse.rt,participant,gender,age,frameRate,expName,date"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic5.jpg,2,,,,,,,,,,,,,,,,,0,0,0,9,,,,,,,,,,,,,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect4.jpg,1,,,,,,,,,,,,,,,,,0,1,1,3,,,,,,,,,,,,,1,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic2.jpg,2,,,,,,,,,,,,,,,,,0,2,2,6,,,,,,,,,,,,,4,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect3.jpg,1,,,,,,,,,,,,,,,,,0,3,3,2,,,,,,,,,,,,,1,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect2.jpg,1,,,,,,,,,,,,,,,,,0,4,4,1,,,,,,,,,,,,,2,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic1.jpg,2,,,,,,,,,,,,,,,,,0,5,5,5,,,,,,,,,,,,,4,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect5.jpg,1,,,,,,,,,,,,,,,,,0,6,6,4,,,,,,,,,,,,,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic4.jpg,2,,,,,,,,,,,,,,,,,0,7,7,8,,,,,,,,,,,,,4,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic3.jpg,2,,,,,,,,,,,,,,,,,0,8,8,7,,,,,,,,,,,,,5,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect1.jpg,1,,,,,,,,,,,,,,,,,0,9,9,0,,,,,,,,,,,,,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,0,0,0,,,,,,e,0,0.71505912,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,1,1,6,,,,,,i,0,0.624371934,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,2,2,2,,,,,,e,0,0.623048291,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,3,3,8,,,,,,i,0,0.62244522,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,4,4,7,,,,,,i,0,0.608724996,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,5,5,5,,,,,,i,0,0.543771326,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,6,6,3,,,,,,e,0,0.576676575,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,7,7,4,,,,,,e,0,0.542331953,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,8,8,9,,,,,,i,0,0.588705439,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,9,9,1,,,,,,e,0,0.637451925,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,0,10,6,,,,,,i,0,0.747204514,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,1,11,5,,,,,,i,0,0.589777094,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,2,12,2,,,,,,e,0,0.611011641,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,3,13,1,,,,,,e,0,0.607763055,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,4,14,0,,,,,,e,0,0.589844691,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,5,15,7,,,,,,i,0,0.589593058,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,6,16,3,,,,,,e,0,0.574360555,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,7,17,8,,,,,,i,0,0.612530291,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,8,18,9,,,,,,i,0,0.53272316,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"In deze taak zullen stimuli ÌöÌön voor ÌöÌön op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÌ_n:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÌ_n aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÌ_n die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÌ_n die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock1_insects.xlsx,2,Negatief,Positief, ,4, ,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,9,19,4,,,,,,e,0,0.549397867,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,1,1,1,0,0,0,7,,,,,,e,0,0.638477925,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,1,1,1,0,1,1,6,,,,,,e,0,0.562537316,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,1,1,1,0,2,2,5,,,,,,e,0,0.417214498,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect5.jpg,,,,,0,1,1,1,0,3,3,4,,,,,,i,0,0.481752672,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect4.jpg,,,,,0,1,1,1,0,4,4,3,,,,,,i,0,0.463445002,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect3.jpg,,,,,0,1,1,1,0,5,5,2,,,,,,i,0,0.418860203,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect1.jpg,,,,,0,1,1,1,0,6,6,0,,,,,,i,0,0.435366799,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,1,1,1,0,7,7,9,,,,,,e,0,0.454851237,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,1,1,1,0,8,8,8,,,,,,e,0,0.406603417,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect2.jpg,,,,,0,1,1,1,0,9,9,1,,,,,,i,0,0.473019111,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect4.jpg,,,,,0,1,1,1,1,0,10,3,,,,,,i,0,0.500517955,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect1.jpg,,,,,0,1,1,1,1,1,11,0,,,,,,i,0,0.434798058,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect2.jpg,,,,,0,1,1,1,1,2,12,1,,,,,,i,0,0.402880585,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,1,1,1,1,3,13,8,,,,,,e,0,0.525677774,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect5.jpg,,,,,0,1,1,1,1,4,14,4,,,,,,i,0,0.480074053,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,1,1,1,1,5,15,6,,,,,,e,0,0.549490592,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,1,1,1,1,6,16,9,,,,,,e,0,0.434743909,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect3.jpg,,,,,0,1,1,1,1,7,17,2,,,,,,i,0,0.511536037,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,1,1,1,1,8,18,5,,,,,,e,0,0.543050755,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock2_insects.xlsx,2, , ,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,1,1,1,1,9,19,7,,,,,,e,0,0.371802245,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,0,0,17,,,,,,i,0,0.65548425,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,1,1,15,,,,,,i,0,0.670939719,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,2,2,16,,,,,,i,0,0.884648476,e,0,0.510959864,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,3,3,14,,,,,,e,0,0.638846704,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,4,4,18,,,,,,i,0,0.517132496,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,5,5,19,,,,,,i,0,0.545197957,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,6,6,13,,,,,,e,0,0.562102,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect5.jpg,,,,,0,2,2,2,0,7,7,4,,,,,,i,0,0.714595491,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,2,2,2,0,8,8,5,,,,,,e,0,0.638908285,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,9,9,12,,,,,,e,0,0.700877745,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,10,10,11,,,,,,e,0,0.514010611,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,11,11,10,,,,,,e,0,0.485928869,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect4.jpg,,,,,0,2,2,2,0,12,12,3,,,,,,i,0,0.561519456,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,2,2,2,0,13,13,9,,,,,,e,0,0.876390576,i,0,0.484120718,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,2,2,2,0,14,14,8,,,,,,e,0,0.641639448,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect2.jpg,,,,,0,2,2,2,0,15,15,1,,,,,,i,0,0.637604462,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect3.jpg,,,,,0,2,2,2,0,16,16,2,,,,,,i,0,0.514231454,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect1.jpg,,,,,0,2,2,2,0,17,17,0,,,,,,i,0,0.496300349,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,2,2,2,0,18,18,6,,,,,,e,0,0.667930025,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,1,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,2,2,2,0,19,19,7,,,,,,e,0,0.686509149,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect4.jpg,,,,,0,3,3,3,0,0,0,3,,,,,,i,0,0.576364068,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,1,1,14,,,,,,e,0,0.639737508,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,2,2,12,,,,,,e,0,0.531790594,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect2.jpg,,,,,0,3,3,3,0,3,3,1,,,,,,i,0,0.593746605,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,4,4,18,,,,,,i,0,0.60476044,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,3,3,3,0,5,5,7,,,,,,e,0,0.637893611,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect3.jpg,,,,,0,3,3,3,0,6,6,2,,,,,,i,0,0.51542981,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,7,7,16,,,,,,i,0,0.702464346,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect5.jpg,,,,,0,3,3,3,0,8,8,4,,,,,,i,0,1.029870074,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,3,3,3,0,9,9,6,,,,,,e,0,0.638772382,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,10,10,15,,,,,,i,0,0.500613512,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect1.jpg,,,,,0,3,3,3,0,11,11,0,,,,,,i,0,0.483906245,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,12,12,11,,,,,,e,0,0.48287069,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,13,13,13,,,,,,e,0,0.542015553,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,3,3,3,0,14,14,9,,,,,,e,0,1.032441267,i,0,0.715389322,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,15,15,19,,,,,,i,0,0.579489846,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,16,16,17,,,,,,i,0,0.512301201,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,3,3,3,0,17,17,5,,,,,,e,0,0.720755736,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,3,3,3,0,18,18,8,,,,,,e,0,0.452766678,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,19,19,10,,,,,,e,0,0.606784834,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,0,20,10,,,,,,e,0,0.467197209,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,1,21,14,,,,,,e,0,0.543527478,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,3,3,3,1,2,22,7,,,,,,e,0,0.532222017,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,3,3,3,1,3,23,9,,,,,,e,0,0.470996133,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,4,24,15,,,,,,i,0,0.517227345,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect2.jpg,,,,,0,3,3,3,1,5,25,1,,,,,,i,0,0.516114282,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect1.jpg,,,,,0,3,3,3,1,6,26,0,,,,,,i,0,0.541700569,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect4.jpg,,,,,0,3,3,3,1,7,27,3,,,,,,i,0,0.47856142,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect5.jpg,,,,,0,3,3,3,1,8,28,4,,,,,,i,0,0.494835849,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,9,29,18,,,,,,i,0,0.716826571,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,10,30,16,,,,,,i,0,0.639949857,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,11,31,13,,,,,,e,0,0.635702523,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,12,32,19,,,,,,i,0,0.760531184,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,3,3,3,1,13,33,5,,,,,,e,0,0.622383285,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,14,34,12,,,,,,e,0,0.601738714,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,3,3,3,1,15,35,8,,,,,,e,0,1.155285526,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,3,3,3,1,16,36,6,,,,,,e,0,0.402746097,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,17,37,11,,,,,,e,0,0.512005329,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,18,38,17,,,,,,i,0,0.528743032,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock3and4_insects.xlsx,2,Negatief,Positief,Insect,4,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,insect3.jpg,,,,,0,3,3,3,1,19,39,2,,,,,,i,0,0.409380235,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,4,4,4,0,0,0,2,,,,,,e,0,1.495329206,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,4,4,4,0,1,1,5,,,,,,i,0,0.527252342,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,4,4,4,0,2,2,8,,,,,,i,0,0.376499405,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,4,4,4,0,3,3,7,,,,,,i,0,0.386491134,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,4,4,4,0,4,4,6,,,,,,i,0,0.357378084,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,4,4,4,0,5,5,1,,,,,,e,0,0.466101134,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,4,4,4,0,6,6,3,,,,,,e,0,0.510972251,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,4,4,4,0,7,7,4,,,,,,e,0,0.499760223,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,4,4,4,0,8,8,0,,,,,,e,0,0.823392155,i,0,0.449413687,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,4,4,4,0,9,9,9,,,,,,i,0,0.515117657,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,4,4,4,1,0,10,3,,,,,,e,0,0.561604396,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,4,4,4,1,1,11,5,,,,,,i,0,0.558218845,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,4,4,4,1,2,12,9,,,,,,i,0,0.452321806,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,4,4,4,1,3,13,0,,,,,,e,0,0.49693952,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,4,4,4,1,4,14,2,,,,,,e,0,0.51150914,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,4,4,4,1,5,15,1,,,,,,e,0,0.528488213,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,4,4,4,1,6,16,4,,,,,,e,0,0.402227966,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,4,4,4,1,7,17,6,,,,,,i,0,0.468310272,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,4,4,4,1,8,18,8,,,,,,i,0,0.401615693,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,4,4,4,1,9,19,7,,,,,,i,0,0.42146891,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,4,4,4,2,0,20,7,,,,,,i,0,0.450477201,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,4,4,4,2,1,21,4,,,,,,e,0,0.464767936,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,4,4,4,2,2,22,9,,,,,,i,0,0.403772451,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,4,4,4,2,3,23,8,,,,,,i,0,0.416990469,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,4,4,4,2,4,24,5,,,,,,i,0,0.437096382,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,4,4,4,2,5,25,2,,,,,,e,0,0.482791413,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,4,4,4,2,6,26,1,,,,,,e,0,0.546305357,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,4,4,4,2,7,27,0,,,,,,e,0,0.421662856,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,4,4,4,2,8,28,6,,,,,,i,0,0.467196147,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,4,4,4,2,9,29,3,,,,,,e,0,0.541447166,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,4,4,4,3,0,30,4,,,,,,e,0,0.404371983,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,4,4,4,3,1,31,2,,,,,,e,0,0.370455244,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,4,4,4,3,2,32,6,,,,,,i,0,0.497627531,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,4,4,4,3,3,33,1,,,,,,e,0,0.483923587,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,4,4,4,3,4,34,5,,,,,,i,0,0.341137632,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,4,4,4,3,5,35,7,,,,,,i,0,0.343302176,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,4,4,4,3,6,36,0,,,,,,e,0,0.471004981,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,4,4,4,3,7,37,9,,,,,,i,0,0.544578252,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,4,4,4,3,8,38,8,,,,,,i,0,0.359448487,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,, ,Bblock5_insects.xlsx,4, , ,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,4,4,4,3,9,39,3,,,,,,e,0,0.514043171,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,5,5,5,0,0,0,4,,,,,,e,0,0.67063252,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,1,1,16,,,,,,i,0,1.120084784,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,2,2,10,,,,,,e,0,0.623433351,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,3,3,11,,,,,,e,0,0.593821635,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,5,5,5,0,4,4,0,,,,,,e,0,0.875943582,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,5,5,5,0,5,5,5,,,,,,i,0,0.749163079,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,5,5,5,0,6,6,3,,,,,,e,0,0.747745296,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,5,5,5,0,7,7,7,,,,,,i,0,0.574283756,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,8,8,13,,,,,,e,0,0.595200488,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,5,5,5,0,9,9,6,,,,,,i,0,0.48498427,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,10,10,17,,,,,,i,0,0.592094175,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,11,11,15,,,,,,i,0,0.515084743,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,12,12,12,,,,,,e,0,0.496528271,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,13,13,19,,,,,,i,0,0.605115417,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,14,14,14,,,,,,e,0,0.528280819,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,5,5,5,0,15,15,1,,,,,,e,0,1.341387496,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,16,16,18,,,,,,i,0,0.609689415,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,5,5,5,0,17,17,9,,,,,,i,0,0.778133502,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,5,5,5,0,18,18,8,,,,,,i,0,0.469348658,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,1,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,5,5,5,0,19,19,2,,,,,,e,0,0.657608094,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,6,6,6,0,0,0,8,,,,,,i,0,0.967284449,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,6,6,6,0,1,1,6,,,,,,i,0,0.464014451,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,2,2,12,,,,,,e,0,0.541824085,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,3,3,18,,,,,,i,0,0.549253823,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,6,6,6,0,4,4,2,,,,,,e,0,0.576759037,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,6,6,6,0,5,5,9,,,,,,i,0,0.525831373,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,6,6,11,,,,,,e,0,0.526556191,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,6,6,6,0,7,7,7,,,,,,i,0,0.481972453,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,8,8,10,,,,,,e,0,0.590319292,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,9,9,17,,,,,,i,0,0.623905474,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,10,10,14,,,,,,e,0,0.529663565,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,6,6,6,0,11,11,3,,,,,,e,0,0.759699484,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,6,6,6,0,12,12,4,,,,,,e,0,0.482843084,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,13,13,19,,,,,,i,0,0.577422628,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,6,6,6,0,14,14,1,,,,,,e,0,0.591004825,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,15,15,16,,,,,,i,0,0.561538922,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,6,6,6,0,16,16,0,,,,,,e,0,0.578125149,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,17,17,15,,,,,,i,0,0.592109394,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,6,6,6,0,18,18,5,,,,,,i,0,0.422175678,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,19,19,13,,,,,,e,0,0.620283153,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,0,20,13,,,,,,e,0,0.60518443,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,6,6,6,1,1,21,8,,,,,,i,0,0.531078871,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect2.jpg,,,,,0,6,6,6,1,2,22,1,,,,,,e,0,0.668083624,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,3,23,14,,,,,,e,0,0.516132686,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect5.jpg,,,,,0,6,6,6,1,4,24,4,,,,,,e,0,0.483448279,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect1.jpg,,,,,0,6,6,6,1,5,25,0,,,,,,e,0,0.465187679,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,6,26,17,,,,,,i,0,0.545202558,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,7,27,18,,,,,,i,0,0.533125208,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect3.jpg,,,,,0,6,6,6,1,8,28,2,,,,,,e,0,0.57448301,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,6,6,6,1,9,29,9,,,,,,i,0,0.480964857,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,10,30,12,,,,,,e,0,0.887799735,i,0,0.547198285,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,11,31,16,,,,,,i,0,0.530268406,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,6,6,6,1,12,32,6,,,,,,i,0,0.749909132,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,13,33,10,,,,,,e,0,0.571305915,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,14,34,11,,,,,,e,0,0.604559063,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,6,6,6,1,15,35,5,,,,,,i,0,0.606130445,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,16,36,15,,,,,,i,0,0.579530192,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,i,i,1,e,e,insect4.jpg,,,,,0,6,6,6,1,17,37,3,,,,,,e,0,0.56585173,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,18,38,19,,,,,,i,0,0.666581255,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,,or,Bblock6and7_insects.xlsx,2,Negatief,Positief,Chinese symbolen,4,Insect,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,6,6,6,1,19,39,7,,,,,,i,0,0.700343333,None,0,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic1.jpg,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,5,4,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic2.jpg,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,1,6,4,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic3.jpg,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,2,7,5,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect5.jpg,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,3,4,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect3.jpg,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,4,2,2,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect1.jpg,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,5,0,2,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect4.jpg,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,6,3,1,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic5.jpg,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,7,9,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",insect2.jpg,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,8,1,2,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic4.jpg,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,9,8,3,,,,,,,4,f,21,None,IAT_and_likerts,2015_nov_12_1547

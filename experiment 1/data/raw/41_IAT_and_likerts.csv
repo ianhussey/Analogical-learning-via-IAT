@@ -1,0 +1,1261 @@
+subscale,instruction,exemplar,orStimulus,block,nBlockRepeats,attribute2,attribute1,target2,condition,target1,stimulusColour,stimulus,feedbackResponse,feedbackAllowed,trialtype,requiredResponse,requiredAllowed,imageStimulus,likertPre.thisRepN,likertPre.thisTrialN,likertPre.thisN,likertPre.thisIndex,blocks.thisRepN,blocks.thisTrialN,blocks.thisN,blocks.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,likertPost.thisRepN,likertPost.thisTrialN,likertPost.thisN,likertPost.thisIndex,rating.response,requiredResponse.keys,requiredResponse.corr,requiredResponse.rt,feedbackResponse.keys,feedbackResponse.corr,feedbackResponse.rt,participant,gender,age,frameRate,expName,date,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic1.jpg,,,,,,,,,,,,,,,,,0,0,0,0,,,,,,,,,,,,,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic2.jpg,,,,,,,,,,,,,,,,,0,1,1,1,,,,,,,,,,,,,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic3.jpg,,,,,,,,,,,,,,,,,0,2,2,2,,,,,,,,,,,,,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic4.jpg,,,,,,,,,,,,,,,,,0,3,3,3,,,,,,,,,,,,,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic5.jpg,,,,,,,,,,,,,,,,,0,4,4,4,,,,,,,,,,,,,2,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower1.jpg,,,,,,,,,,,,,,,,,0,5,5,5,,,,,,,,,,,,,2,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower2.jpg,,,,,,,,,,,,,,,,,0,6,6,6,,,,,,,,,,,,,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower3.jpg,,,,,,,,,,,,,,,,,0,7,7,7,,,,,,,,,,,,,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower4.jpg,,,,,,,,,,,,,,,,,0,8,8,8,,,,,,,,,,,,,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower5.jpg,,,,,,,,,,,,,,,,,0,9,9,9,,,,,,,,,,,,,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,0,0,4,,,,,,e,0,1.28978774396,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,1,1,5,,,,,,i,0,1.1503575822,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,2,2,8,,,,,,i,0,0.904725789944,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,3,3,7,,,,,,i,0,0.562043201478,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,4,4,3,,,,,,e,0,0.527601495447,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,5,5,1,,,,,,e,0,0.578598365541,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,6,6,6,,,,,,i,0,0.637423185653,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,7,7,0,,,,,,e,0,1.50912252216,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,0,0,0,0,8,8,9,,,,,,i,0,0.810311560834,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,0,0,0,0,9,9,2,,,,,,e,0,0.664321832474,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,0,10,7,,,,,,i,0,0.634480847551,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,1,11,2,,,,,,e,0,0.592311345662,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,2,12,8,,,,,,i,0,0.591154087351,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,3,13,6,,,,,,i,0,0.735605405352,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,4,14,4,,,,,,e,0,0.562634571093,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,5,15,1,,,,,,e,0,0.565766246562,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,6,16,0,,,,,,e,0,0.634220729858,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,7,17,9,,,,,,i,0,0.700006087108,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,0,0,0,1,8,18,3,,,,,,e,0,1.53941331604,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"In deze taak zullen stimuli ÈÈn voor ÈÈn op het scherm verschijnen. Jouw taak bestaat erin om op de linkse (E) of rechtse (I) toets te duwen afhankelijk van de categorie waartoe elke stimulus behoort. Er zijn vier mogelijke categorieÎn:
+
+(1) POSITIEF
+(2) NEGATIEF
+(3) BLOEMEN 
+(4) CHINESE SYMBOLEN
+
+Welke categorieÎn aan welke knop zijn toegewezen, verschilt van fase tot fase. De categorieÎn die aan de linkerknop zijn toegewezen, zullen in de linker-bovenhoek van het scherm staan. De categorieÎn die aan de rechterknop zijn toegewezen, zullen in de rechter-bovenhoek van het scherm staan.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken. Wanneer je een fout zou maken zal er een rood kruis verschijnen. Dit kruis zal blijven staan totdat je alsnog de juiste toets induwt.
+
+Dit is een fase met alleen POSITIEF en NEGATIEF. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock1_flowers.xlsx,2,Negatief,Positief, ,1, ,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,0,0,0,1,9,19,5,,,,,,i,0,0.649348608671,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,1,1,1,0,0,0,6,,,,,,i,0,0.511511004217,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,,,,,0,1,1,1,0,1,1,0,,,,,,e,0,0.466317059048,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,,,,,0,1,1,1,0,2,2,4,,,,,,e,0,0.432891758481,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,1,1,1,0,3,3,8,,,,,,i,0,0.512693389543,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,1,1,1,0,4,4,5,,,,,,i,0,0.370080236576,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,,,,,0,1,1,1,0,5,5,3,,,,,,e,0,0.552372131804,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,,,,,0,1,1,1,0,6,6,2,,,,,,e,0,0.494806493671,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,1,1,1,0,7,7,9,,,,,,i,0,0.436655148349,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,1,1,1,0,8,8,7,,,,,,i,0,0.417084034649,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,,,,,0,1,1,1,0,9,9,1,,,,,,e,0,0.390352783294,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,1,1,1,1,0,10,6,,,,,,i,0,0.605422693022,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,,,,,0,1,1,1,1,1,11,3,,,,,,e,0,0.450216658574,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,,,,,0,1,1,1,1,2,12,0,,,,,,e,0,0.451625540939,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,1,1,1,1,3,13,7,,,,,,i,0,0.466003502211,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,,,,,0,1,1,1,1,4,14,1,,,,,,e,0,0.432424254435,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,1,1,1,1,5,15,9,,,,,,i,0,0.450676376783,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,1,1,1,1,6,16,5,,,,,,i,0,0.451572809597,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,,,,,0,1,1,1,1,7,17,4,,,,,,e,0,0.51084248405,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,,,,,0,1,1,1,1,8,18,2,,,,,,e,0,0.482860544357,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock2_flowers.xlsx,2, , ,Chinese letter,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,1,1,1,1,9,19,8,,,,,,i,0,0.447222296935,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,0,0,18,,,,,,i,0,0.796292101906,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,1,1,12,,,,,,e,0,0.764920846363,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,2,2,2,0,2,2,6,,,,,,i,0,1.18612606542,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,3,3,13,,,,,,e,0,0.713418958651,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,4,4,10,,,,,,e,0,0.622815542227,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,2,2,2,0,5,5,8,,,,,,i,0,0.545013101439,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,,,,,0,2,2,2,0,6,6,1,,,,,,e,0,0.608557199704,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,2,2,2,0,7,7,5,,,,,,i,0,0.609800456108,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,,,,,0,2,2,2,0,8,8,3,,,,,,e,0,0.404607586801,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,9,9,11,,,,,,e,0,0.610883748979,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,2,2,2,0,10,10,7,,,,,,i,0,0.562822492855,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,11,11,15,,,,,,i,0,0.608597190588,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,12,12,19,,,,,,i,0,0.556946664195,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,2,2,2,0,13,13,14,,,,,,e,0,0.592115638064,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,,,,,0,2,2,2,0,14,14,0,,,,,,e,0,0.49732379592,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,15,15,16,,,,,,i,0,0.608712562517,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,,,,,0,2,2,2,0,16,16,4,,,,,,e,0,0.856553762611,i,0,0.637967132448,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,2,2,2,0,17,17,17,,,,,,i,0,0.623828054772,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,,,,,0,2,2,2,0,18,18,2,,,,,,e,0,0.636613812639,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,1,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,2,2,2,0,19,19,9,,,,,,i,0,0.577492069065,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,0,0,16,,,,,,i,0,0.920553686168,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,,,,,0,3,3,3,0,1,1,2,,,,,,e,0,0.604208102648,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,2,2,17,,,,,,i,0,0.546614860187,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,3,3,15,,,,,,i,0,0.515100274486,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,,,,,0,3,3,3,0,4,4,1,,,,,,e,0,0.52739977152,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,5,5,13,,,,,,e,0,0.687022852136,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,6,6,14,,,,,,e,0,0.526990661244,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,3,3,3,0,7,7,8,,,,,,i,0,0.421483739637,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,,,,,0,3,3,3,0,8,8,0,,,,,,e,0,0.671261489416,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,9,9,19,,,,,,i,0,0.594789364831,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,3,3,3,0,10,10,18,,,,,,i,0,0.531694367726,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,3,3,3,0,11,11,7,,,,,,i,0,0.517404174057,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,12,12,12,,,,,,e,0,0.729351609757,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,13,13,11,,,,,,e,0,0.666815777217,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,,,,,0,3,3,3,0,14,14,4,,,,,,e,0,0.734926622038,i,0,0.497191082811,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,3,3,3,0,15,15,9,,,,,,i,0,0.528193572864,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,3,3,3,0,16,16,10,,,,,,e,0,0.619988222154,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,3,3,3,0,17,17,5,,,,,,i,0,0.597003019489,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,3,3,3,0,18,18,6,,,,,,i,0,0.453510067086,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,,,,,0,3,3,3,0,19,19,3,,,,,,e,0,0.576119638567,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,0,20,12,,,,,,e,0,0.777742348293,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,1,21,13,,,,,,e,0,0.577817658559,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,2,22,14,,,,,,e,0,0.514920492461,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,3,23,17,,,,,,i,0,0.655602758167,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic2.jpg,,,,,0,3,3,3,1,4,24,6,,,,,,i,0,0.576214130301,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic5.jpg,,,,,0,3,3,3,1,5,25,9,,,,,,i,0,0.45308821635,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower5.jpg,,,,,0,3,3,3,1,6,26,4,,,,,,e,0,0.622913926878,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,7,27,16,,,,,,i,0,1.15654449039,e,0,0.810786142911,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic1.jpg,,,,,0,3,3,3,1,8,28,5,,,,,,i,0,0.545195360774,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower2.jpg,,,,,0,3,3,3,1,9,29,1,,,,,,e,0,0.714679556236,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic3.jpg,,,,,0,3,3,3,1,10,30,7,,,,,,i,0,0.530281946346,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,11,31,15,,,,,,i,0,0.652254848806,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,e,e,2,i,i,pic4.jpg,,,,,0,3,3,3,1,12,32,8,,,,,,i,0,0.485173645371,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,13,33,11,,,,,,e,0,0.792130572712,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,14,34,19,,,,,,i,0,0.577435444805,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower3.jpg,,,,,0,3,3,3,1,15,35,2,,,,,,e,0,0.604415135098,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower4.jpg,,,,,0,3,3,3,1,16,36,3,,,,,,e,0,0.451603245136,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,3,3,3,1,17,37,18,,,,,,i,0,0.589011566921,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[1, 1, 1]", ,i,i,1,e,e,flower1.jpg,,,,,0,3,3,3,1,18,38,0,,,,,,e,0,0.589207274519,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock3and4_flowers.xlsx,2,Negatief,Positief,Chinese symbolen,1,Bloemen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,3,3,3,1,19,39,10,,,,,,e,0,0.641856865196,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,4,4,4,0,0,0,6,,,,,,e,0,0.720190158421,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,4,4,4,0,1,1,9,,,,,,e,0,0.393840129896,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,4,4,4,0,2,2,1,,,,,,i,0,0.422587204899,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,4,4,4,0,3,3,0,,,,,,i,0,0.465058938777,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,4,4,4,0,4,4,7,,,,,,e,0,0.468258563357,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,4,4,4,0,5,5,2,,,,,,i,0,0.356905186924,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,4,4,4,0,6,6,5,,,,,,e,0,0.463962551547,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,4,4,4,0,7,7,3,,,,,,i,0,0.441427157844,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,4,4,4,0,8,8,8,,,,,,e,0,0.403754329986,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,4,4,4,0,9,9,4,,,,,,i,0,0.340963334376,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,4,4,4,1,0,10,2,,,,,,i,0,1.11954442952,e,0,0.697863566677,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,4,4,4,1,1,11,4,,,,,,i,0,0.734206432233,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,4,4,4,1,2,12,3,,,,,,i,0,0.418405857214,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,4,4,4,1,3,13,6,,,,,,e,0,0.483110045002,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,4,4,4,1,4,14,8,,,,,,e,0,0.437124421902,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,4,4,4,1,5,15,5,,,,,,e,0,0.357793833901,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,4,4,4,1,6,16,1,,,,,,i,0,0.388007477233,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,4,4,4,1,7,17,0,,,,,,i,0,0.934697718467,e,0,0.619341643887,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,4,4,4,1,8,18,7,,,,,,e,0,0.653193042011,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,4,4,4,1,9,19,9,,,,,,e,0,0.390258645462,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,4,4,4,2,0,20,4,,,,,,i,0,0.455037860395,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,4,4,4,2,1,21,1,,,,,,i,0,0.488380347984,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,4,4,4,2,2,22,3,,,,,,i,0,0.403446435574,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,4,4,4,2,3,23,5,,,,,,e,0,0.467896168095,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,4,4,4,2,4,24,8,,,,,,e,0,0.465086897005,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,4,4,4,2,5,25,6,,,,,,e,0,0.372891277174,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,4,4,4,2,6,26,7,,,,,,e,0,0.340855394381,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,4,4,4,2,7,27,9,,,,,,e,0,0.346591077998,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,4,4,4,2,8,28,0,,,,,,i,0,0.465184927755,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,4,4,4,2,9,29,2,,,,,,i,0,0.4994769334,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,4,4,4,3,0,30,5,,,,,,e,0,0.561470588651,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,4,4,4,3,1,31,4,,,,,,i,0,0.510522556982,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,4,4,4,3,2,32,0,,,,,,i,0,0.592624548598,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,4,4,4,3,3,33,2,,,,,,i,0,0.464829610524,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,4,4,4,3,4,34,9,,,,,,e,0,0.593461172037,i,0,0.389760705878,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,4,4,4,3,5,35,6,,,,,,e,0,0.446859193869,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,4,4,4,3,6,36,3,,,,,,i,0,0.387127323895,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,4,4,4,3,7,37,1,,,,,,i,0,0.448067060111,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,4,4,4,3,8,38,8,,,,,,e,0,0.545967574118,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alleen BLOEMEN en CHINESE SYMBOLEN.
+Opgepast, de responsen werden omgewisseld!
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",, ,Ablock5_flowers.xlsx,4, , ,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,4,4,4,3,9,39,7,,,,,,e,0,0.403378486462,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,5,5,5,0,0,0,8,,,,,,e,0,0.922822549479,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,1,1,10,,,,,,e,0,0.685337218701,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,2,2,15,,,,,,i,0,0.653767070446,e,0,0.497312471069,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,3,3,16,,,,,,i,0,0.99951833989,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,5,5,5,0,4,4,4,,,,,,i,0,0.514908459806,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,5,5,19,,,,,,i,0,0.650943997191,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,6,6,17,,,,,,i,0,0.518051814029,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,5,5,5,0,7,7,3,,,,,,i,0,0.622525342896,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,5,5,5,0,8,8,0,,,,,,i,0,0.494082057045,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,5,5,5,0,9,9,1,,,,,,i,0,0.547675857256,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,5,5,5,0,10,10,5,,,,,,e,0,0.511377937206,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,5,5,5,0,11,11,9,,,,,,e,0,0.405619037642,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,5,5,5,0,12,12,6,,,,,,e,0,0.404862042069,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,5,5,5,0,13,13,18,,,,,,i,0,0.574526727358,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,14,14,12,,,,,,e,0,0.529292437405,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,15,15,13,,,,,,e,0,0.699377911726,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,5,5,5,0,16,16,2,,,,,,i,0,0.7497819966,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,5,5,5,0,17,17,7,,,,,,e,0,0.54655646642,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,18,18,11,,,,,,e,0,0.637298612281,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. 
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,1,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,5,5,5,0,19,19,14,,,,,,e,0,0.610735110296,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,6,6,6,0,0,0,8,,,,,,e,0,1.06426747318,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,1,1,11,,,,,,e,0,0.484087875189,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,6,6,6,0,2,2,5,,,,,,e,0,0.513113116868,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,6,6,6,0,3,3,0,,,,,,i,0,0.673606441576,e,0,0.453915284445,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,4,4,15,,,,,,i,0,0.995365304334,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,5,5,14,,,,,,e,0,0.686630729137,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,6,6,13,,,,,,e,0,1.15358091819,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,6,6,6,0,7,7,3,,,,,,i,0,0.807176346348,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,6,6,6,0,8,8,7,,,,,,e,0,0.527249363331,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,6,6,6,0,9,9,4,,,,,,i,0,0.639034499745,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,6,6,6,0,10,10,6,,,,,,e,0,0.514690456406,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,6,6,6,0,11,11,9,,,,,,e,0,0.48385288451,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,12,12,10,,,,,,e,0,0.6086435517,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,13,13,18,,,,,,i,0,0.55540931554,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,6,6,6,0,14,14,2,,,,,,i,0,0.466320244164,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,15,15,17,,,,,,i,0,0.545184743725,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,16,16,16,,,,,,i,0,0.480152489132,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,6,6,6,0,17,17,1,,,,,,i,0,0.577241152813,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,6,6,6,0,18,18,12,,,,,,e,0,0.500029019933,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,6,6,6,0,19,19,19,,,,,,i,0,0.74798169904,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",gemeen,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,0,20,17,,,,,,i,0,0.642022845058,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",pijn,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,1,21,16,,,,,,i,0,0.657247692916,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",hatelijk,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,2,22,19,,,,,,i,0,0.542666733671,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower5.jpg,,,,,0,6,6,6,1,3,23,4,,,,,,i,0,0.496974141116,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic1.jpg,,,,,0,6,6,6,1,4,24,5,,,,,,e,0,0.45065160367,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vijandig,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,5,25,18,,,,,,i,0,0.578761160288,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic3.jpg,,,,,0,6,6,6,1,6,26,7,,,,,,e,0,0.622053945932,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",blij,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,7,27,11,,,,,,e,0,1.17312867438,i,0,0.697801987794,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower2.jpg,,,,,0,6,6,6,1,8,28,1,,,,,,i,0,1.5430443467,e,0,1.10561592331,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",vriendelijk,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,9,29,12,,,,,,e,0,0.970719949151,i,0,0.639380261633,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic2.jpg,,,,,0,6,6,6,1,10,30,6,,,,,,e,0,0.686648070316,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",prettig,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,11,31,13,,,,,,e,0,0.545283482279,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",geluk,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,12,32,10,,,,,,e,0,0.448238702399,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower4.jpg,,,,,0,6,6,6,1,13,33,3,,,,,,i,0,0.656510515833,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic5.jpg,,,,,0,6,6,6,1,14,34,9,,,,,,e,0,0.592947660781,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower1.jpg,,,,,0,6,6,6,1,15,35,0,,,,,,i,0,0.657862066134,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",goed,i,i,3,e,e,blank.png,,,,,0,6,6,6,1,16,36,14,,,,,,e,0,0.884389187032,i,0,0.559548902834,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[-1, 1, -1]",walging,e,e,4,i,i,blank.png,,,,,0,6,6,6,1,17,37,15,,,,,,i,0,0.886958866722,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,i,i,2,e,e,pic4.jpg,,,,,0,6,6,6,1,18,38,8,,,,,,e,0,0.641949587422,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+,"Dit is een fase met alle stimuli. Het is hetzelfde als de vorige fase.
+
+Probeer steeds zo snel mogelijk te antwoorden zonder te veel fouten te maken.
+
+Druk op E of I om verder te gaan.",,or,Ablock6and7_flowers.xlsx,2,Negatief,Positief,Bloemen,1,Chinese symbolen,"[1, 1, 1]", ,e,e,1,i,i,flower3.jpg,,,,,0,6,6,6,1,19,39,2,,,,,,i,0,0.729830438654,None,0,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic1.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,0,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic2.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,1,1,1,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic3.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,2,2,2,2,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic4.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,3,3,3,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+2,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",pic5.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,4,4,4,2,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower1.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,5,5,5,2,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower2.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,6,6,6,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower3.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,7,7,7,3,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower4.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,8,8,8,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,
+1,"Hoe aangenaam vind je de volgende?
+1 = helemaal niet aangenaam
+2 = eerder niet aangenaam
+3 = onverschillig
+4 = eerder aangenaam
+5 = heel aangenaam",flower5.jpg,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,9,9,9,4,,,,,,,41,f,23,None,IAT_and_likerts,2015_dec_03_1513,

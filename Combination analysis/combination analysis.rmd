@@ -2,9 +2,6 @@
 title: "Mixed effects analysis of Experiments 1 and 2"
 author: Ian Hussey (ian.hussey@ugent.be)
 output: 
-  html_notebook:
-    highlight: haddock
-    toc: yes
   pdf_document: 
     highlight: haddock
     toc: yes
@@ -51,10 +48,11 @@ exp2_df <-
   read.csv("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 2/Data/processed data.csv") %>%  # acquire data
   select(participant,
          condition,
-         block_order,
+         IAT_block_order,
          ratings_pre,
          ratings_post,
          ratings_change_scores) %>%  # select only necessary columns
+  rename(block_order = IAT_block_order) %>%
   mutate(experiment = 2,
          unique_identifier = paste(experiment, participant, sep = "_"),
          ratings_pre_Z_scores = as.numeric(scale(ratings_pre,  # convert ratings to z scores
