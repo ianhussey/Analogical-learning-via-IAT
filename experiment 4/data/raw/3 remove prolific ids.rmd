@@ -1,0 +1,35 @@
+---
+title: Remove prolific ids from data
+author: Ian Hussey (ian.hussey@ugent.be)
+---
+
+```{r}
+# Dependencies ------------------------------------------------------------
+
+
+library(plyr)
+library(tidyverse)
+library(data.table)
+
+
+# Data acquisition and cleaning -------------------------------------------
+
+
+# Read all files with demographics in the name
+files <- list.files(pattern = "demographics")
+
+# Read these files sequentially into a single data frame
+input_df <- dplyr::tbl_df(plyr::rbind.fill(lapply(files, data.table::fread, header = TRUE)))  # tbl_df() requires dplyr, rbind.fill() requires plyr, fread requires data.table
+
+
+# remove prolific rows and save -------------------------------------------
+
+# remove rows that refer to prolific ID and save to disk
+prolific_ids_trimmed <- 
+  input_df %>%
+  dplyr::filter(trialcode != "ProlificCode") %>%
+  write.csv("demographics.csv")
+
+# NB original file must be deleted too.
+```
+

@@ -1,0 +1,324 @@
+﻿************************************************
+RELATIONAL MATCHING TO SAMPLE TASK
+************************************************
+author: Ian Hussey (ian.hussey@ugent.be)
+license: GPLv3+	
+
+overview: 
+1. Participants complete 1 block of 16 trials.
+2. Each trial presents either Lokanta or Fevkani with either positive or negative (middle of screen)
+and pairs of words that are synonymns or antonymns on the top of the screen (counterbalanced left/right location).
+3. Participants are assigned to one of two conditions based on their participant code. 
+Condition 1 tests Lokanta=positive and Fevkani=negative, Condition 2 tests Lokanta=negative and Fevkani=positive.
+
+** response option are in fixed locations, in contrast to the original RMTS training task **
+
+************************************************
+defaults
+************************************************
+
+<defaults>
+/ screencolor = black
+/ txcolor = black
+/ txbgcolor = white
+/ fontstyle = ("Arial", 5.00%)
+/ inputdevice = keyboard
+/ validkeys = (" ", "t")
+/ halign = center
+/ Com1BaudRate = 9600
+</defaults>
+
+<values>
+/ errors_in_block_counter = 0
+</values>
+
+************************************************
+stimuli exemplars
+************************************************
+
+<item synonym_words>
+/ 1 = "top          top"
+/ 2 = "bottom       bottom"
+/ 3 = "empty        empty"
+/ 4 = "full         full"
+/ 5 = "fast         fast"
+/ 6 = "slow         slow"
+</item>
+
+<item antonym_words>
+/ 1 = "top          bottom"
+/ 2 = "bottom       top"
+/ 3 = "empty        full"
+/ 4 = "full         empty"
+/ 5 = "fast         slow"
+/ 6 = "slow         fast"
+</item>
+
+<item positive_stimuli>
+/ 1 = "flower1.jpg"
+/ 2 = "flower2.jpg"
+/ 3 = "flower3.jpg"
+/ 4 = "flower4.jpg"
+/ 5 = "flower5.jpg"
+/ 6 = "flower6.jpg"
+</item>
+
+<item negative_stimuli>
+/ 1 = "insect1.jpg"
+/ 2 = "insect2.jpg"
+/ 3 = "insect3.jpg"
+/ 4 = "insect4.jpg"
+/ 5 = "insect5.jpg"
+/ 6 = "insect6.jpg"
+</item>
+
+<item A_pictures>
+/ 1 = "pic1.jpg"
+/ 2 = "pic2.jpg"
+/ 3 = "pic3.jpg"
+/ 4 = "pic4.jpg"
+/ 5 = "pic5.jpg"
+/ 6 = "pic5.jpg"
+</item>
+
+************************************************
+instructions
+************************************************
+
+<instruct>
+/ fontstyle = ("Arial", 3.00%)
+/ inputdevice = keyboard
+/ nextkey = (" ")
+/ nextlabel = "Press the spacebar to continue"
+/ prevlabel = "Press the 't' key to go back"
+/ prevkey = ("t")
+/ windowsize = (800px, 600px)
+</instruct>
+
+<page instructions_a>
+This task takes some thought - please read carefully.^^
+Each screen presents three pairs.^^
+In the middle of the screen, a pair of:^^
+- One of the Chinese characters^
+- and either a POSITIVE or NEGATIVE word^^
+At the top of the screen:^^
+- A pair of words with the SAME meaning ("i" key)^
+- A pair of words with the OPPOSITE meaning ("e" key)^^
+</page>
+
+<page instructions_b>
+Your goal is to respond to the pairs in the middle of the screen based on what you learned earlier in the experiment.^^
+Speed is not important here - be as accurate as possible.^^
+</page>
+
+************************************************
+stimuli
+************************************************
+
+<picture A>
+/ items = A_pictures
+/ position = (40, 50)
+/ size = (20%, 20%)
+/ select = noreplacenorepeat
+</picture>
+
+<picture positive>
+/ items = positive_stimuli
+/ position = (58, 50)
+/ size = (20%, 20%)
+/ select = noreplacenorepeat
+</picture>
+
+<picture negative>
+/ items = negative_stimuli
+/ position = (58, 50)
+/ size = (20%, 20%)
+/ select = noreplacenorepeat
+</picture>
+
+<text antonyms_left>
+/ items = antonym_words
+/ position = (15, 15)
+/ select = noreplacenorepeat
+</text>
+
+<text antonyms_right>
+/ items = antonym_words
+/ position = (85, 15)
+/ select = text.synonyms_left.currentindex
+</text>
+
+<text synonyms_left>
+/ items = synonym_words
+/ position = (15, 15)
+/ select = noreplacenorepeat
+</text>
+
+<text synonyms_right>
+/ items = synonym_words
+/ position = (85, 15)
+/ select = text.antonyms_left.currentindex
+</text>
+
+************************************************
+labels
+************************************************
+
+<text continue>
+/ numitems = 1
+/ items = ("Press the spacebar to continue")
+/ position = (50, 95)
+/ fontstyle = ("Arial", 5.00%, true)
+</text>
+
+<text left_key>
+/ numitems = 1
+/ items = ("Press E")
+/ txcolor = lightgreen
+/ txbgcolor = black
+/ position = (15, 4)
+/ fontstyle = ("Arial", 3%)
+</text>
+
+<text right_key>
+/ numitems = 1
+/ items = ("Press I")
+/ txcolor = lightgreen
+/ txbgcolor = black
+/ position = (85, 4)
+/ fontstyle = ("Arial", 3%)
+</text>
+
+<shape middle_rectangle>
+/ shape = rectangle
+/ color = white
+/ position = (50%, 50%)
+/ size = (40%, 30%)
+</shape>
+
+<shape left_rectangle>
+/ shape = rectangle
+/ color = white
+/ position = (15%, 15%)
+/ size = (28%, 12%)
+</shape>
+
+<shape right_rectangle>
+/ shape = rectangle
+/ color = white
+/ position = (85%, 15%)
+/ size = (28%, 12%)
+</shape>
+
+************************************************
+trials
+************************************************
+
+<trial A_positive_synonyms_right> 
+/ inputdevice = keyboard
+/ correctresponse = ("i")
+/ validresponse = ("e", "i")
+/ stimulustimes = [0 = middle_rectangle, A, positive, left_rectangle, right_rectangle, antonyms_left, synonyms_right, left_key, right_key]
+/ pretrialpause = 750
+</trial>
+
+<trial A_positive_antonyms_left> 
+/ inputdevice = keyboard
+/ correctresponse = ("e")
+/ validresponse = ("e", "i")
+/ stimulustimes = [0 = middle_rectangle, A, positive, left_rectangle, right_rectangle, antonyms_left, synonyms_right, left_key, right_key]
+/ pretrialpause = 750
+</trial>
+
+<trial A_negative_synonyms_right> 
+/ inputdevice = keyboard
+/ correctresponse = ("i")
+/ validresponse = ("e", "i")
+/ stimulustimes = [0 = middle_rectangle, A, negative, left_rectangle, right_rectangle, antonyms_left, synonyms_right, left_key, right_key]
+/ pretrialpause = 750
+</trial>
+
+<trial A_negative_antonyms_left> 
+/ inputdevice = keyboard
+/ correctresponse = ("e")
+/ validresponse = ("e", "i")
+/ stimulustimes = [0 = middle_rectangle, A, negative, left_rectangle, right_rectangle, antonyms_left, synonyms_right, left_key, right_key]
+/ pretrialpause = 750
+</trial>
+
+************************************************
+blocks
+************************************************  
+
+* synonyms always on the right, antonyms always on the left
+
+<block RMTS_test_1>
+/ onblockbegin = [values.errors_in_block_counter = 0]
+/ preinstructions = (instructions_a, instructions_b)
+/ trials = [1-16 = noreplacenorepeat(A_positive_antonyms_left, 
+									 A_negative_synonyms_right)]
+</block>
+
+<block RMTS_test_2>
+/ onblockbegin = [values.errors_in_block_counter = 0]
+/ preinstructions = (instructions_a, instructions_b)
+/ trials = [1-16 = noreplacenorepeat(A_positive_synonyms_right, 
+									 A_negative_antonyms_left)]
+</block>
+
+************************************************
+experiment conditions
+************************************************
+
+* conditions pattern matched to the pairing of pairings task
+
+US-CS pairing condition 1
+<expt>
+/ subjects = (1 of 8)
+/ blocks = [1 = RMTS_test_1]
+</expt>
+
+<expt>
+/ subjects = (2 of 8)
+/ blocks = [1 = RMTS_test_1]
+</expt>
+
+<expt>
+/ subjects = (3 of 8)
+/ blocks = [1 = RMTS_test_1]
+</expt>
+
+<expt>
+/ subjects = (4 of 8)
+/ blocks = [1 = RMTS_test_1]
+</expt>
+
+
+<expt>
+/ subjects = (5 of 8)
+/ blocks = [1 = RMTS_test_2]
+</expt>
+
+<expt>
+/ subjects = (6 of 8)
+/ blocks = [1 = RMTS_test_2]
+</expt>
+
+<expt>
+/ subjects = (7 of 8)
+/ blocks = [1 = RMTS_test_2]
+</expt>
+
+<expt>
+/ subjects = (8 of 8)
+/ blocks = [1 = RMTS_test_2]
+</expt>
+
+************************************************
+test monkey
+************************************************
+
+<monkey>
+/ latencydistribution = normal(500, 100)
+/ percentcorrect = 90
+</monkey>

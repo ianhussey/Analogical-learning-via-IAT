@@ -1,0 +1,910 @@
+---
+title: "Establishing atttiudes towards novel stimuli via the IAT"
+subtitle: "Experiment 3"
+author: "Ian Hussey^[Ghent University. Email: ian.hussey@ugent.be]"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    code_folding: hide
+    highlight: haddock
+    number_sections: no
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# dependencies
+library(tidyverse)
+library(psych)
+library(effects)
+library(knitr)
+library(sjPlot)
+library(effsize)
+library(lsr)
+library(car)
+library(plotrix)  # for std.error
+library(gridExtra)
+library(lme4)
+
+# rounds all numerics in a df
+round_df <- function(df, digits) {
+  nums <- vapply(df, is.numeric, FUN.VALUE = logical(1))
+  df[,nums] <- round(df[,nums], digits = digits)
+  (df)
+}
+```
+
+# Descriptive statistics
+
+## Full sample
+
+### Age
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+# get data
+data_df <- read.csv("data/processed/processed data - wide format all tasks.csv")
+
+#data_df <- na.omit(data_df)
+
+#colnames(data_df)
+
+data_df %>% 
+  dplyr::select(age) %>%
+  psych::describe(fast = TRUE,  # subset of descriptive stats
+                  ranges = FALSE,
+                  trim = 0) %>%
+  dplyr::select(-vars, -se) %>%
+  round_df(2) %>%
+  kable()
+```
+
+### Gender
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+data_df %>% 
+  dplyr::count(gender) %>%
+  kable()
+```
+
+## Analytic sample
+
+I.e., after applying inclusion/exclusion criteria.
+
+### Conditions
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+passers_df <- 
+  data_df %>%
+  filter(exclude == FALSE) %>%
+  mutate(condition = as.factor(IAT_condition),
+         attribute_condition = as.factor(attribute_condition))
+
+passers_df %>% 
+  dplyr::count(IAT_condition) %>%
+  kable()
+
+passers_df %>% 
+  dplyr::count(attribute_condition) %>%
+  kable()
+
+passers_df %>% 
+  dplyr::count(interaction(IAT_condition, attribute_condition)) %>%
+  kable()
+```
+
+### Performance on the IAT and SC-IAT
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+passers_df %>% 
+  dplyr::select(IAT_mean_RT,
+                IAT_perc_acc,
+                SCIAT_mean_RT,
+                SCIAT_perc_acc) %>%
+  psych::describe(fast = TRUE,  # subset of descriptive stats
+                  ranges = FALSE,
+                  trim = 0) %>%
+  dplyr::select(-vars, -se) %>%
+  rownames_to_column() %>%
+  dplyr::mutate(mean = round(mean, 2),
+         sd = round(sd, 2)) %>%
+  kable()
+```
+
+# Outlier removal
+
+RTs <300 ms trimmed. Reciprocal transformation applied. Outliers defined as > 2.5 SD from mean and excluded.
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# exclude participants who had more than 10% of trials in less than 300ms, and make variables factors
+SCIAT_data <- 
+  read.csv("data/processed/processed data - sciat rt data.csv") %>%
+  dplyr::rename(SCIAT_block = task) %>%
+  dplyr::mutate(participant = as.factor(participant),
+                SCIAT_block = as.factor(ifelse(SCIAT_block == "compatibletest_sciat", "Chinese negative", 
+                                               ifelse(SCIAT_block == "incompatibletest_sciat", "Chinese positive",
+                                                      NA))),
+                attribute_condition = as.factor(attribute_condition),
+                IAT_condition = as.factor(IAT_condition)) %>%
+  filter(exclude == FALSE) %>%
+  mutate(recip_rt = ifelse(rt >= 300, 1000/rt, NA)) %>%  # trim rts < 300, recip transform to presses per second
+  schoRsch::outlier(dv = "recip_rt",  # trim >2.5 SD from mean
+                    todo = "elim",
+                    upper.z = 2.5,
+                    lower.z = -2.5) %>%
+  select(-outlier, -zscores)
+
+#sapply(SCIAT_data, class)
+
+ggplot(SCIAT_data, aes(x = recip_rt)) + 
+  geom_density() +
+  theme_classic()
+```
+
+# H1: Differences in SC-IAT effects between IAT contrast category conditions, in the opposite attributes condition
+
+This seeks to replicate the effect found in previous studies. The Chinese characters should acquire the opposite valence to the category they were contrasted with in the IAT (i.e., flowers vs insects).
+
+SCIAT effects are expected to differ between the IAT conditions, where the Chinese characters acquire the opposite valence to the images they were contrasted with in the IAT.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition*SCIAT_block interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# opposite condition only
+opp_val_data_only <- SCIAT_data %>%
+  filter(attribute_condition == "opposite valenced attributes")
+
+model_h1 <- lmer(recip_rt ~ SCIAT_block * IAT_condition + (SCIAT_block | participant), 
+                contrasts = list(SCIAT_block = "contr.sum", IAT_condition = "contr.sum"),  
+                data = opp_val_data_only)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_h1, 
+         emph.p = FALSE, 
+         p.kr = FALSE,
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_h1, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_h1_predicted_effects <- 
+  as.data.frame(effect("SCIAT_block:IAT_condition", model_h1)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition,
+         `SCIAT block` = SCIAT_block)
+
+model_h1_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+ggplot(data = model_h1_predicted_effects,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+```
+
+# E1: No evidence of differences in SCIAT effects between IAT contrast category conditions, in the non-opposites attributes condition
+
+We expected that when the positive-negative attribute stimuli and category labels were changed to non-words, the evaluative learning effect would disappear.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition*SCIAT_block interaction effect, which we expect to be non-significant.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# non-opposite condition only
+nonword_val_data_only <- SCIAT_data %>%
+  filter(attribute_condition == "nonword attributes")
+
+model_e1 <- lmer(recip_rt ~ SCIAT_block * IAT_condition + (SCIAT_block | participant), 
+                contrasts = list(SCIAT_block = "contr.sum", IAT_condition = "contr.sum"),  
+                data = nonword_val_data_only)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_e1, 
+         emph.p = FALSE,
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_e1, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_e1_predicted_effects <- 
+  as.data.frame(effect("SCIAT_block:IAT_condition", model_e1)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition,
+         `SCIAT block` = SCIAT_block)
+
+model_e1_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+ggplot(data = model_e1_predicted_effects,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+```
+
+# H2: Evaluative learning effect on the SC-IAT is weakened when the analogy within the IAT is undermined
+
+More specifically, the effect described in H2 should be lower in the non-opposite attributes IAT than the opposite attributes IAT. I.e., the difference between the conditions should itself be significant.
+
+## Linear mixed model
+
+## Model
+
+- Hypothesis refers to the IAT_condition \* SCIAT_block \* attribute_condition interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+model_h2 <- lmer(recip_rt ~ SCIAT_block * IAT_condition * attribute_condition + (SCIAT_block | participant),
+                contrasts = list(SCIAT_block = "contr.sum", 
+                                 IAT_condition = "contr.sum", 
+                                 attribute_condition = "contr.sum"),  
+                data = SCIAT_data)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_h2, 
+         emph.p = FALSE, 
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_h2, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_h2_predicted_effects <- 
+  as.data.frame(effect("SCIAT_block:IAT_condition:attribute_condition", model_h2)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition,
+                `SCIAT block` = SCIAT_block)
+
+model_h2_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=7, message=FALSE, warning=FALSE}
+
+opp_valenced_condition <- model_h2_predicted_effects %>%
+  filter(attribute_condition == "opposite valenced attributes")
+
+p1 <-
+  ggplot(data = opp_valenced_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  ggtitle("opposite valenced attributes") +
+  ylim(1.61, 1.78) +
+  theme(legend.position = "none")
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+nonword_condition <- model_h2_predicted_effects %>%
+  filter(attribute_condition == "nonword attributes")
+
+p2 <-
+  ggplot(data = nonword_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  ggtitle("non-opposite valenced attributes") +
+  ylim(1.61, 1.78) +
+  theme(legend.position = c(.3, .8))
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+grid.arrange(p1, p2, ncol = 2)
+```
+
+# E2: Evaluative learning effect on the SC-IAT is weakened when the analogy within the IAT is undermined (less conservative model)
+
+Given the marginal effect in the above analysis, we constructed a less conservative exploratory model that removed the random slope for SC-IAT block. This model therefore focused on assessing group differences in the SC-IAT effect and did not attempt to model differences in the SC-IAT effect at the individual level. It provides a less conservative, exploratory test of H2.
+
+## Linear mixed model
+
+## Model
+
+- Hypothesis refers to the IAT_condition \* SCIAT_block \* attribute_condition interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+model_e2 <- lmer(recip_rt ~ SCIAT_block * IAT_condition * attribute_condition + (1 | participant),
+                contrasts = list(SCIAT_block = "contr.sum", 
+                                 IAT_condition = "contr.sum", 
+                                 attribute_condition = "contr.sum"),  
+                data = SCIAT_data)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_e2, 
+         emph.p = FALSE,
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_e2, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_e2_predicted_effects <- 
+  as.data.frame(effect("SCIAT_block:IAT_condition:attribute_condition", model_e2)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition,
+                `SCIAT block` = SCIAT_block)
+
+model_e2_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=7, message=FALSE, warning=FALSE}
+
+opp_valenced_condition <- model_e2_predicted_effects %>%
+  filter(attribute_condition == "opposite valenced attributes")
+
+p1 <-
+  ggplot(data = opp_valenced_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  ggtitle("opposite valenced attributes") +
+  ylim(1.61, 1.78) +
+  theme(legend.position = "none")
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+nonword_condition <- model_e2_predicted_effects %>%
+  filter(attribute_condition == "nonword attributes")
+
+p2 <-
+  ggplot(data = nonword_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  ggtitle("non-opposite valenced attributes") +
+  ylim(1.61, 1.78) +
+  theme(legend.position = c(.3, .8))
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+grid.arrange(p1, p2, ncol = 2)
+```
+
+# H3: Differences in ratings effects between IAT contrast category conditions, in the opposite attributes condition
+
+This seeks to replicate the effect found in previous studies. The Chinese characters should acquire the opposite valence to the category they were contrasted with in the IAT (i.e., flowers vs insects).
+
+Ratings effects are expected to differ between the IAT conditions, where the Chinese characters acquire the opposite valence to the images they were contrasted with in the IAT.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition*SCIAT_block interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# exclude participants who had more than 10% of trials in less than 300ms, and make variables factors
+ratings_data <- 
+  read.csv("data/processed/processed data - ratings item data.csv") %>%
+  dplyr::mutate(participant = as.factor(participant),
+                attribute_condition = as.factor(attribute_condition),
+                IAT_condition = as.factor(IAT_condition)) %>%
+  filter(exclude == FALSE)
+
+#sapply(SCIAT_data, class)
+
+# non-opposite condition only
+opp_val_data_only_ratings <- ratings_data %>%
+  filter(attribute_condition == "opposite valenced attributes")
+
+model_h3 <- lmer(ratings ~ IAT_condition + (1 | participant), 
+                contrasts = list(IAT_condition = "contr.sum"),  
+                data = opp_val_data_only_ratings)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_h3, 
+         emph.p = FALSE, 
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=1, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_h3, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_h3_predicted_effects <- 
+  as.data.frame(effect("IAT_condition", model_h3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+model_h3_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+ggplot(data = model_h3_predicted_effects,
+       aes(x = `IAT condition`, y = fit)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  ylab("Rating") +
+  xlab("IAT condition") +
+  scale_colour_grey() +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+```
+
+# E3: No evidence of differences in SCIAT effects between IAT contrast category conditions, in the non-opposites attributes condition
+
+We expected that when the positive-negative attribute stimuli and category labels were changed to non-words, the evaluative learning effect would disappear.
+
+Ratings effects are expected to differ between the IAT conditions, where the Chinese characters acquire the opposite valence to the images they were contrasted with in the IAT.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition*SCIAT_block interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# exclude participants who had more than 10% of trials in less than 300ms, and make variables factors
+ratings_data <- 
+  read.csv("data/processed/processed data - ratings item data.csv") %>%
+  dplyr::mutate(participant = as.factor(participant),
+                attribute_condition = as.factor(attribute_condition),
+                IAT_condition = as.factor(IAT_condition)) %>%
+  filter(exclude == FALSE)
+
+#sapply(SCIAT_data, class)
+
+# non-opposite condition only
+nonword_val_data_only_ratings <- ratings_data %>%
+  filter(attribute_condition == "nonword attributes")
+
+model_e3 <- lmer(ratings ~ IAT_condition + (1 | participant), 
+                contrasts = list(IAT_condition = "contr.sum"),  
+                data = nonword_val_data_only_ratings)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_e3, 
+         emph.p = FALSE, 
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=1, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_e3, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_e3_predicted_effects <- 
+  as.data.frame(effect("IAT_condition", model_e3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+model_e3_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+ggplot(data = model_e3_predicted_effects,
+       aes(x = `IAT condition`, y = fit)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  ylab("Rating") +
+  xlab("IAT condition") +
+  scale_colour_grey() +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+```
+
+# H4: Evaluative learning effect on the ratings is weakened when the analogy within the IAT is undermined
+
+More specifically, the effect described in H2 should be lower in the non-opposite attributes IAT than the opposite attributes IAT. I.e., the difference between the conditions should itself be significant.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition \* SCIAT_block \* attribute_condition interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+model_h4 <- lmer(ratings ~ IAT_condition * attribute_condition + (1 | participant), 
+                contrasts = list(IAT_condition = "contr.sum", attribute_condition = "contr.sum"),  
+                data = ratings_data)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_h4, 
+         emph.p = FALSE, 
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=2, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_h4, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_h4_predicted_effects <- 
+  as.data.frame(effect("IAT_condition:attribute_condition", model_h4)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+model_h4_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=7, message=FALSE, warning=FALSE}
+ggplot(data = model_h4_predicted_effects,
+       aes(x = attribute_condition, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Rating") +
+  xlab("IAT condition") +
+  scale_colour_grey() +
+  theme_classic() 
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+```
+
+
+# E4: Impact of IAT block order on SCIAT effects between IAT contrast category conditions
+
+Prompted by reviewer comments, we assessed whether the IAT block order influenced the effect in the condition where we expected to see it.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition\*iat_block_order\*SCIAT_block interaction effect, which we expect to be non-significant.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# non-opposite condition only
+SCIAT_data <- SCIAT_data %>%
+  mutate(iat_block_order = as.factor(ifelse(as.numeric(as.character(participant)) %% 2 == 1, "compatible",
+                                            ifelse(as.numeric(as.character(participant)) %% 2 == 0, "incompatible", NA))))
+
+model_e4 <- lmer(recip_rt ~ SCIAT_block * IAT_condition * iat_block_order * attribute_condition + (SCIAT_block | participant), 
+                 contrasts = list(SCIAT_block = "contr.sum", 
+                                  IAT_condition = "contr.sum", 
+                                  iat_block_order = "contr.sum",
+                                  attribute_condition = "contr.sum"),  
+                 data = SCIAT_data)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_e4, 
+         emph.p = FALSE,
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_e4, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_e4_predicted_effects <- 
+  as.data.frame(effect("SCIAT_block:IAT_condition:iat_block_order", model_e4)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition,
+                `SCIAT block` = SCIAT_block)
+
+model_e4_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=7, message=FALSE, warning=FALSE}
+compatible_condition <- model_e4_predicted_effects %>%
+  filter(iat_block_order == "compatible")
+
+p1 <-
+  ggplot(data = compatible_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  theme(legend.position = "none") +
+  ylim(1.55, 1.8) +
+  ggtitle("compatible")
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+incompatible_condition <- model_e4_predicted_effects %>%
+  filter(iat_block_order == "incompatible")
+
+p2 <-
+  ggplot(data = incompatible_condition,
+       aes(x = `SCIAT block`, y = fit, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  geom_line(aes(group = `IAT condition`),
+            position = position_dodge(width = .1)) +
+  ylab("Speed (1000/RT)") +
+  xlab("SC-IAT block") +
+  scale_colour_grey() +
+  theme_classic() + 
+  theme(legend.position = c(.3, .8)) +
+  ylim(1.55, 1.8) +
+  ggtitle("incompatible")
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+grid.arrange(p1, p2, ncol = 2)
+```
+
+# E5: Impact of IAT block order on ratings effects between IAT contrast category conditions
+
+Prompted by reviewer comments, we assessed whether the IAT block order influenced the effect in the condition where we expected to see it.
+
+## Linear mixed model
+
+- Hypothesis refers to the IAT_condition\*iat_block_order interaction effect, which we expect to be non-significant.
+- Confidence intervals via Wald estimation.
+
+```{r, message=FALSE, warning=FALSE}
+# non-opposite condition only
+ratings_data <- ratings_data %>%
+  mutate(iat_block_order = as.factor(ifelse(as.numeric(as.character(participant)) %% 2 == 1, "compatible",
+                                            ifelse(as.numeric(as.character(participant)) %% 2 == 0, "incompatible", NA))))
+
+model_e5 <- lmer(ratings ~ IAT_condition * attribute_condition * iat_block_order + (1 | participant), 
+                contrasts = list(IAT_condition = "contr.sum", 
+                                 attribute_condition = "contr.sum",
+                                 iat_block_order = "contr.sum"),  
+                data = ratings_data)
+```
+
+## Summary
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+sjt.lmer(model_e5, 
+         emph.p = FALSE, 
+         digits.est = 3,
+         digits.ci = 3,
+         digits.p = 6,
+         p.kr = FALSE,
+         show.std = TRUE)
+```
+
+## Plot effects
+
+```{r, echo=FALSE, fig.height=2, fig.width=5, message=FALSE, warning=FALSE}
+sjp.lmer(model_e5, 
+         p.kr = FALSE,
+         type = "fe")
+```
+
+## Table predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=5, message=FALSE, warning=FALSE}
+model_e5_predicted_effects <- 
+  as.data.frame(effect("IAT_condition:iat_block_order", model_e5)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+model_e5_predicted_effects %>% 
+  round_df(2) %>%
+  kable()
+```
+  
+## Plot predictions
+
+```{r, echo=FALSE, fig.height=3, fig.width=7, message=FALSE, warning=FALSE}
+compatible_condition_ratings <- model_e5_predicted_effects %>%
+  filter(iat_block_order == "compatible")
+
+p1 <-
+  ggplot(data = compatible_condition_ratings,
+       aes(x = `IAT condition`, y = fit)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  ylab("Rating") +
+  xlab("IAT condition") +
+  ggtitle("compatible") +
+  scale_colour_grey() +
+  ylim(4.0, 4.7) +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+incompatible_condition_ratings <- model_e5_predicted_effects %>%
+  filter(iat_block_order == "incompatible")
+
+p2 <-
+  ggplot(data = incompatible_condition_ratings,
+       aes(x = `IAT condition`, y = fit)) +
+  geom_pointrange(aes(ymax = upper,
+                      ymin = lower),
+                  position = position_dodge(width = .1)) +
+  ylab("Rating") +
+  xlab("IAT condition") +
+  ggtitle("incompatible") +
+  ylim(4.0, 4.7) +
+  scale_colour_grey() +
+  theme_classic()
+  # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
+  #       legend.key = element_rect(colour = "transparent"))
+
+grid.arrange(p1, p2, ncol = 2)
+```

@@ -1,0 +1,106 @@
+﻿************************************************
+Batch script for IAT as an analogical task
+************************************************
+Ian Hussey (ian.hussey@ugent.be)
+GPLv3+ license
+************************************************
+
+IAT/SCIAT block order (check they're the same)
+flower-chinese/insect-chinese IAT
+DVs before/after RMTS task
+
+SCIAT always before ratings
+
+
+
+IAT/SCIAT block order 1 & flower insect IAT & rmts first
+<batch>
+/ subjects=(1 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_flowers_chinese.iqx"
+/ file="rmts.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+
+</batch>
+
+IAT/SCIAT block order 2 & flower insect IAT & rmts first
+<batch>
+/ subjects=(2 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_flowers_chinese.iqx"
+/ file="rmts.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+</batch>
+
+IAT/SCIAT block order 1 & flower insect IAT & rmts second
+<batch>
+/ subjects=(3 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_flowers_chinese.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+/ file="rmts.iqx"
+</batch>
+
+IAT/SCIAT block order 2 & flower IAT & rmts second
+<batch>
+/ subjects=(4 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_flowers_chinese.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+/ file="rmts.iqx"
+</batch>
+
+
+IAT/SCIAT block order 1 & insect IAT & rmts first
+<batch>
+/ subjects=(5 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_insects_chinese.iqx"
+/ file="rmts.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+</batch>
+
+IAT/SCIAT block order 2 & insect IAT & rmts first
+<batch>
+/ subjects=(6 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_insects_chinese.iqx"
+/ file="rmts.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+</batch>
+
+IAT/SCIAT block order 1 & insect IAT & rmts second
+<batch>
+/ subjects=(7 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_insects_chinese.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+/ file="rmts.iqx"
+</batch>
+
+IAT/SCIAT block order 2 & insect IAT & rmts second
+<batch>
+/ subjects=(8 of 8)
+/ groupassignment = subjectnumber
+/ file="demographics.iqx"
+/ file="IAT_insects_chinese.iqx"
+/ file="sciat.iqx"
+/ file="ratings.iqx"
+/ file="rmts.iqx"
+</batch>
+
+

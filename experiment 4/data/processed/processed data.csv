@@ -1,0 +1,330 @@
+"participant","age","gender","exclude","IAT_condition","task_order","IAT_D1","SCIAT_D1","rmts_perc_acc","rmts_mastery","mean_rating","IAT_mean_RT","IAT_perc_acc","IAT_exclude_based_on_fast_trials","SCIAT_mean_RT","SCIAT_perc_acc","SCIAT_exclude_based_on_fast_trials"
+7452244,18,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.887,0.176,6.2,"fail",2.67,822,85.83,FALSE,544,88,FALSE
+14398096,22,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.009,-0.237,43.8,"fail",4.67,525,92.5,FALSE,454,90,FALSE
+40530475,43,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.595,-0.367,43.8,"fail",5,945,97.48,FALSE,804,97.33,FALSE
+41751691,39,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.163,0.233,25,"fail",4,735,92.5,FALSE,679,97.33,FALSE
+51670134,34,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.006,0.062,50,"fail",4,945,100,FALSE,785,100,FALSE
+58930068,24,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.189,0.084,12.5,"fail",4.67,773,93.33,FALSE,686,89.33,FALSE
+60750413,29,"male",FALSE,"Insects-Chinese IAT","rmts first",0.358,-0.194,56.2,"fail",4,629,90,FALSE,513,96,FALSE
+60903635,28,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.341,-0.46,56.2,"fail",2.33,742,81.67,FALSE,709,84,FALSE
+61929977,34,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.185,0.356,25,"fail",3.67,704,97.5,FALSE,611,98,FALSE
+63537318,30,"male",FALSE,"Insects-Chinese IAT","rmts first",0.232,0.568,81.2,"fail",4.17,913,97.5,FALSE,605,98.67,FALSE
+67252295,33,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.201,0.183,62.5,"fail",4.83,710,95.83,FALSE,515,100,FALSE
+84624829,56,"femal",FALSE,"Insects-Chinese IAT","rmts first",0.163,0.334,43.8,"fail",7,807,96.67,FALSE,651,95.33,FALSE
+89836482,62,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.435,0.06,87.5,"pass",4.33,833,97.5,FALSE,786,98,FALSE
+90893394,51,"female",FALSE,"Flowers-Chinese IAT","rmts first",-1.048,-0.483,43.8,"fail",5.33,727,99.17,FALSE,594,99.33,FALSE
+94271740,42,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.158,-0.135,25,"fail",4.17,745,95.83,FALSE,672,98.67,FALSE
+104576018,44,"female",FALSE,"Flowers-Chinese IAT","rmts first",-1.244,-0.451,62.5,"fail",4.67,799,100,FALSE,614,98.67,FALSE
+106171559,31,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.174,-0.005,12.5,"fail",4,574,97.5,FALSE,558,96,FALSE
+108362546,27,"male",FALSE,"Flowers-Chinese IAT","rmts first",0.027,-0.17,56.2,"fail",4.17,797,93.33,FALSE,603,94,FALSE
+115866054,59,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.687,-0.179,50,"fail",5.67,857,99.17,FALSE,679,99.33,FALSE
+116203603,36,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.361,-0.012,31.2,"fail",7,631,94.17,FALSE,592,91.33,FALSE
+120598492,21,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.283,-0.343,62.5,"fail",3.83,606,72.5,FALSE,527,79.33,FALSE
+124933051,42,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.406,-0.189,62.5,"fail",5,901,94.17,FALSE,802,94,FALSE
+126354750,63,"male",FALSE,"Insects-Chinese IAT","rmts first",0.421,-0.008,37.5,"fail",4.17,950,99.17,FALSE,813,100,FALSE
+132037807,33,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.041,-0.15,50,"fail",4,1346,85.83,FALSE,1325,90.54,FALSE
+133708202,61,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.726,-0.209,37.5,"fail",3,837,98.33,FALSE,717,99.33,FALSE
+133849929,33,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.026,0.263,81.2,"fail",5,581,96.67,FALSE,529,97.33,FALSE
+144273433,18,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.1,-0.674,37.5,"fail",3.67,775,98.33,FALSE,608,94,FALSE
+144675135,41,"female",TRUE,"Insects-Chinese IAT","evaluation tasks first",0.077,-0.284,50,"fail",4.83,808,90.83,TRUE,718,80,FALSE
+153953040,62,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.755,0.025,25,"fail",4.17,1061,95.83,FALSE,806,98,FALSE
+154616245,49,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.376,0.284,81.2,"fail",4,748,98.33,FALSE,786,98.67,FALSE
+157097151,23,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.082,0.137,50,"fail",5,665,86.67,FALSE,654,93.33,FALSE
+162872485,20,"female",FALSE,"Insects-Chinese IAT","rmts first",0.151,0.016,37.5,"fail",4,1226,100,FALSE,1386,95.33,FALSE
+164122989,37,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.388,0.523,50,"fail",4,584,98.33,FALSE,557,95.33,FALSE
+167445344,56,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.347,0.253,75,"fail",3.5,787,96.67,FALSE,826,97.33,FALSE
+168185587,37,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.689,-0.198,37.5,"fail",3.5,838,89.17,FALSE,621,94,FALSE
+168502242,40,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.921,0.156,68.8,"fail",3.17,639,88.33,FALSE,579,92.67,FALSE
+170624215,63,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.175,-0.192,93.8,"pass",5,1233,95,FALSE,940,98,FALSE
+174681585,40,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.127,0.146,12.5,"fail",4.33,1090,99.17,FALSE,915,99.33,FALSE
+174923111,35,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.246,-0.036,68.8,"fail",4.67,650,92.5,FALSE,532,96,FALSE
+178711551,36,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.014,0.557,56.2,"fail",4,901,94.17,FALSE,678,94,FALSE
+180832546,22,"male",FALSE,"Flowers-Chinese IAT","rmts first",0.155,0.394,93.8,"pass",3.83,704,88.33,FALSE,857,89.33,FALSE
+181428494,37,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.189,-0.22,56.2,"fail",4.33,912,96.67,FALSE,788,97.33,FALSE
+182044162,39,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.741,-0.332,62.5,"fail",4,804,93.33,FALSE,682,86.67,FALSE
+188050185,36,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.549,-0.269,100,"pass",3.5,602,95,FALSE,551,94.67,FALSE
+189536788,36,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.528,0.118,68.8,"fail",4,802,96.67,FALSE,636,98,FALSE
+193072512,38,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.12,0.032,0,"fail",4.67,713,95,FALSE,538,98,FALSE
+194269562,38,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.091,-0.153,75,"fail",4.17,606,86.67,FALSE,550,97.33,FALSE
+198956067,31,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.044,-0.268,50,"fail",4,744,98.33,FALSE,584,97.33,FALSE
+201457349,55,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.302,0.134,50,"fail",4,860,98.33,FALSE,730,100,FALSE
+202818504,42,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.661,0.388,56.2,"fail",4,741,95,FALSE,650,96.67,FALSE
+203701544,41,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.839,-0.03,43.8,"fail",4.17,706,97.5,FALSE,559,98,FALSE
+205768215,38,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.373,-0.073,37.5,"fail",5.33,777,92.5,FALSE,607,95.33,FALSE
+210594139,52,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.317,-0.075,50,"fail",4.5,864,97.5,FALSE,756,96,FALSE
+211206188,39,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.346,-0.079,37.5,"fail",5,853,96.67,FALSE,686,99.33,FALSE
+218637285,25,"female",FALSE,"Insects-Chinese IAT","rmts first",0.243,0.155,87.5,"pass",4.33,592,87.5,FALSE,506,93.33,FALSE
+220631899,24,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.11,0.43,37.5,"fail",4,546,91.67,FALSE,503,84.67,FALSE
+224946265,40,"female",FALSE,"Flowers-Chinese IAT","rmts first",-1.084,0.119,68.8,"fail",4.17,674,99.17,FALSE,582,98.67,FALSE
+232519460,19,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.007,-0.144,31.2,"fail",4.33,744,94.17,FALSE,540,97.33,FALSE
+235267708,47,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.036,0.002,100,"pass",7,897,85.83,FALSE,687,96.67,FALSE
+241250543,24,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.871,0.11,43.8,"fail",3.17,959,93.33,FALSE,869,93.33,FALSE
+244636852,27,"male",TRUE,"Flowers-Chinese IAT","evaluation tasks first",-0.765,0.267,31.2,"fail",4.67,388,51.67,TRUE,254,48.99,TRUE
+252746017,37,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.466,-0.282,43.8,"fail",3.67,668,92.5,FALSE,568,98.67,FALSE
+256123597,30,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.26,0.211,56.2,"fail",4,666,95,FALSE,581,97.33,FALSE
+257017186,21,"male ",FALSE,"Flowers-Chinese IAT","rmts first",-0.807,-0.224,12.5,"fail",4.5,677,95,FALSE,549,94.67,FALSE
+260616773,51,"female",FALSE,"Insects-Chinese IAT","rmts first",0.357,-0.109,56.2,"fail",3.83,819,95,FALSE,651,98.67,FALSE
+263374453,31,"male",FALSE,"Insects-Chinese IAT","rmts first",0.009,-0.246,50,"fail",5.33,690,93.33,FALSE,558,88.67,FALSE
+265367309,29,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.414,0.27,43.8,"fail",4.5,783,96.67,FALSE,677,93.33,FALSE
+268205895,39,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.996,-0.606,43.8,"fail",3.33,732,89.17,FALSE,614,94,FALSE
+270262339,48,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.915,0.216,56.2,"fail",4.67,575,98.33,FALSE,516,100,FALSE
+284566866,19,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.027,-0.278,56.2,"fail",3.67,707,95.83,FALSE,575,98,FALSE
+285512685,43,"female",FALSE,"Insects-Chinese IAT","rmts first",0.413,0.443,50,"fail",2.17,676,95.83,FALSE,570,95.33,FALSE
+288187258,23,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.853,-0.474,87.5,"pass",3.83,800,84.17,FALSE,612,89.33,FALSE
+288591512,30,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.063,0.088,81.2,"fail",4.83,958,95.83,FALSE,696,99.33,FALSE
+290514193,25,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.457,-0.415,68.8,"fail",4.33,615,96.67,FALSE,565,86,FALSE
+293041979,39,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.491,0.527,62.5,"fail",4,797,94.17,FALSE,700,94,FALSE
+293206528,31,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.004,0.251,50,"fail",4,972,99.17,FALSE,737,93.33,FALSE
+295535480,63,"female",TRUE,"Insects-Chinese IAT","evaluation tasks first",-0.788,0.392,62.5,"fail",4,916,96.67,FALSE,326,61.74,TRUE
+302261407,36,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.114,-0.329,56.2,"fail",4.33,850,99.17,FALSE,665,98.67,FALSE
+305063059,25,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.024,0.034,56.2,"fail",6,772,97.5,FALSE,555,100,FALSE
+307982340,36,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.458,-0.345,31.2,"fail",2.83,893,96.67,FALSE,770,96,FALSE
+309180579,23,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.631,-0.473,43.8,"fail",4.83,767,86.67,FALSE,681,84.67,FALSE
+311429558,44,"44",FALSE,"Insects-Chinese IAT","rmts first",0.352,0.271,93.8,"pass",5.67,752,93.33,FALSE,600,88.67,FALSE
+311564819,34,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.734,-0.236,43.8,"fail",5,914,95.83,FALSE,680,95.33,FALSE
+319438603,30,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.783,-0.299,37.5,"fail",3,858,96.67,FALSE,651,96.67,FALSE
+323563750,33,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.021,0.504,56.2,"fail",3.17,662,98.33,FALSE,552,99.33,FALSE
+325123416,24,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.811,-0.533,87.5,"pass",3.83,641,85,FALSE,546,86,FALSE
+326503556,37,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.492,-0.541,56.2,"fail",3.5,783,95,FALSE,797,94,FALSE
+326682899,50,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.066,-0.531,50,"fail",3.67,715,98.33,FALSE,642,96.67,FALSE
+326986137,22,"male ",FALSE,"Flowers-Chinese IAT","rmts first",-0.389,0.096,50,"fail",4,685,87.5,FALSE,619,86,FALSE
+342463773,33,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.478,0.043,31.2,"fail",4,688,94.17,FALSE,568,96,FALSE
+343989429,51,"male",FALSE,"Insects-Chinese IAT","rmts first",0.018,-0.171,75,"fail",3.83,831,97.5,FALSE,702,100,FALSE
+346250836,49,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.567,-0.118,50,"fail",6,902,96.67,FALSE,671,99.33,FALSE
+347074539,30,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.001,0.137,50,"fail",4.33,657,86.67,FALSE,576,90.67,FALSE
+348714195,45,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.921,-0.163,56.2,"fail",4.67,733,98.33,FALSE,533,99.33,FALSE
+356154222,25,"male",FALSE,"Insects-Chinese IAT","rmts first",0.335,-0.47,37.5,"fail",5,911,84.75,FALSE,753,86.67,FALSE
+371240082,18,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.464,0.134,50,"fail",5.17,1034,92.5,FALSE,764,94,FALSE
+375743512,24,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.11,0.257,43.8,"fail",4.83,730,76.67,FALSE,598,70.67,FALSE
+375844458,30,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.965,0.31,93.8,"pass",3,815,95.83,FALSE,789,98.67,FALSE
+379985411,32,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.616,-0.42,18.8,"fail",5.5,711,95.83,FALSE,641,96.67,FALSE
+380309630,59,"female",FALSE,"Insects-Chinese IAT","rmts first",0.179,0.11,50,"fail",4.83,961,98.33,FALSE,790,96.67,FALSE
+382197689,47,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.508,0.177,56.2,"fail",4,773,97.5,FALSE,774,99.33,FALSE
+382308651,27,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.96,-0.249,75,"fail",4.17,692,99.17,FALSE,613,97.33,FALSE
+384021627,39,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.969,-0.153,50,"fail",5,737,90,FALSE,564,98.67,FALSE
+388918415,35,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.414,0.178,75,"fail",4.83,746,97.5,FALSE,634,96.67,FALSE
+389506996,32,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.612,-0.266,43.8,"fail",7,1086,97.5,FALSE,970,94.67,FALSE
+393953674,27,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.437,0.019,50,"fail",4.67,786,88.33,FALSE,635,93.33,FALSE
+395566549,28,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.159,-0.187,37.5,"fail",4.67,789,97.5,FALSE,684,96,FALSE
+396106905,45,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.313,0.439,50,"fail",3.83,706,95,FALSE,646,98.67,FALSE
+401854638,40,"female",FALSE,"Insects-Chinese IAT","rmts first",0.225,0.228,56.2,"fail",4,635,98.33,FALSE,555,98.67,FALSE
+404453421,58,"male",FALSE,"Insects-Chinese IAT","rmts first",0.318,-0.016,56.2,"fail",4.17,775,98.33,FALSE,624,100,FALSE
+404567924,56,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.54,-0.055,50,"fail",5.17,768,99.17,FALSE,688,98.67,FALSE
+408207897,22,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.932,0.047,18.8,"fail",3.83,793,91.67,FALSE,595,93.33,FALSE
+408698055,25,"male",TRUE,"Insects-Chinese IAT","evaluation tasks first",-0.403,-0.849,75,"fail",3,758,75,FALSE,465,62,TRUE
+411004218,21,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.669,-0.053,62.5,"fail",4.17,635,74.17,FALSE,547,82,FALSE
+417009541,32,"male",FALSE,"Insects-Chinese IAT","rmts first",0.387,-0.181,50,"fail",4.33,946,88.33,FALSE,841,92.67,FALSE
+418126935,37,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.048,-0.291,43.8,"fail",4,592,96.67,FALSE,556,96.67,FALSE
+426569000,34,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.166,-0.095,12.5,"fail",5.17,677,92.5,FALSE,532,92.67,FALSE
+426797854,20,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.555,0.224,50,"fail",4.5,1184,95.83,FALSE,863,97.32,FALSE
+427445931,28,"woman",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.203,-0.171,43.8,"fail",5.83,1262,85,FALSE,1134,91.33,FALSE
+433095860,52,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.78,-0.071,0,"fail",4,788,97.5,FALSE,698,98.67,FALSE
+436888456,28,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.608,0.045,25,"fail",5.33,1601,92.5,FALSE,1087,95.33,FALSE
+439114050,27,"male ",FALSE,"Flowers-Chinese IAT","rmts first",-0.288,0.057,81.2,"fail",4.5,656,84.17,FALSE,569,86.67,FALSE
+441229036,24,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.02,-0.371,37.5,"fail",4.67,920,100,FALSE,764,99.33,FALSE
+441839737,39,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.737,-0.054,18.8,"fail",4,732,99.17,FALSE,623,100,FALSE
+442964686,34,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.428,0.02,56.2,"fail",4.5,1057,88.33,FALSE,723,86,FALSE
+443727950,26,"male",FALSE,"Insects-Chinese IAT","rmts first",0.002,-0.348,50,"fail",4.67,746,92.5,FALSE,687,95.33,FALSE
+445154297,54,"male",FALSE,"Flowers-Chinese IAT","rmts first",0.299,-0.192,12.5,"fail",3.83,707,97.5,FALSE,674,100,FALSE
+452657010,25,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.09,-0.118,50,"fail",4,842,84.17,FALSE,547,96.67,FALSE
+453635385,55,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.447,0.202,6.2,"fail",4,773,98.33,FALSE,671,98,FALSE
+453917922,39,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.206,-0.207,0,"fail",4,770,100,FALSE,597,98.67,FALSE
+455114621,26,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.421,0.393,43.8,"fail",4.17,778,96.67,FALSE,678,98,FALSE
+455843278,25,"male",FALSE,"Insects-Chinese IAT","rmts first",0.267,-0.128,81.2,"fail",3.83,686,81.67,FALSE,586,94,FALSE
+457060596,34,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.999,0.081,18.8,"fail",4.5,845,95,FALSE,595,98,FALSE
+457149023,43,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.007,-0.04,43.8,"fail",5,656,100,FALSE,570,99.33,FALSE
+458687872,22,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.553,0.09,50,"fail",4.5,769,86.67,FALSE,676,94,FALSE
+462816825,54,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.485,-0.394,93.8,"pass",3.5,748,96.67,FALSE,677,96.67,FALSE
+465932169,32,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.912,-0.119,81.2,"fail",4,802,90.83,FALSE,627,96.67,FALSE
+466011057,50,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.289,0.507,56.2,"fail",3.83,590,92.5,FALSE,546,96,FALSE
+467840940,21,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.837,-0.505,50,"fail",4,685,88.33,FALSE,616,91.33,FALSE
+470524118,54,"female",FALSE,"Insects-Chinese IAT","rmts first",0.308,-0.088,43.8,"fail",4,1034,96.67,FALSE,615,95.33,FALSE
+472908497,31,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.711,0.099,43.8,"fail",4.83,685,94.17,FALSE,560,96,FALSE
+477099693,35,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.451,0.542,100,"pass",4.83,993,93.33,FALSE,753,96,FALSE
+479141539,28,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.236,-0.496,43.8,"fail",5.67,726,85.83,FALSE,634,88,FALSE
+479262982,38,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.2,-0.406,50,"fail",3.83,707,100,FALSE,597,99.33,FALSE
+480282262,35,"male",FALSE,"Insects-Chinese IAT","rmts first",0.031,0.165,43.8,"fail",4.5,1185,94.17,FALSE,966,96,FALSE
+485285880,54,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.648,0.364,50,"fail",5,871,95.83,FALSE,754,98.67,FALSE
+488211867,24,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.001,-0.072,31.2,"fail",5,1389,93.28,FALSE,984,94,FALSE
+493095005,34,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.993,0.326,25,"fail",5,740,97.5,FALSE,623,96,FALSE
+497256242,38,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.728,0.149,68.8,"fail",3,789,96.67,FALSE,693,92.67,FALSE
+498755454,52,"male",FALSE,"Insects-Chinese IAT","rmts first",0.781,0.225,56.2,"fail",5.17,778,91.67,FALSE,642,98.67,FALSE
+502702267,37,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.129,-0.259,50,"fail",3.67,726,96.67,FALSE,569,96,FALSE
+505304615,28,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.42,0.51,31.2,"fail",5,673,96.67,FALSE,795,94,FALSE
+511794391,19,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.619,0.069,50,"fail",4.67,787,94.17,FALSE,958,100,FALSE
+517718713,32,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.136,-0.086,43.8,"fail",3.17,726,98.33,FALSE,592,98,FALSE
+519411578,23,"male",FALSE,"Flowers-Chinese IAT","rmts first",0.038,-0.493,50,"fail",4,647,85,FALSE,548,83.33,FALSE
+519814293,38,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.504,0.169,50,"fail",4.17,757,89.17,FALSE,629,94,FALSE
+521896519,34,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.32,0.209,50,"fail",5,665,95,FALSE,611,92.67,FALSE
+525584548,25,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.634,-0.148,50,"fail",4,681,90,FALSE,558,81.33,FALSE
+525901279,52,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.496,-0.484,100,"pass",3.67,803,100,FALSE,672,100,FALSE
+529778266,32,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.634,-0.203,62.5,"fail",4.17,751,90.83,FALSE,578,97.33,FALSE
+530730367,24,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.052,-0.022,50,"fail",4.67,654,96.67,FALSE,574,98.67,FALSE
+537108713,18,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.429,-0.272,50,"fail",4,738,81.67,FALSE,677,84,FALSE
+539496194,34,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.103,-0.083,43.8,"fail",2.33,770,90,FALSE,646,92.67,FALSE
+539751003,35,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.045,0.254,50,"fail",3.5,722,88.33,FALSE,617,96,FALSE
+541895384,29,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.393,0.011,50,"fail",4,772,80,FALSE,589,86,FALSE
+557194628,45,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.403,0.023,43.8,"fail",2.83,933,100,FALSE,747,99.33,FALSE
+558276196,36,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.723,-0.393,56.2,"fail",5,984,97.5,FALSE,656,96.67,FALSE
+559287318,20,"male",FALSE,"Insects-Chinese IAT","rmts first",0.59,-0.065,62.5,"fail",5,688,95,FALSE,591,97.33,FALSE
+566998704,21,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.125,-0.205,62.5,"fail",3.83,587,90.83,FALSE,507,90,FALSE
+568262582,32,"male",FALSE,"Insects-Chinese IAT","rmts first",0.038,0.606,43.8,"fail",5.67,625,95.83,FALSE,601,98,FALSE
+576824149,32,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.19,0.398,37.5,"fail",4.17,1102,95,FALSE,877,94,FALSE
+578969310,51,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.769,-0.107,68.8,"fail",5.17,659,90,FALSE,574,90,FALSE
+582580255,25,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.222,0.026,56.2,"fail",3.83,730,88.33,FALSE,718,86,FALSE
+584142627,50,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.106,0.056,56.2,"fail",4,740,96.67,FALSE,575,99.33,FALSE
+586906512,28,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.113,0.214,NA,NA,3.5,611,97.5,FALSE,512,99.33,FALSE
+587946902,32,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.006,0.337,12.5,"fail",4.67,812,94.17,FALSE,679,93.33,FALSE
+589750132,48,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.37,-0.113,62.5,"fail",4,825,91.67,FALSE,614,98,FALSE
+590321421,50,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.117,0.324,68.8,"fail",4.83,879,95,FALSE,781,96,FALSE
+590338572,33,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.196,-0.104,25,"fail",4,912,99.17,FALSE,719,99.33,FALSE
+590930150,25,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.043,0.123,56.2,"fail",5,553,93.33,FALSE,594,97.33,FALSE
+593344854,23,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.056,0.098,37.5,"fail",4.5,590,84.17,FALSE,547,92,FALSE
+595534358,50,"female",FALSE,"Insects-Chinese IAT","rmts first",0.777,0,50,"fail",5.5,755,100,FALSE,619,98,FALSE
+604371446,27,"genderfluid",FALSE,"Insects-Chinese IAT","rmts first",0.13,0.108,68.8,"fail",4,777,99.17,FALSE,642,96,FALSE
+609462283,30,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.779,0.296,56.2,"fail",3.33,877,94.17,FALSE,708,97.33,FALSE
+610474241,22,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.062,-0.218,75,"fail",4,850,93.33,FALSE,876,86,FALSE
+613029052,29,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.691,-0.037,56.2,"fail",5.33,1088,97.44,FALSE,982,97.32,FALSE
+617264163,25,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.992,0.022,68.8,"fail",4.67,681,92.5,FALSE,599,94,FALSE
+621555173,54,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.501,0.061,56.2,"fail",4,710,98.33,FALSE,649,99.33,FALSE
+627215132,42,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.211,-0.011,6.2,"fail",5,918,92.5,FALSE,811,94.67,FALSE
+627691626,28,"male",FALSE,"Flowers-Chinese IAT","rmts first",0.118,0.218,50,"fail",5.67,650,93.33,FALSE,600,92.67,FALSE
+629263781,34,"male",FALSE,"Insects-Chinese IAT","rmts first",0.647,0.134,62.5,"fail",4.83,523,88.33,FALSE,432,97.33,FALSE
+634653356,48,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.66,-0.034,68.8,"fail",3.83,751,95,FALSE,640,94.67,FALSE
+635928974,54,"female",FALSE,"Insects-Chinese IAT","rmts first",0.613,0.363,43.8,"fail",3.83,714,99.17,FALSE,584,99.33,FALSE
+639261157,25,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.631,-0.12,56.2,"fail",2.33,598,95.83,FALSE,516,97.33,FALSE
+640216132,27,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.396,-0.036,18.8,"fail",5.33,554,87.5,FALSE,578,89.33,FALSE
+641195027,53,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.809,-0.265,50,"fail",5,831,99.17,FALSE,773,98.67,FALSE
+641536845,57,"female",FALSE,"Insects-Chinese IAT","rmts first",0.432,-0.436,56.2,"fail",4.67,873,97.5,FALSE,782,98.67,FALSE
+643586926,34,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.466,0.044,50,"fail",4,747,94.17,FALSE,601,96.67,FALSE
+643737462,35,"male",FALSE,"Insects-Chinese IAT","rmts first",0.701,-0.513,43.8,"fail",2.33,1014,95,FALSE,806,95.33,FALSE
+647976986,18,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.128,-0.329,87.5,"pass",3,693,97.5,FALSE,582,93.33,FALSE
+647995710,19,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.143,-0.314,50,"fail",4,663,96.67,FALSE,586,96.67,FALSE
+651600877,28,"male",FALSE,"Insects-Chinese IAT","rmts first",0.119,-0.116,50,"fail",4,727,94.17,FALSE,566,93.33,FALSE
+658267614,18,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.379,0.055,75,"fail",5,572,88.33,FALSE,581,80.67,FALSE
+661359128,54,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.021,0.105,56.2,"fail",4,1072,95.83,FALSE,836,100,FALSE
+664616672,30,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.58,-0.298,50,"fail",4.17,665,95,FALSE,558,98,FALSE
+667910505,20,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.417,0.014,62.5,"fail",3.83,619,93.33,FALSE,521,94.67,FALSE
+669753946,22,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.359,-0.187,37.5,"fail",4,645,84.17,FALSE,749,83.33,FALSE
+672926275,46,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.846,0.425,50,"fail",4.17,643,90.83,FALSE,500,95.33,FALSE
+673159225,20,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.381,-0.091,50,"fail",4.5,511,81.67,FALSE,446,86.67,FALSE
+677591777,45,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.067,0.131,50,"fail",4,629,99.17,FALSE,527,95.33,FALSE
+682614976,31,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.278,-0.072,25,"fail",4,883,83.33,FALSE,1141,91.95,FALSE
+683947715,41,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.597,-0.175,43.8,"fail",4,753,97.5,FALSE,621,100,FALSE
+684851376,53,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.232,0.33,50,"fail",4,704,98.33,FALSE,648,99.33,FALSE
+689704003,26,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.641,0.049,68.8,"fail",3.33,920,92.5,FALSE,648,94.67,FALSE
+691104660,54,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.617,-0.047,93.8,"pass",4,672,98.33,FALSE,612,99.33,FALSE
+692061908,35,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.643,0.097,18.8,"fail",4.83,728,95.83,FALSE,625,96.67,FALSE
+696528380,25,"male",TRUE,"Flowers-Chinese IAT","evaluation tasks first",-0.321,-1.178,56.2,"fail",6,483,73.33,TRUE,409,71.33,TRUE
+696533806,34,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.403,-0.156,43.8,"fail",5.17,668,84.17,FALSE,523,82.67,FALSE
+697604995,24,"female ",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.18,0.023,31.2,"fail",4.67,610,79.17,FALSE,686,86.67,FALSE
+701531034,49,"female",FALSE,"Flowers-Chinese IAT","rmts first",0.05,0.017,56.2,"fail",4.83,749,100,FALSE,664,100,FALSE
+704954946,57,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.28,-0.225,68.8,"fail",4.33,793,94.17,FALSE,680,97.33,FALSE
+705011027,58,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.402,-0.036,37.5,"fail",4.5,715,95,FALSE,585,99.33,FALSE
+705822824,28,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.443,-0.065,43.8,"fail",3.17,812,86.67,FALSE,608,82.67,FALSE
+711230222,41,"female",FALSE,"Insects-Chinese IAT","rmts first",0.644,0.074,93.8,"pass",4.5,760,99.17,FALSE,620,98,FALSE
+711291211,26,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.798,-0.092,37.5,"fail",4.17,863,81.67,FALSE,808,89.33,FALSE
+712192411,24,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.568,0.328,81.2,"fail",5.17,620,90.83,FALSE,520,91.33,FALSE
+714016607,20,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.048,0.612,68.8,"fail",4.33,751,90,FALSE,676,86.67,FALSE
+715227398,26,"female",FALSE,"Insects-Chinese IAT","rmts first",0.119,0.046,56.2,"fail",5.33,578,91.67,FALSE,520,93.33,FALSE
+721351104,34,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.191,0.048,56.2,"fail",4.67,615,96.67,FALSE,523,96,FALSE
+721828208,33,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0,0.333,37.5,"fail",5,695,99.17,FALSE,641,98.67,FALSE
+723727534,35,"female",FALSE,"Insects-Chinese IAT","rmts first",0.493,-0.476,50,"fail",5,628,95.83,FALSE,593,97.33,FALSE
+725110134,50,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.294,-0.054,75,"fail",3.5,579,92.5,FALSE,484,90,FALSE
+726054730,30,"female ",FALSE,"Flowers-Chinese IAT","rmts first",-0.838,-0.086,43.8,"fail",3.83,657,90,FALSE,538,94,FALSE
+727211900,34,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.521,-0.006,62.5,"fail",4,559,94.17,FALSE,527,90,FALSE
+728533097,56,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.014,-0.219,56.2,"fail",2.83,958,97.5,FALSE,744,98,FALSE
+730529271,23,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.51,0.153,50,"fail",3.83,698,85,FALSE,572,87.33,FALSE
+731323152,32,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.508,-0.104,43.8,"fail",4,735,97.5,FALSE,586,92,FALSE
+734862087,48,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.339,0.337,50,"fail",3.67,834,97.5,FALSE,665,100,FALSE
+735056747,33,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.994,0.009,56.2,"fail",4.17,697,93.33,FALSE,612,97.33,FALSE
+744054012,21,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.524,0.116,56.2,"fail",4,689,94.17,FALSE,613,96,FALSE
+753273572,55,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.022,-0.239,18.8,"fail",2,835,97.5,FALSE,666,96.67,FALSE
+755042910,18,"male",FALSE,"Insects-Chinese IAT","rmts first",0.543,-0.048,43.8,"fail",4,1496,97.48,FALSE,854,94.63,FALSE
+766813261,37,"male",FALSE,"Insects-Chinese IAT","rmts first",0.523,-0.127,56.2,"fail",4,941,88.33,FALSE,682,89.33,FALSE
+769080369,31,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.12,-0.161,31.2,"fail",5.33,931,100,FALSE,780,97.33,FALSE
+770055398,55,"male",FALSE,"Insects-Chinese IAT","rmts first",0.188,-0.235,62.5,"fail",4,969,87.5,FALSE,749,90.67,FALSE
+770982324,55,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.049,0.002,50,"fail",5.17,757,100,FALSE,678,100,FALSE
+775412844,61,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.784,0.012,68.8,"fail",3.83,638,92.5,FALSE,606,90,FALSE
+775697061,36,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.461,-0.158,62.5,"fail",4,1303,92.5,FALSE,911,98,FALSE
+776510904,34,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.375,-0.246,62.5,"fail",4,663,96.67,FALSE,563,92,FALSE
+778213246,59,"male",FALSE,"Insects-Chinese IAT","rmts first",0.709,-0.001,31.2,"fail",4,708,92.5,FALSE,578,99.33,FALSE
+791044348,21,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.861,0.104,50,"fail",4.17,707,98.33,FALSE,566,96.67,FALSE
+791693979,57,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.676,-0.093,6.2,"fail",4.5,632,97.5,FALSE,537,96.67,FALSE
+792537247,26,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.528,0.088,43.8,"fail",4,617,85,FALSE,499,95.33,FALSE
+796790838,23,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.263,-0.538,50,"fail",4,615,85,FALSE,544,79.33,FALSE
+802914543,41,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.029,-0.208,50,"fail",4,719,91.67,FALSE,606,86,FALSE
+803804784,61,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.866,0.054,18.8,"fail",3.33,745,96.67,FALSE,662,97.33,FALSE
+805218689,25,"male",TRUE,"Flowers-Chinese IAT","rmts first",1.181,-0.201,56.2,"fail",4,422,62.5,TRUE,166,48.67,TRUE
+810152956,36,"male",TRUE,"Flowers-Chinese IAT","evaluation tasks first",-0.167,0.908,31.2,"fail",6,878,90.83,FALSE,546,76,TRUE
+814046299,24,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.381,-0.146,75,"fail",4,840,95.83,FALSE,712,96.67,FALSE
+816327807,23,"male",TRUE,"Insects-Chinese IAT","evaluation tasks first",-0.004,-0.122,43.8,"fail",4.33,618,71.67,FALSE,506,68,TRUE
+819771406,30,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.467,-0.309,81.2,"fail",4,582,87.5,FALSE,532,91.33,FALSE
+821226337,56,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.051,-0.307,6.2,"fail",4,850,96.67,FALSE,831,92.67,FALSE
+824353542,41,"male",FALSE,"Insects-Chinese IAT","rmts first",0.383,0.363,50,"fail",3.67,777,98.33,FALSE,673,98.67,FALSE
+824485211,31,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.533,0.489,37.5,"fail",4.5,672,90.83,FALSE,581,94.67,FALSE
+830000830,23,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.358,-0.212,37.5,"fail",5,532,95.83,FALSE,496,90.67,FALSE
+830086199,18,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.718,0.164,50,"fail",6,912,87.5,FALSE,612,92.67,FALSE
+831270395,24,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.589,-0.093,56.2,"fail",4,813,100,FALSE,644,100,FALSE
+835823933,23,"female",FALSE,"Insects-Chinese IAT","rmts first",0.544,0.189,75,"fail",6,1072,98.33,FALSE,742,92.67,FALSE
+837274324,26,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.313,-0.138,43.8,"fail",4.17,821,80.83,FALSE,727,78.67,FALSE
+837822628,53,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.319,0.006,0,"fail",6,952,91.67,FALSE,684,95.33,FALSE
+839077610,40,"male",FALSE,"Flowers-Chinese IAT","rmts first",-1.073,0.616,56.2,"fail",4.5,926,86.67,FALSE,724,92.67,FALSE
+840137840,36,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.422,0.315,100,"pass",5.67,1066,90.76,FALSE,806,98.64,FALSE
+841163372,62,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.083,0.299,50,"fail",3.33,836,100,FALSE,736,98.67,FALSE
+842996587,35,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.895,0.423,56.2,"fail",4.67,1161,95,FALSE,826,98,FALSE
+844411439,56,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.311,0.006,50,"fail",6,843,83.33,FALSE,756,88,FALSE
+850584226,33,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.218,-0.244,68.8,"fail",3.83,710,94.17,FALSE,658,93.33,FALSE
+851132882,38,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.585,-0.423,87.5,"pass",2,622,97.5,FALSE,568,96,FALSE
+855721928,23,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.468,-0.182,68.8,"fail",4,577,97.5,FALSE,517,96.67,FALSE
+859777970,39,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.943,-0.101,50,"fail",3.17,654,84.17,FALSE,583,91.33,FALSE
+860747495,26,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.098,0.376,75,"fail",4,478,80.83,FALSE,445,80,FALSE
+864368605,22,"female",FALSE,"Insects-Chinese IAT","rmts first",0.627,0.164,37.5,"fail",4,693,88.33,FALSE,654,89.33,FALSE
+867396607,32,"female",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.784,0.252,37.5,"fail",6.5,881,97.5,FALSE,711,100,FALSE
+868195884,22,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.012,0.081,43.8,"fail",4.33,712,90.83,FALSE,649,90.67,FALSE
+871493385,31,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.538,0.374,50,"fail",4,890,86.67,FALSE,692,92,FALSE
+871816184,38,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.106,-0.423,56.2,"fail",4.17,1366,96.67,FALSE,1348,95.3,FALSE
+877270004,30,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.063,0.058,43.8,"fail",4,703,96.67,FALSE,593,94.67,FALSE
+877509404,56,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.823,-0.264,62.5,"fail",3.5,724,97.5,FALSE,643,100,FALSE
+881765166,33,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.263,-0.245,56.2,"fail",3.83,601,95,FALSE,554,96,FALSE
+886404470,18,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.385,0.27,62.5,"fail",4,772,92.5,FALSE,551,94,FALSE
+887228097,19,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.813,0.092,43.8,"fail",5.67,749,96.67,FALSE,589,96.67,FALSE
+887407686,55,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.087,-0.222,43.8,"fail",4,993,94.17,FALSE,728,97.33,FALSE
+891714010,27,"male",TRUE,"Flowers-Chinese IAT","rmts first",0.129,-0.984,50,"fail",5,1052,92.5,FALSE,364,64.67,TRUE
+895405525,29,"male",TRUE,"Insects-Chinese IAT","rmts first",-0.297,0.699,56.2,"fail",4,448,55,TRUE,260,58,TRUE
+904468731,59,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.697,0.036,43.8,"fail",6,1040,99.17,FALSE,821,100,FALSE
+904483451,22,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.776,-0.168,43.8,"fail",4.17,610,92.5,FALSE,522,92.67,FALSE
+910638292,53,"male",TRUE,"Flowers-Chinese IAT","evaluation tasks first",0.726,-0.356,68.8,"fail",4,787,75.42,TRUE,843,92.41,FALSE
+912384140,28,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.235,-0.383,50,"fail",4,1043,100,FALSE,691,99.33,FALSE
+916633997,38,"female",FALSE,"Insects-Chinese IAT","rmts first",0.97,0.276,37.5,"fail",4,739,95,FALSE,625,93.33,FALSE
+917032107,37,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.454,0.052,0,"fail",5.17,662,100,FALSE,616,99.33,FALSE
+918041619,36,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.621,-0.377,0,"fail",4,716,100,FALSE,681,98.67,FALSE
+924170369,41,"female",FALSE,"Flowers-Chinese IAT","rmts first",-0.242,-0.172,62.5,"fail",4.33,2063,90.68,FALSE,1119,93.92,FALSE
+925039195,39,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.679,-0.171,25,"fail",5.33,527,90.83,FALSE,492,94,FALSE
+925534871,46,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.43,-0.287,56.2,"fail",6,663,94.17,FALSE,602,96.67,FALSE
+925850409,36,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.325,-0.106,0,"fail",4,825,98.33,FALSE,627,97.33,FALSE
+930327382,21,"female",FALSE,"Insects-Chinese IAT","rmts first",-0.767,0.131,50,"fail",5.67,807,90,FALSE,645,92,FALSE
+932514700,32,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",0.103,-0.501,25,"fail",4,738,92.5,FALSE,758,95.33,FALSE
+934992350,39,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.163,0.332,50,"fail",4.17,572,85,FALSE,479,90.67,FALSE
+935803641,57,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.817,-0.533,62.5,"fail",3.5,745,94.17,FALSE,709,96,FALSE
+936709686,44,"male",FALSE,"Insects-Chinese IAT","rmts first",0.547,-0.498,37.5,"fail",4,746,94.17,FALSE,594,92.67,FALSE
+939925246,48,"male",FALSE,"Insects-Chinese IAT","rmts first",0.483,0.349,56.2,"fail",4.83,595,98.33,FALSE,587,98,FALSE
+948795071,25,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-0.502,0.002,62.5,"fail",5.33,736,93.33,FALSE,615,95.33,FALSE
+955696180,59,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.062,-0.218,56.2,"fail",4.67,1102,95.83,FALSE,804,98.67,FALSE
+955735831,36,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.108,0.279,50,"fail",4.33,626,95.83,FALSE,579,94.67,FALSE
+956506538,18,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.501,-0.394,56.2,"fail",3.83,798,86.67,FALSE,648,84.67,FALSE
+960962249,52,"male",TRUE,"Flowers-Chinese IAT","rmts first",-0.757,0.395,50,"fail",4,893,70.83,FALSE,598,56.67,FALSE
+962655617,37,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.696,-0.079,75,"fail",5.67,1048,89.08,FALSE,780,97.33,FALSE
+965231752,18,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",-1.05,0.076,43.8,"fail",3,1043,94.17,FALSE,1037,96.67,FALSE
+965528916,39,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.779,0.145,25,"fail",4.67,616,99.17,FALSE,563,96.67,FALSE
+966841341,37,"male",FALSE,"Insects-Chinese IAT","rmts first",0.255,-0.109,56.2,"fail",4.83,683,98.33,FALSE,655,98.67,FALSE
+968803153,27,"female",FALSE,"Flowers-Chinese IAT","rmts first",0.059,0.118,50,"fail",4,596,87.5,FALSE,490,85.33,FALSE
+971838156,46,"male",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.469,-0.35,37.5,"fail",2.83,799,95,FALSE,672,97.33,FALSE
+972422245,30,"female",FALSE,"Insects-Chinese IAT","rmts first",0.41,0.282,37.5,"fail",4,780,93.33,FALSE,643,93.33,FALSE
+975540768,28,"male",FALSE,"Insects-Chinese IAT","evaluation tasks first",0.687,0.061,56.2,"fail",2.67,549,90.83,FALSE,561,89.33,FALSE
+976557668,50,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-1.152,-0.07,0,"fail",5.17,780,95,FALSE,664,99.33,FALSE
+979890932,29,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.449,-0.353,25,"fail",4.67,983,97.5,FALSE,902,98,FALSE
+986088085,57,"female",FALSE,"Insects-Chinese IAT","rmts first",0.203,-0.12,25,"fail",3.5,1068,98.33,FALSE,1111,98,FALSE
+990923689,35,"male",FALSE,"Flowers-Chinese IAT","rmts first",-0.617,-0.173,6.2,"fail",3,682,94.17,FALSE,627,94.67,FALSE
+995653998,24,"male",FALSE,"Insects-Chinese IAT","rmts first",-0.955,-0.617,50,"fail",4,774,92.5,FALSE,613,96,FALSE
+996106051,20,"female",FALSE,"Flowers-Chinese IAT","evaluation tasks first",-0.355,0.226,31.2,"fail",4.33,614,73.33,FALSE,537,76,FALSE

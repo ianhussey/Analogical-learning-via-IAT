@@ -19,7 +19,7 @@ library(MBESS)  # for ci.pvaf(), 95% CI on eta2
 library(BayesFactor)
 
 ## Data acquisition
-data_df <- read.csv("/Users/Ian/Dropbox/Work/Manuscripts/Hussey & De Houwer - the IAT as an analogical learning task/Experiment 1/Data/processed data.csv")
+data_df <- read.csv("data/processed/processed data.csv")
 ```
 
 # Descriptive statistics
@@ -133,6 +133,26 @@ t.test(ratings_change_scores ~ condition,
 # effect size
 cohen.d(ratings_change_scores ~ condition, 
         data = data_df)
+```
+
+```{r, echo=FALSE, fig.height=2, fig.width=2, message=FALSE, warning=FALSE}
+# descriptives stats
+ratings_summary_data <-
+  data_df %>%
+  group_by(condition) %>%
+  dplyr::summarize(mean_ratings_diff = round(mean(ratings_change_scores), 2),
+                   sd_ratings_diff = round(sd(ratings_change_scores), 2),
+                   se_ratings_diff = round(std.error(ratings_change_scores), 2))
+
+ggplot(data = ratings_summary_data,
+       aes(x = condition, y = mean_ratings_diff)) +
+  geom_pointrange(aes(ymax = mean_ratings_diff + (1.96*se_ratings_diff),
+                      ymin = mean_ratings_diff + (-1.96*se_ratings_diff))) +
+  ylab("Ratings difference") +
+  xlab("Condition") +
+  #coord_cartesian(ylim = c(-.75,.75)) +
+  scale_colour_grey() +
+  theme_classic() 
 ```
 
 Alternative strategy: ANCOVA with pre as covariate

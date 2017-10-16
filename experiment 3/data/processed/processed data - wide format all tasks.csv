@@ -1,0 +1,450 @@
+"participant","age","gender","exclude","IAT_condition","attribute_condition","IAT_D1","SCIAT_D1","mean_rating","IAT_mean_RT","IAT_perc_acc","IAT_exclude_based_on_fast_trials","SCIAT_mean_RT","SCIAT_perc_acc","SCIAT_exclude_based_on_fast_trials"
+380644,36,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.543,0.505,2.33,674,94.17,FALSE,574,94.67,FALSE
+1882272,43,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.334,0.453,3.83,1471,90.83,FALSE,802,100,FALSE
+4303807,45,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.938,0.483,4,843,100,FALSE,809,99.33,FALSE
+5034407,58,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.282,-0.139,4.83,900,83.33,FALSE,635,96,FALSE
+8322462,25,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.13,0.452,4,920,90,FALSE,625,96,FALSE
+8547204,35,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.746,-0.293,4.83,755,97.5,FALSE,599,96.67,FALSE
+10534696,37,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.782,-0.492,4,934,95,FALSE,753,96,FALSE
+10899483,28,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.214,-0.442,5.67,773,80,FALSE,744,90.67,FALSE
+12710550,62,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.298,0.142,4,797,98.33,FALSE,675,99.33,FALSE
+17306077,30,"male",TRUE,"Insects-Chinese IAT","opposite valenced attributes",0.5,-0.125,4,685,76.67,FALSE,533,72,TRUE
+20378713,19,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.61,-0.056,4,875,92.5,FALSE,703,92,FALSE
+21129657,39,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.414,-0.665,4.67,846,98.33,FALSE,731,96.67,FALSE
+21335017,37,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.269,0.056,4.83,715,95.83,FALSE,659,96,FALSE
+22187609,27,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.939,0.209,3.17,546,89.17,FALSE,506,88,FALSE
+22196230,30,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.118,0.159,4.67,905,97.5,FALSE,727,92.67,FALSE
+24285217,48,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.233,0.1,4.17,864,96.67,FALSE,761,98.67,FALSE
+24687797,28,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.228,-0.094,4.5,570,94.17,FALSE,488,94,FALSE
+25067771,29,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.741,0.382,4.17,893,80.83,FALSE,581,94.67,FALSE
+26663115,54,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.178,0.197,4,997,63.33,FALSE,630,99.33,FALSE
+26704522,22,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.827,0.031,4,856,88.33,FALSE,707,91.33,FALSE
+30358160,29,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.18,-0.223,4.33,1288,75,FALSE,1060,95.33,FALSE
+34491820,20,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.171,-0.318,4,711,79.17,FALSE,642,86,FALSE
+45269490,19,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.545,0.359,4.83,657,89.17,FALSE,531,94,FALSE
+48656517,47,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.987,0.239,6,758,95.83,FALSE,609,95.33,FALSE
+50686562,40,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.633,-0.024,3.83,837,95,FALSE,744,96,FALSE
+50981679,34,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.035,-0.347,6.33,727,95,FALSE,649,94,FALSE
+53621080,41,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.206,0.094,3.83,809,95.83,FALSE,634,96.67,FALSE
+53701849,46,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.415,0.23,4.83,595,90.83,FALSE,575,95.33,FALSE
+55870381,44,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.011,0.17,3.5,959,84.17,FALSE,818,75.33,FALSE
+55957218,45,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.364,-0.128,4,706,90,FALSE,593,93.33,FALSE
+62403477,22,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.612,0.485,4,582,95,FALSE,531,94,FALSE
+63651458,20,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.715,-0.044,4,763,98.33,FALSE,608,97.33,FALSE
+66044739,26,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.556,0.266,4.67,751,100,FALSE,719,99.33,FALSE
+71148682,64,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.285,-0.164,4,698,99.17,FALSE,601,98.67,FALSE
+72930983,26,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.088,-0.151,4,714,96.67,FALSE,715,94,FALSE
+73354725,39,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.107,0.286,3,756,95.83,FALSE,722,92.67,FALSE
+73915321,40,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.408,-0.406,3,802,97.5,FALSE,706,96.67,FALSE
+73997128,56,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.244,0.07,3.5,840,91.67,FALSE,898,94.67,FALSE
+74874835,48,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.132,0.334,4.17,777,74.17,FALSE,526,96,FALSE
+76846399,33,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.32,0.04,3.17,1052,87.5,FALSE,743,90,FALSE
+77340547,26,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.673,0.169,5,683,95.83,FALSE,562,97.33,FALSE
+77386013,34,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.268,-0.073,4,888,96.67,FALSE,737,97.33,FALSE
+82624194,51,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.291,-0.269,4.83,900,95,FALSE,685,95.33,FALSE
+84847663,28,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.001,-0.053,4,690,96.67,FALSE,527,96,FALSE
+88463162,46,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.671,-0.129,6.67,667,92.5,FALSE,510,96,FALSE
+91153356,25,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.441,0.163,4,950,90.83,FALSE,692,92,FALSE
+91839261,23,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.066,-0.004,4,716,93.33,FALSE,581,96.67,FALSE
+95370674,59,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.757,0.008,4.5,575,99.17,FALSE,592,96.67,FALSE
+95848574,40,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.037,0.436,4.67,655,85.83,FALSE,677,88,FALSE
+97613525,43,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.296,0.139,5.5,857,96.67,FALSE,672,100,FALSE
+100224098,51,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.246,-0.252,4.17,751,95,FALSE,609,98,FALSE
+100376433,25,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.335,-0.178,4.33,755,81.67,FALSE,603,82.55,FALSE
+100477409,52,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.686,-0.363,4,1019,98.33,FALSE,778,98.67,FALSE
+100479579,31,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.066,-0.27,4,1069,80,FALSE,796,97.33,FALSE
+100553652,41,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.4,-0.273,4.83,716,93.33,FALSE,570,95.33,FALSE
+100681699,31,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.45,-0.071,3.33,560,96.67,FALSE,509,96.67,FALSE
+102208716,33,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.425,0.203,4,556,99.17,FALSE,534,96,FALSE
+102966737,27,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.352,-0.33,4.33,631,83.33,FALSE,549,84.67,FALSE
+103258023,54,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.277,-0.027,4,800,92.5,FALSE,587,96.67,FALSE
+103555548,43,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.102,-0.081,5,633,96.67,FALSE,584,97.33,FALSE
+107699894,45,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.246,-0.241,4,635,99.17,FALSE,603,99.33,FALSE
+107880659,37,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.494,-0.226,2.83,710,91.67,FALSE,663,94.67,FALSE
+114584417,57,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.065,0.314,5.5,1182,92.5,FALSE,1021,94,FALSE
+118230901,42,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.229,0.371,6,774,99.17,FALSE,640,96.67,FALSE
+120031711,21,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.028,-0.027,4.33,670,60,FALSE,597,86,FALSE
+121188055,30,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.351,0.311,4.83,822,83.33,FALSE,681,83.33,FALSE
+123316280,36,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.185,0.044,4.5,677,95.83,FALSE,478,97.33,FALSE
+125334220,46,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.883,-0.215,4.5,681,90.83,FALSE,533,95.33,FALSE
+125584336,25,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.555,0.113,4.83,1007,95,FALSE,645,96.67,FALSE
+127920030,21,"female",TRUE,"Insects-Chinese IAT","opposite valenced attributes",0.045,0.11,5,915,96.67,FALSE,184,52.67,TRUE
+128075070,24,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.607,-0.488,3.17,780,73.33,FALSE,618,74,FALSE
+128132758,34,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.079,-0.114,5.5,961,96.67,FALSE,781,99.33,FALSE
+128152476,21,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.27,-0.406,3.83,686,86.67,FALSE,617,87.33,FALSE
+128311475,48,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.246,0.054,4,952,97.5,FALSE,763,93.33,FALSE
+132991424,27,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.197,0.208,4,616,82.5,FALSE,588,86.67,FALSE
+141607039,62,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.063,-0.015,4,1067,97.5,FALSE,706,100,FALSE
+142678305,54,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.612,-0.052,4,774,94.17,FALSE,626,94.67,FALSE
+142681042,29,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.424,0.198,4.17,924,90.83,FALSE,836,97.32,FALSE
+143343957,22,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.211,-0.464,3,752,97.5,FALSE,565,96,FALSE
+144638620,21,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.382,-0.285,3.83,666,84.17,FALSE,577,90,FALSE
+144727597,36,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.635,-0.037,6.33,643,97.5,FALSE,566,97.33,FALSE
+145734802,34,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.028,-0.17,3.67,916,79.83,FALSE,772,89.73,FALSE
+148635798,33,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.192,0.102,5.83,700,98.33,FALSE,574,98,FALSE
+148672773,18,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.339,0.365,4,689,90,FALSE,641,87.33,FALSE
+152757934,33,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.764,-0.356,5,657,83.33,FALSE,633,88,FALSE
+153548131,26,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.145,-0.126,6.33,738,73.33,FALSE,643,91.33,FALSE
+153928495,18,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.049,0.168,4,649,85.83,FALSE,635,91.33,FALSE
+154492649,34,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.982,0.121,3.5,707,88.33,FALSE,553,94,FALSE
+158552727,40,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.333,0.083,1,1069,99.17,FALSE,944,98,FALSE
+159654503,28,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.486,0.114,4.33,718,95.83,FALSE,655,98.67,FALSE
+160233148,27,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.583,-0.394,4.5,721,91.67,FALSE,713,89.26,FALSE
+162858532,34,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",1.069,-0.263,4,684,90,FALSE,570,91.33,FALSE
+167901609,39,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.912,0.403,4.33,668,96.67,FALSE,611,98,FALSE
+170791088,32,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.21,0.1,5.5,820,93.33,FALSE,689,94,FALSE
+173107003,24,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.302,-0.495,4,864,66.67,FALSE,789,98,FALSE
+173568471,30,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.395,-0.287,4,1127,90,FALSE,572,96.67,FALSE
+173911997,37,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",1.001,0.509,4.17,896,95.83,FALSE,1003,95.33,FALSE
+175491312,37,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.534,0.006,4.83,936,83.33,FALSE,691,90,FALSE
+175974860,63,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.15,-0.366,4.67,684,98.33,FALSE,594,99.33,FALSE
+176496828,19,"female",TRUE,"Flowers-Chinese IAT","nonword attributes",0.336,-0.959,4,673,82.5,FALSE,457,76.67,TRUE
+181963198,26,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.652,0.268,6.67,800,91.67,FALSE,672,76,FALSE
+182439691,41,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.228,0.124,3.5,678,97.5,FALSE,573,99.33,FALSE
+184419708,53,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.245,-0.34,3.5,608,89.17,FALSE,571,90.67,FALSE
+190376757,24,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.183,-0.362,3.83,590,85,FALSE,561,76,FALSE
+190966638,21,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-1.026,-0.308,4.67,854,95.83,FALSE,691,91.33,FALSE
+191350012,35,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.467,-0.366,4,601,95,FALSE,590,94,FALSE
+194592149,36,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.862,0.142,4.83,941,92.5,FALSE,749,96.67,FALSE
+202830888,33,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.025,-0.016,4.33,664,95,FALSE,571,94.67,FALSE
+208035800,28,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.081,0.046,5.67,735,64.17,FALSE,574,87.33,FALSE
+211103851,23,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.003,-0.036,2.33,742,67.5,FALSE,688,95.33,FALSE
+218054132,51,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.131,-0.295,5,1301,68.33,FALSE,1004,96,FALSE
+218137484,52,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.269,-0.388,4.67,880,70,FALSE,681,95.33,FALSE
+220007690,48,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.842,0.163,4,826,92.5,FALSE,652,94.67,FALSE
+220918657,4,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.392,-0.209,4.83,770,92.5,FALSE,812,98,FALSE
+221448543,48,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.21,-0.071,5.67,729,95,FALSE,568,97.33,FALSE
+225573552,22,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.908,0.121,6,977,90,FALSE,680,94,FALSE
+229947944,36,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.213,0.109,5.67,835,65,FALSE,605,85.33,FALSE
+231017482,35,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.334,-0.318,4.17,986,98.33,FALSE,783,98,FALSE
+232045659,39,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.364,-0.313,5.83,709,98.33,FALSE,657,98.67,FALSE
+235429905,31,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.141,-0.079,3.5,806,86.67,FALSE,674,94,FALSE
+236045252,27,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.059,0.134,4,858,95.83,FALSE,759,94.67,FALSE
+238932124,40,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.365,0.46,5,1027,73.33,FALSE,773,98,FALSE
+239983305,33,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.939,0.334,4,716,93.28,FALSE,635,94,FALSE
+240842730,36,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.995,-0.219,4.33,842,99.17,FALSE,670,98,FALSE
+242926076,20,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.304,0.072,4,910,70.83,FALSE,723,95.33,FALSE
+246877642,37,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.407,-0.069,4,708,83.33,FALSE,536,88,FALSE
+247967877,23,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.415,0.199,4.33,1015,94.17,FALSE,889,94.67,FALSE
+249459928,46,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.022,0.208,5.33,1138,74.17,FALSE,869,98,FALSE
+250594835,32,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.879,0.477,5.83,774,98.33,FALSE,722,93.33,FALSE
+251185389,51,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.83,0.286,4.5,706,95,FALSE,700,95.33,FALSE
+255572392,29,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.688,0.048,7,1026,95.83,FALSE,736,97.33,FALSE
+256772361,31,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.49,0.067,4.17,623,95,FALSE,592,90.67,FALSE
+257854159,45,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.39,-0.229,2.67,912,64.17,FALSE,747,99.33,FALSE
+258239520,27,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.031,-0.427,3.5,569,88.33,FALSE,526,86.67,FALSE
+258300295,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.67,-0.416,4.83,816,74.17,FALSE,712,93.33,FALSE
+258361238,36,"36",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.458,-0.136,5.17,1352,96.43,FALSE,1322,93.24,FALSE
+269595544,22,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.183,-0.016,4.67,691,48.33,FALSE,692,89.33,FALSE
+278680042,28,"male",TRUE,"Flowers-Chinese IAT","opposite valenced attributes",0.454,0.51,4,1267,77.12,FALSE,2031,67.59,FALSE
+279268264,20,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.717,-0.264,4.67,694,93.33,FALSE,625,93.33,FALSE
+281914232,21,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.088,-0.03,5,634,93.33,FALSE,600,96,FALSE
+282762406,55,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.298,-0.024,2.33,1076,98.33,FALSE,1030,98.67,FALSE
+283814214,24,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.573,0.751,4.5,766,95.83,FALSE,644,97.33,FALSE
+284882499,46,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.488,-0.287,5.33,793,94.17,FALSE,866,92.67,FALSE
+287161591,44,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.285,0.202,7,865,85,FALSE,744,93.33,FALSE
+288524870,59,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",1.26,0.185,4,994,97.5,FALSE,711,100,FALSE
+294068722,21,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.087,-0.436,1.67,1040,99.17,FALSE,814,91.33,FALSE
+296156654,29,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.244,0.011,5.83,678,89.17,FALSE,704,88.67,FALSE
+296526837,26,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.061,0.277,6,589,86.67,FALSE,545,85.33,FALSE
+296840938,28,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.645,-0.09,4.5,726,99.17,FALSE,682,98,FALSE
+297576014,49,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.438,0.077,4.33,832,99.17,FALSE,768,98.67,FALSE
+303336140,37,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.548,-0.213,4.17,644,99.17,FALSE,570,99.33,FALSE
+303458883,42,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.564,-0.023,5,589,96.67,FALSE,559,95.33,FALSE
+304724198,42,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.495,-0.291,4,815,95.83,FALSE,693,96.67,FALSE
+308282805,21,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.579,0.132,4.33,789,95,FALSE,692,94,FALSE
+311378690,49,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.622,-0.016,4,980,97.5,FALSE,778,98,FALSE
+314274383,31,"female",FALSE,"Insects-Chinese IAT","nonword attributes",1.017,-0.123,4,1015,62.5,FALSE,700,98.67,FALSE
+315385391,40,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.07,0.462,4,1090,66.39,FALSE,1051,90,FALSE
+320860067,58,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.152,-0.471,4,1040,66.67,FALSE,627,94.67,FALSE
+327114823,54,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.624,-0.322,4.17,1023,97.5,FALSE,644,98,FALSE
+327999469,49,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.016,-0.153,4,707,100,FALSE,618,99.33,FALSE
+336376327,23,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.634,0.139,4.33,572,95,FALSE,506,92,FALSE
+337761830,34,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.796,0.264,4.83,700,96.67,FALSE,603,99.33,FALSE
+342141360,18,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.261,-0.021,4,759,100,FALSE,701,96.67,FALSE
+343171339,37,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",0.036,0.009,4,564,90,TRUE,634,88,FALSE
+343477966,35,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.914,0.122,6,696,100,FALSE,622,99.33,FALSE
+344090515,28,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.756,-0.281,4.17,902,99.17,FALSE,708,96.67,FALSE
+344118518,25,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.141,0.376,4,874,96.67,FALSE,731,96,FALSE
+346368094,21,"male",TRUE,"Insects-Chinese IAT","opposite valenced attributes",-0.492,0.18,2,965,74.17,FALSE,813,66,TRUE
+346373068,45,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.732,-0.523,4.5,886,97.5,FALSE,651,99.33,FALSE
+349513138,48,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.101,-0.653,5.17,784,95,FALSE,717,94.63,FALSE
+351519598,27,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.202,0.371,5.33,782,89.17,FALSE,916,78.67,FALSE
+354780889,47,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.1,0.273,4.17,751,95,FALSE,612,97.33,FALSE
+355711146,38,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.07,0.203,4.17,691,89.17,FALSE,844,90,FALSE
+356423676,37,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.011,-0.122,4.67,839,96.67,FALSE,689,98,FALSE
+357187354,25,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.831,-0.245,3,1139,94.17,FALSE,845,91.33,FALSE
+357814164,33,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.665,0.085,5.33,838,65.83,FALSE,884,85.23,FALSE
+360739434,23,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.509,0.117,6,576,83.33,FALSE,535,80.67,FALSE
+360821019,30,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.186,0.412,4,658,97.5,FALSE,545,98.67,FALSE
+360952971,23,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.015,0.441,4.67,655,85,FALSE,573,93.33,FALSE
+361741288,53,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.851,-0.117,3.67,674,87.5,FALSE,531,88.67,FALSE
+365913408,19,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.047,-0.257,3.5,844,95.83,FALSE,580,96.67,FALSE
+373876443,28,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.451,0.075,2,913,70.34,FALSE,1143,87.92,FALSE
+375336464,49,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.798,-0.391,5.5,967,79.17,FALSE,787,93.33,FALSE
+376700071,26,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.113,-0.14,4,687,87.5,FALSE,833,85.14,FALSE
+376839115,26,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.1,0.42,4,670,79.17,FALSE,548,86.67,FALSE
+377109103,44,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.111,-0.028,4,911,96.67,FALSE,695,98.67,FALSE
+380779753,24,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.548,-0.062,4,865,95,FALSE,887,92.57,FALSE
+382048904,40,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.172,-0.497,4.5,836,98.33,FALSE,654,100,FALSE
+383144902,36,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.088,-0.408,3.83,523,93.33,FALSE,516,92,FALSE
+384439595,29,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.649,-0.261,4,725,93.33,FALSE,686,94.67,FALSE
+384713419,45,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.142,-0.188,4,984,97.5,FALSE,675,97.33,FALSE
+389172171,33,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.085,-0.031,4,714,60,FALSE,569,76,FALSE
+390487714,24,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.732,0.018,4.17,1036,90.83,FALSE,675,86.67,FALSE
+393588750,38,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.202,0.124,5.17,742,90.83,FALSE,669,96.67,FALSE
+396800424,37,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.648,-0.337,4.17,1289,79.17,FALSE,615,98.67,FALSE
+405744876,47,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.364,-0.699,4.33,638,98.33,FALSE,645,97.33,FALSE
+406246301,25,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.03,-0.121,3.33,691,93.33,FALSE,669,97.33,FALSE
+407590688,36,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.205,0.143,4.67,834,95.83,FALSE,772,96,FALSE
+413837242,60,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.988,0.282,6.33,830,99.17,FALSE,765,98,FALSE
+414094878,21,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.426,0.024,3,847,91.67,FALSE,618,96.67,FALSE
+417841252,37,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.057,0.435,4.5,696,100,FALSE,677,96,FALSE
+425223562,29,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.832,-0.112,4.5,850,90,FALSE,604,94.67,FALSE
+428912064,36,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.316,-0.171,4,954,84.17,FALSE,740,92.67,FALSE
+429063727,56,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.462,0.062,3,971,65.83,FALSE,814,97.33,FALSE
+430687410,25,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.072,0.085,4,668,96.67,FALSE,579,96,FALSE
+431042415,59,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.208,-0.291,5,749,97.5,FALSE,658,99.33,FALSE
+431150727,30,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.203,0.186,4.17,698,79.17,FALSE,629,77.33,FALSE
+431495949,32,"female",TRUE,"Insects-Chinese IAT","opposite valenced attributes",-0.216,-0.067,5.33,165,55,TRUE,130,45.33,TRUE
+434144185,59,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.895,0.046,6,923,100,FALSE,678,98,FALSE
+439252569,38,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.09,-0.637,6.17,791,90.83,FALSE,628,98,FALSE
+439671712,41,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.924,0.197,5.17,668,99.17,FALSE,665,99.33,FALSE
+441575607,23,"male",TRUE,"Insects-Chinese IAT","nonword attributes",-0.36,-0.259,4.33,631,47.5,TRUE,722,62,FALSE
+448410452,23,"female",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.563,-0.162,4,798,45,FALSE,900,67.35,FALSE
+448934224,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.12,-0.156,5.17,651,63.33,FALSE,606,77.33,FALSE
+450934173,56,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.051,-0.332,4,814,99.17,FALSE,801,99.33,FALSE
+451226462,44,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.132,0.089,4,623,98.33,FALSE,574,97.33,FALSE
+453471987,22,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.308,0.024,3.33,704,97.5,FALSE,578,94.67,FALSE
+456906813,61,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-1.11,-0.225,5,997,98.33,FALSE,709,96,FALSE
+458394225,30,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.191,-0.143,3,719,90,FALSE,528,91.33,FALSE
+465278397,39,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.771,-0.156,4,678,88.33,FALSE,532,96,FALSE
+465447577,36,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.59,0.028,4,775,92.5,FALSE,664,97.33,FALSE
+468319652,46,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.197,-0.203,5,710,98.33,FALSE,625,98,FALSE
+468885490,20,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.562,-0.428,3.83,882,90.83,FALSE,686,95.3,FALSE
+471670683,25,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.422,0.121,5.17,882,74.17,FALSE,618,93.33,FALSE
+472925650,51,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.763,-0.191,4.5,752,93.33,FALSE,654,96,FALSE
+473963080,40,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.03,0.042,4.33,1047,99.17,FALSE,769,98,FALSE
+477427171,29,"non-binary",FALSE,"Flowers-Chinese IAT","nonword attributes",0.504,-0.191,3.5,826,83.33,FALSE,666,88.67,FALSE
+478667357,27,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.232,-0.225,4,635,94.17,FALSE,540,97.33,FALSE
+479158279,27,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.333,0.127,5.83,525,94.17,FALSE,511,95.33,FALSE
+479940788,48,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.007,0.115,3.67,618,98.33,FALSE,592,97.33,FALSE
+481009868,39,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.636,0.208,4.83,702,98.33,FALSE,669,99.33,FALSE
+482043180,26,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.433,-0.13,7,108,56.67,TRUE,184,53.33,TRUE
+482098987,18,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.008,-0.188,4,589,76.67,FALSE,501,72,FALSE
+482753556,32,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.104,0.268,4.5,1032,90,FALSE,941,94.67,FALSE
+482885164,30,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.898,0.124,4.33,829,95,FALSE,586,97.33,FALSE
+484222275,44,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.267,-0.04,4.5,658,98.33,FALSE,661,98,FALSE
+484849085,59,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.639,0.229,2.83,936,95,FALSE,845,99.33,FALSE
+489576464,23,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.118,-0.346,4.17,672,71.67,FALSE,572,90.6,FALSE
+490468814,62,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.201,0.265,4,834,95,FALSE,657,97.33,FALSE
+495567247,32,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.522,0.353,3.5,642,90,FALSE,551,94,FALSE
+496857294,43,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.069,0.368,4,604,87.5,FALSE,554,92.67,FALSE
+497420578,20,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.01,0.255,3.17,809,98.33,FALSE,698,96,FALSE
+502451434,20,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.246,0.423,4,910,95,FALSE,652,96.67,FALSE
+504419850,38,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.441,0.333,4.17,646,100,FALSE,513,98.67,FALSE
+514898151,23,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.834,0.078,4.17,820,97.5,FALSE,659,96.67,FALSE
+515426494,33,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.357,0.173,4,596,98.33,FALSE,490,99.33,FALSE
+517302830,39,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.361,0.009,3.83,936,96.67,FALSE,770,97.33,FALSE
+517915181,24,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.121,0.359,5.33,638,97.5,FALSE,630,96.67,FALSE
+518549833,28,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.888,0.209,4,861,98.33,FALSE,634,95.33,FALSE
+522140692,25,"fema",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.204,-0.239,4.33,529,90.83,FALSE,492,93.33,FALSE
+523310274,35,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.216,-0.276,4.33,672,98.33,FALSE,577,100,FALSE
+523747025,47,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.171,-0.31,3.67,1234,100,FALSE,1127,96,FALSE
+524503518,62,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.167,0.029,4.17,681,91.67,FALSE,605,94.67,FALSE
+526525539,38,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.292,-0.21,4.17,705,95.83,FALSE,633,96,FALSE
+527880855,31,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.058,-0.07,5.33,936,65.83,FALSE,622,96.67,FALSE
+529664560,20,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.868,-0.369,4,789,90.83,FALSE,666,88.67,FALSE
+531839360,18,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.257,0.266,3.67,696,62.5,FALSE,628,88,FALSE
+533412753,37,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.804,-0.001,4.17,819,99.17,FALSE,698,99.33,FALSE
+533795637,20,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.229,-0.287,5,662,90,FALSE,622,75.33,FALSE
+541651569,29,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.769,0.003,2.17,622,86.67,FALSE,573,91.33,FALSE
+541802650,22,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.391,-0.35,4,562,88.33,FALSE,536,90.67,FALSE
+542375977,38,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.487,-0.233,5,646,98.33,FALSE,595,94.67,FALSE
+543481314,42,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.713,0.03,3.5,834,98.33,FALSE,809,98,FALSE
+543909444,56,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.924,-0.246,2.67,784,97.5,FALSE,697,98.67,FALSE
+546653795,56,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.172,0.055,2.83,902,75.83,FALSE,565,98,FALSE
+547550043,45,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.314,0.013,4.5,718,96.67,FALSE,700,96.67,FALSE
+551028447,22,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.016,0.187,4.5,634,96.67,FALSE,557,94,FALSE
+551193606,47,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.802,0.241,4,777,99.17,FALSE,655,100,FALSE
+551730866,19,"?",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.017,0.007,4.67,712,97.5,FALSE,574,99.33,FALSE
+559423296,18,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.639,-0.464,4.17,1284,98.33,FALSE,732,95.33,FALSE
+560438464,35,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.413,-0.351,5,862,88.33,FALSE,632,95.33,FALSE
+562843065,49,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.556,0.227,2.17,828,95.83,FALSE,647,96.64,FALSE
+566541458,37,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.889,0.026,3,756,89.17,FALSE,587,92.67,FALSE
+569894552,37,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.293,0.323,6,761,95.83,FALSE,632,93.33,FALSE
+572302195,40,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.028,0.273,4,744,99.17,FALSE,637,99.33,FALSE
+576163515,28,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.027,0.424,5.67,239,46.55,TRUE,572,55.1,TRUE
+577237976,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.2,-0.541,4.67,1512,72.27,FALSE,748,94,FALSE
+579117109,31,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.374,-0.2,4,575,87.5,FALSE,493,90.67,FALSE
+579550038,59,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.146,0.28,4.33,1024,96.67,FALSE,757,99.33,FALSE
+585098696,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.802,0.242,4,729,95.83,FALSE,701,98,FALSE
+590564661,24,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.191,0.063,5,665,87.5,FALSE,547,90.67,FALSE
+591363746,28,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.049,-0.353,3,794,90,FALSE,632,95.33,FALSE
+592690364,42,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.618,-0.461,4,727,89.17,FALSE,620,84,FALSE
+601463788,20,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.491,-0.097,5,721,98.33,FALSE,667,97.33,FALSE
+606528807,30,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.54,-0.369,3.17,845,70,FALSE,680,85.33,FALSE
+607435816,35,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.123,0.162,4.67,871,70.83,FALSE,686,95.33,FALSE
+613422227,40,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.361,0.24,4,1130,95,FALSE,712,100,FALSE
+614151680,24,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.404,0.111,3.83,1309,81.67,FALSE,713,92.67,FALSE
+615552867,48,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.322,0.289,4.67,767,98.33,FALSE,632,98,FALSE
+615871982,61,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.032,0.15,4,999,98.33,FALSE,828,99.33,FALSE
+616685045,23,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.912,0.04,4.67,898,94.17,FALSE,596,93.33,FALSE
+618528746,33,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.5,0.366,4,1114,95.83,FALSE,1067,99.33,FALSE
+621239048,29,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.539,0.377,4.5,611,95,FALSE,512,96,FALSE
+623681703,40,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.684,-0.165,3.83,599,77.5,FALSE,469,85.33,FALSE
+624404002,24,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.298,-0.579,4,827,94.17,FALSE,692,96,FALSE
+626216047,60,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.362,-0.19,5.17,1009,92.5,FALSE,757,97.33,FALSE
+630736384,37,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.032,0.458,6,875,70.83,FALSE,677,94,FALSE
+632942550,26,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.119,0.659,4.17,591,94.17,FALSE,500,98,FALSE
+633449752,47,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.677,0.134,5.67,1268,80,FALSE,869,94.67,FALSE
+635301861,27,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.262,0.258,4.5,787,98.33,FALSE,602,96,FALSE
+636567037,41,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.041,0.108,3,809,95.83,FALSE,704,97.33,FALSE
+642048723,29,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.162,-0.428,3.67,660,64.17,FALSE,556,95.33,FALSE
+644389278,35,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.431,0.074,5,666,91.67,FALSE,631,89.33,FALSE
+644663377,22,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.279,-0.062,4,688,97.5,FALSE,612,97.33,FALSE
+644806296,44,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.046,-0.261,4.67,779,75,FALSE,559,94,FALSE
+647628510,26,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.657,0.731,6,780,87.5,FALSE,743,92.67,FALSE
+660516044,41,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.072,-0.164,3.67,855,85,FALSE,745,95.33,FALSE
+662274011,37,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.305,-0.613,4.67,313,57.14,TRUE,222,57.33,TRUE
+669407335,26,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.568,-0.155,3.5,839,89.17,FALSE,621,96,FALSE
+669618107,46,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.287,0.575,5.17,931,61.67,FALSE,812,88.67,FALSE
+670498938,22,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.958,-0.336,2,1033,90,FALSE,745,86,FALSE
+671504088,36,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-1.128,0.829,5,593,100,FALSE,540,100,FALSE
+674109081,27,"male",TRUE,"Flowers-Chinese IAT","opposite valenced attributes",-0.137,0.516,4.5,161,51.67,TRUE,220,42,TRUE
+677285459,27,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.018,-0.467,4,686,95.83,FALSE,581,95.33,FALSE
+679857375,19,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.741,-0.271,3.83,828,98.33,FALSE,759,91.28,FALSE
+684833203,35,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.552,0.063,4,1140,96.67,FALSE,1071,99.33,FALSE
+685471739,41,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.342,0.158,5.5,644,92.5,FALSE,580,96.67,FALSE
+688979720,27,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.235,0.182,4.17,732,95,FALSE,662,89.33,FALSE
+689516286,34,"male",TRUE,"Insects-Chinese IAT","opposite valenced attributes",-0.033,-0.107,4,165,53.33,TRUE,132,48.67,TRUE
+691309025,50,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.212,-0.067,4,644,98.33,FALSE,533,98.67,FALSE
+691717545,34,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.03,-0.114,5,685,93.33,FALSE,830,92.67,FALSE
+691942012,20,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.57,0.417,2.83,713,85.83,FALSE,563,87.33,FALSE
+694460612,53,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.989,-0.192,4.5,1021,95.83,FALSE,879,97.33,FALSE
+694480330,20,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.491,0.536,4.5,531,97.5,FALSE,519,90,FALSE
+694609859,40,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.964,0.505,3.17,704,94.17,FALSE,655,96.67,FALSE
+695578636,37,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.182,0.063,4.17,781,96.67,FALSE,659,97.33,FALSE
+700234249,50,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.884,-0.127,5,841,99.17,FALSE,666,99.33,FALSE
+701937599,25,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.389,-0.255,5.33,664,91.67,FALSE,587,91.33,FALSE
+702058078,35,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.112,0.211,5.33,690,99.17,FALSE,607,99.33,FALSE
+703155621,54,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.79,-0.171,4.17,681,99.17,FALSE,653,99.33,FALSE
+704590604,32,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.497,-0.363,4,1076,99.17,FALSE,824,99.33,FALSE
+706798925,21,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.007,-0.352,3.67,706,95,FALSE,590,92.67,FALSE
+707571635,32,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.166,-0.134,3.5,611,91.67,FALSE,564,88,FALSE
+707964807,40,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.317,0.427,4.67,700,94.17,FALSE,761,93.33,FALSE
+708178987,28,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.8,-0.151,5,1161,96.67,FALSE,890,94.67,FALSE
+709582116,25,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.534,-0.415,3.5,744,93.33,FALSE,683,92.67,FALSE
+714822016,31,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.8,0.235,4,726,99.17,FALSE,788,100,FALSE
+715033986,61,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.587,-0.236,4.33,951,94.17,FALSE,773,97.33,FALSE
+715419738,39,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.205,0.004,4,643,97.5,FALSE,593,94,FALSE
+716064326,28,"male",TRUE,"Insects-Chinese IAT","opposite valenced attributes",-0.242,0.147,7,484,58.77,TRUE,413,49.33,TRUE
+718005884,40,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.102,0.273,5.83,1011,68.33,FALSE,890,89.33,FALSE
+721042769,39,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.644,-0.568,4.33,809,94.17,FALSE,658,97.33,FALSE
+724597967,23,"male",TRUE,"Insects-Chinese IAT","nonword attributes",0.126,-0.12,4,584,74.17,FALSE,552,67.33,TRUE
+725425384,24,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.413,-0.043,4,571,84.17,FALSE,499,93.33,FALSE
+725468450,52,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.544,-0.07,4.83,745,96.67,FALSE,706,99.33,FALSE
+725877605,40,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.165,0.029,4,818,95,FALSE,612,100,FALSE
+727239248,30,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.06,0.101,5,629,92.5,FALSE,596,93.33,FALSE
+728814047,20,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.417,0.46,3,914,94.17,FALSE,773,96.67,FALSE
+729902005,59,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.612,-0.085,5,852,94.17,FALSE,783,98.67,FALSE
+730428237,20,"transman",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.101,0.167,4,755,92.5,FALSE,656,96,FALSE
+730554816,50,"male",FALSE,"Insects-Chinese IAT","nonword attributes",1.058,-0.131,4,1021,99.17,FALSE,802,100,FALSE
+734488070,46,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.329,-0.175,4.17,790,94.17,FALSE,662,88,FALSE
+735126513,18,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.947,-0.235,4,907,81.67,FALSE,700,89.33,FALSE
+742786880,55,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.78,0.188,4.17,844,94.17,FALSE,704,97.33,FALSE
+745096864,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.335,0.175,2.83,613,85,FALSE,538,90.67,FALSE
+746058549,32,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.684,0.229,3.83,682,91.67,FALSE,576,90,FALSE
+749044991,36,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.379,0.376,4,816,95,FALSE,709,98,FALSE
+752563947,48,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.385,0.265,4.5,793,96.67,FALSE,566,98,FALSE
+753700650,30,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.647,0.379,2.67,698,81.67,FALSE,594,85.33,FALSE
+754734528,29,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.536,-0.401,4.17,810,98.33,FALSE,701,93.33,FALSE
+756891267,22,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",0.126,0.287,4,780,97.5,FALSE,568,90,FALSE
+757846188,37,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.302,-0.251,4.17,782,91.67,FALSE,658,98,FALSE
+760275033,26,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.07,-0.126,3.67,632,97.5,FALSE,540,95.33,FALSE
+762374169,28,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.044,0.153,5.17,797,80.83,FALSE,679,90,FALSE
+763772299,47,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.028,0.082,3.83,797,86.67,FALSE,739,91.33,FALSE
+767108610,18,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.63,0.115,4.33,591,81.67,FALSE,708,79.33,FALSE
+767894022,30,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.416,0.153,4.5,697,87.5,FALSE,546,92,FALSE
+768274064,31,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.481,0.117,4.5,1198,95,FALSE,1052,98,FALSE
+774756519,24,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.061,0.019,4.33,886,100,FALSE,613,98,FALSE
+783363592,38,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.815,-0.227,5.33,815,96.67,FALSE,690,100,FALSE
+785188201,43,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.033,0.07,5,874,96.67,FALSE,761,98.67,FALSE
+788155268,24,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.951,-0.066,4,645,94.17,FALSE,491,96.67,FALSE
+788685024,27,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.681,0.16,4,715,96.67,FALSE,644,96,FALSE
+797617799,23,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.038,-0.504,4,793,86.67,FALSE,569,95.33,FALSE
+801768472,19,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.188,0.167,5,691,95.83,FALSE,626,98.67,FALSE
+806734465,32,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.513,0.052,4,765,100,FALSE,663,98.67,FALSE
+811742708,50,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.229,-0.021,4.5,846,96.67,FALSE,821,95.33,FALSE
+812131722,39,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.852,-0.142,4.17,631,89.17,FALSE,522,88.67,FALSE
+814662917,19,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.336,0.215,4.83,641,93.33,FALSE,651,85.91,FALSE
+819728517,23,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.238,-0.129,4,701,76.67,FALSE,610,77.33,FALSE
+823457465,36,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.155,0.22,4,759,96.67,FALSE,584,98,FALSE
+825996593,44,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.643,0.033,7,728,97.5,FALSE,616,96.67,FALSE
+826046241,38,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.921,-0.55,4.83,807,97.5,FALSE,699,97.99,FALSE
+828773961,22,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.097,-0.26,3.83,631,92.5,FALSE,569,86.67,FALSE
+830127504,32,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.31,0.139,4.17,670,97.5,FALSE,708,97.33,FALSE
+835904856,38,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.535,0,4.17,1099,83.33,FALSE,660,96,FALSE
+845346530,36,"male",TRUE,"Flowers-Chinese IAT","opposite valenced attributes",-0.05,0.492,3.83,640,70,TRUE,457,72.67,TRUE
+845682168,35,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.006,-0.01,4.33,704,85.83,FALSE,530,98,FALSE
+849446379,35,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.351,-0.397,4,628,94.17,FALSE,660,93.33,FALSE
+850106527,22,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.092,0.338,4,764,90.83,FALSE,670,94,FALSE
+857074387,46,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.483,0.096,5.5,819,100,FALSE,782,98.67,FALSE
+858621994,33,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.534,0.108,4,630,98.33,FALSE,569,97.33,FALSE
+858855465,30,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.924,0.146,4,706,91.67,FALSE,660,95.33,FALSE
+859520229,45,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.522,0.092,4.17,671,89.17,FALSE,659,87.33,FALSE
+861410275,22,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.393,0.099,3.5,599,95.83,FALSE,555,94,FALSE
+863032613,23,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.465,-0.297,4.17,718,87.5,FALSE,656,89.33,FALSE
+867053422,44,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.54,0.113,5.33,689,95.83,FALSE,616,95.33,FALSE
+872986227,27,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.612,0.662,3.83,225,50,TRUE,202,47.33,TRUE
+876577056,18,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.43,0.774,4,738,86.67,FALSE,690,86,FALSE
+879961653,34,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.201,-0.264,4,590,100,FALSE,552,98.67,FALSE
+886253285,50,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.553,0.237,4,878,94.07,FALSE,552,96.67,FALSE
+890476473,38,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.786,0.373,6,692,94.17,FALSE,673,98,FALSE
+892544151,34,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.207,0.013,4.17,546,88.33,FALSE,543,92.67,FALSE
+892731811,19,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-1.185,-0.003,4.33,792,86.67,FALSE,594,89.33,FALSE
+892976592,19,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.718,0.369,4.83,747,89.17,FALSE,647,88,FALSE
+895312272,29,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.295,0.199,4,597,90.83,FALSE,610,93.33,FALSE
+897527546,29,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.031,-0.122,3.5,699,94.17,FALSE,579,92,FALSE
+897821012,47,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.709,-0.22,4.5,774,70.83,FALSE,750,90,FALSE
+903479872,29,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.08,0.064,4.17,790,67.5,FALSE,769,96,FALSE
+903901200,29,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.87,-0.12,3.67,863,85,FALSE,706,94,FALSE
+903926114,25,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.378,-0.45,4,798,91.67,FALSE,636,96.67,FALSE
+907740815,45,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.02,0,4,949,94.17,FALSE,855,99.33,FALSE
+910277024,35,"female",TRUE,"Insects-Chinese IAT","nonword attributes",0.117,0.049,4,787,51.67,TRUE,624,92.67,FALSE
+911206753,38,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.25,0.424,4.17,884,98.33,FALSE,619,94,FALSE
+913432431,23,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.072,-0.207,4,822,61.67,FALSE,706,86.67,FALSE
+914713505,42,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.718,-0.507,4.67,672,99.17,FALSE,571,100,FALSE
+915667729,21,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.247,0.163,4.17,653,94.17,FALSE,576,95.33,FALSE
+918057199,18,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.194,0.126,2,1043,71.67,FALSE,704,96.67,FALSE
+925748901,33,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.194,-0.038,4.33,933,95.83,FALSE,692,96,FALSE
+927839463,36,"female",FALSE,"Insects-Chinese IAT","nonword attributes",-0.139,-0.262,4.33,679,95,FALSE,592,96,FALSE
+933011081,50,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.644,-0.329,4,832,97.5,FALSE,697,98,FALSE
+933100441,57,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-1.082,-0.441,4.5,949,94.17,FALSE,717,96.67,FALSE
+935950781,22,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.197,0.288,4,691,93.33,FALSE,630,94,FALSE
+940335659,59,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.249,0.283,4,1186,69.17,FALSE,870,98,FALSE
+941074849,45,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.942,0.261,4.83,877,85.83,FALSE,716,93.33,FALSE
+942989520,50,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.36,0.444,6,1064,72.5,FALSE,1364,96.67,FALSE
+943062126,37,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.184,0.202,5,870,95.83,FALSE,642,96.67,FALSE
+947115539,21,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.434,-0.073,6,1088,57.5,FALSE,999,66.44,FALSE
+947274843,27,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.111,-0.138,5,871,97.5,FALSE,590,100,FALSE
+956597138,35,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.392,0.149,4,789,98.33,FALSE,680,94.67,FALSE
+960674901,57,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",0.094,-0.094,4,676,97.5,FALSE,589,99.33,FALSE
+962222324,23,"male",FALSE,"Flowers-Chinese IAT","nonword attributes",-0.48,0.011,4,994,92.5,FALSE,712,92,FALSE
+964145769,23,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.623,0.292,4.33,800,91.67,FALSE,580,91.33,FALSE
+968383172,38,"female",TRUE,"Flowers-Chinese IAT","nonword attributes",0.397,-0.197,4,605,55,TRUE,514,85.33,FALSE
+970567617,20,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.387,0.075,4,1096,83.33,FALSE,996,81.51,FALSE
+976870162,24,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.782,-0.229,5.33,884,95,FALSE,651,96,FALSE
+981672165,28,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.142,-0.101,4,670,95,FALSE,506,94.67,FALSE
+982308911,37,"male",FALSE,"Insects-Chinese IAT","nonword attributes",-0.222,0.02,4.33,774,90,FALSE,660,95.33,FALSE
+983000425,45,"female",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",-0.098,-0.215,4,807,100,FALSE,654,99.33,FALSE
+984063085,38,"male",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.024,0.072,5.67,951,100,FALSE,698,99.33,FALSE
+985488087,40,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.631,0.359,4,801,74.17,FALSE,988,96.6,FALSE
+987688795,53,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.452,0.352,3.83,770,92.5,FALSE,670,94.67,FALSE
+990438619,29,"male",TRUE,"Flowers-Chinese IAT","nonword attributes",-0.044,0.555,3,141,40.83,TRUE,248,50,TRUE
+990739910,35,"female",FALSE,"Insects-Chinese IAT","opposite valenced attributes",-0.23,-0.022,4.33,730,95,FALSE,598,96.67,FALSE
+991330272,39,"female",FALSE,"Insects-Chinese IAT","nonword attributes",1.347,-0.289,4.67,723,98.33,FALSE,566,96,FALSE
+991516739,30,"female",FALSE,"Flowers-Chinese IAT","nonword attributes",0.612,-0.192,5.17,728,97.5,FALSE,556,99.33,FALSE
+992606616,64,"female",FALSE,"Insects-Chinese IAT","nonword attributes",0.303,0.068,6,703,96.67,FALSE,643,98.67,FALSE
+995832184,19,"male",FALSE,"Insects-Chinese IAT","nonword attributes",0.824,0.161,4,705,89.17,FALSE,545,93.33,FALSE
+997363066,19,"male",FALSE,"Flowers-Chinese IAT","opposite valenced attributes",0.311,-0.195,6,1001,74.17,FALSE,714,89.33,FALSE

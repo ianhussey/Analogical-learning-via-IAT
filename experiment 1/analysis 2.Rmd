@@ -1,0 +1,48 @@
+---
+title: "Analogical evaluative learning"
+author: "Ian Hussey"
+output:
+  html_document:
+    code_folding: hide
+    highlight: haddock
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r, echo=FALSE, fig.height=2, fig.width=2, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(psych)
+library(effsize)
+library(lsr)  # for eta sq
+library(MBESS)  # for ci.pvaf(), 95% CI on eta2
+library(plotrix)
+
+data_df <- read.csv("data/processed/processed data.csv")
+
+# t test
+t.test(ratings_change_scores ~ condition, 
+       data = data_df, alternative = "less")  
+
+# effect size
+cohen.d(ratings_change_scores ~ condition, 
+        data = data_df)
+
+# descriptives stats
+ratings_summary_data <-
+  data_df %>%
+  group_by(condition) %>%
+  dplyr::summarize(mean_ratings_diff = round(mean(ratings_change_scores), 2),
+                   sd_ratings_diff = round(sd(ratings_change_scores), 2),
+                   se_ratings_diff = round(std.error(ratings_change_scores), 2))
+
+ggplot(data = ratings_summary_data,
+       aes(x = condition, y = mean_ratings_diff)) +
+  geom_pointrange(aes(ymax = mean_ratings_diff + (1.96*se_ratings_diff),
+                      ymin = mean_ratings_diff + (-1.96*se_ratings_diff))) +
+  ylab("Ratings difference") +
+  xlab("Condition") +
+  #coord_cartesian(ylim = c(-.75,.75)) +
+  scale_colour_grey() +
+  theme_classic() 
+```

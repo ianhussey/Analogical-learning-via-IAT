@@ -1,0 +1,413 @@
+---
+title: "Establishing atttiudes towards novel stimuli via the IAT"
+subtitle: "Experiment 4"
+author: "Ian Hussey^[Ghent University. Email: ian.hussey@ugent.be]"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    code_folding: hide
+    highlight: haddock
+    number_sections: yes
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+# dependencies
+library(tidyverse)
+library(psych)
+library(effects)
+library(knitr)
+library(sjPlot)
+library(effsize)
+library(lsr)
+library(car)
+library(plotrix)  # for std.error
+library(gridExtra)
+
+# rounds all numerics in a df
+round_df <- function(df, digits) {
+  nums <- vapply(df, is.numeric, FUN.VALUE = logical(1))
+  df[,nums] <- round(df[,nums], digits = digits)
+  (df)
+}
+```
+
+# Descriptive statistics
+
+## Full sample
+
+### Age
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+# get data
+data_df <- 
+  read.csv("data/processed/processed data.csv") %>%
+  dplyr::mutate(gender = as.factor(gsub("[[:space:]]", "", gender)))
+
+# one missing value found - need to explore why
+data_df <- na.omit(data_df)
+
+#colnames(data_df)
+
+data_df %>% 
+  dplyr::select(age) %>%
+  psych::describe(fast = TRUE,  # subset of descriptive stats
+                  ranges = FALSE,
+                  trim = 0) %>%
+  dplyr::select(-vars, -se) %>%
+  kable()
+```
+
+### Gender
+
+```{r, message=FALSE, warning=FALSE, echo = FALSE}
+data_df %>% 
+  dplyr::count(gender) %>%
+  kable()
+```
+
+## Analytic sample
+
+I.e., after applying inclusion/exclusion criteria.
+
+### Conditions
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+passers_df <- 
+  data_df %>%
+  filter(exclude == FALSE) %>%
+  mutate(condition = as.factor(IAT_condition),
+         rmts_mastery = as.factor(rmts_mastery))
+
+passers_df %>% 
+  dplyr::count(IAT_condition) %>%
+  kable()
+
+passers_df %>% 
+  dplyr::count(rmts_mastery) %>%
+  kable()
+
+passers_df %>% 
+  dplyr::count(interaction(IAT_condition, rmts_mastery)) %>%
+  kable()
+```
+
+### Performance on the IAT and SC-IAT
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+passers_df %>% 
+  dplyr::select(IAT_mean_RT,
+                IAT_perc_acc,
+                SCIAT_mean_RT,
+                SCIAT_perc_acc) %>%
+  psych::describe(fast = TRUE,  # subset of descriptive stats
+                  ranges = FALSE,
+                  trim = 0) %>%
+  dplyr::select(-vars, -se) %>%
+  dplyr::mutate(mean = round(mean, 2),
+         sd = round(sd, 2)) %>%
+  kable()
+```
+
+# H1: Differences in SCIAT effects between IAT conditions
+
+SCIAT effects differ between the IAT conditions, where the Chinese characters acquire the opposite valence to the images they were contrasted with in the IAT. This replicates the basic effect found in previous experiments (i.e., evaluative learning via the IAT).
+
+## Hypothesis test
+
+```{r, message=FALSE, warning=FALSE}
+attach(passers_df)
+
+t.test(formula = SCIAT_D1 ~ IAT_condition,
+       alternative = "two.sided",
+       paired = FALSE)
+
+cohen.d(SCIAT_D1 ~ IAT_condition,
+        paired = FALSE)
+```
+
+Positive *D*1 scores refer to more positive evaluations of the Chinese characters.
+
+# H2: SCIAT effects predicted by the interaction between IAT condition and passing the RMTS
+
+The effect described in H1 is driven by a subgroup of individuals that can analogically relate the stimuli.
+
+## Hypothesis test
+
+Hypothesis refers to the interaction effect.
+
+```{r, message=FALSE, warning=FALSE}
+model_2 <- lm(SCIAT_D1 ~ IAT_condition * rmts_mastery,
+              contrasts = list(IAT_condition = "contr.sum", rmts_mastery = "contr.sum"),
+              data = passers_df)
+
+# anova summary
+Anova(model_2, type = 3)
+
+# partial eta squared
+model_2 %>%
+  etaSquared() %>%
+  as.data.frame() %>%
+  round_df(3)
+```
+
+## Effects table
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+sjt.lm(model_2, 
+       emph.p = FALSE, 
+       show.std = TRUE)
+```
+
+## Effects plot
+
+```{r, message=FALSE, fig.height=5, fig.width=7, warning=FALSE, echo=FALSE}
+sjp.lm(model_2, 
+       type = "fe")
+```
+
+## Greyscale inference plot
+
+```{r, cache = TRUE, fig.height=5, fig.width=7}
+SCIAT_summary_data <- passers_df %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_SCIAT_D1 = round(mean(SCIAT_D1), 3),
+                   se_SCIAT_D1 = round(std.error(SCIAT_D1), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+ggplot(data = SCIAT_summary_data,
+       aes(x = rmts_mastery, y = mean_SCIAT_D1, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_SCIAT_D1 + (1.96*se_SCIAT_D1),
+                    ymin = mean_SCIAT_D1 + (-1.96*se_SCIAT_D1)),
+                position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("SCIAT D1") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() 
+```
+
+# Exploratory test 1: H2 is moderated by task order
+
+It is possible that the rmts provided a training context as well as a testing context. The task order might therefore influence the results. This test has been included as a post hoc exploratory test. However, the N per cell is very low, and results should be interpreted with much caution.  
+
+Hypothesis refers to the interaction effect.
+
+```{r, message=FALSE, warning=FALSE}
+e_model_1 <- lm(SCIAT_D1 ~ IAT_condition * rmts_mastery * task_order,
+              contrasts = list(IAT_condition = "contr.sum", 
+                               rmts_mastery = "contr.sum", 
+                               task_order = "contr.sum"),
+              data = passers_df)
+
+# anova summary
+Anova(e_model_1, type = 3)
+
+# partial eta squared
+e_model_1 %>%
+  etaSquared() %>%
+  as.data.frame() %>%
+  round_df(3)
+```
+
+```{r, cache = TRUE, fig.height=3, fig.width=7}
+rmts_first_group <- passers_df %>%
+  filter(task_order == "rmts first") %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_SCIAT_D1 = round(mean(SCIAT_D1), 3),
+                   se_SCIAT_D1 = round(std.error(SCIAT_D1), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+p1 <- 
+  ggplot(data = rmts_first_group,
+       aes(x = rmts_mastery, y = mean_SCIAT_D1, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_SCIAT_D1 + (1.96*se_SCIAT_D1),
+                    ymin = mean_SCIAT_D1 + (-1.96*se_SCIAT_D1)),
+                position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("SCIAT D1") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() +
+  coord_cartesian(ylim = c(-.6, .5)) + 
+  theme(legend.position = "none")
+
+rmts_second_group <- passers_df %>%
+  filter(task_order == "evaluation tasks first") %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_SCIAT_D1 = round(mean(SCIAT_D1), 3),
+                   se_SCIAT_D1 = round(std.error(SCIAT_D1), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+p2 <- 
+  ggplot(data = rmts_second_group,
+       aes(x = rmts_mastery, y = mean_SCIAT_D1, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_SCIAT_D1 + (1.96*se_SCIAT_D1),
+                    ymin = mean_SCIAT_D1 + (-1.96*se_SCIAT_D1)),
+                position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("SCIAT D1") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() +
+  coord_cartesian(ylim = c(-.6, .5)) + 
+  theme(legend.position = c(.2, .9))
+
+grid.arrange(p1, p2, ncol = 2)
+```
+
+# H3: Differences in ratings between IAT conditions
+
+Ratings differ between the IAT conditions, where the Chinese characters acquire the opposite valence to the images they were contrasted with in the IAT. This replicates the basic effect found in previous experiments (i.e., evaluative learning via the IAT).
+
+## Hypothesis test
+
+```{r, message=FALSE, warning=FALSE}
+t.test(formula = mean_rating ~ IAT_condition,
+       alternative = "two.sided",
+       paired = FALSE)
+
+cohen.d(mean_rating ~ IAT_condition,
+        paired = FALSE)
+```
+
+Positive ratings refer to more positive evaluations of the Chinese characters.
+
+# H4: Ratings predicted by the interaction between IAT condition and passing the RMTS
+
+The effect described in H3 is driven by a subgroup of individuals that can analogically relate the stimuli.
+
+## Hypothesis test
+
+Hypothesis refers to the interaction effect.
+
+```{r, message=FALSE, warning=FALSE}
+model_4 <- lm(mean_rating ~ IAT_condition * rmts_mastery,
+              contrasts = list(IAT_condition = "contr.sum", rmts_mastery = "contr.sum"),
+              data = passers_df)
+
+# anova summary
+Anova(model_4, type = 3)
+
+# partial eta squared
+model_4 %>%
+  etaSquared() %>%
+  as.data.frame() %>%
+  round_df(3)
+```
+
+## Effects table
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+sjt.lm(model_4, 
+       emph.p = FALSE, 
+       show.std = TRUE)
+```
+
+## Effects plot
+
+```{r, message=FALSE, fig.height=5, fig.width=7, warning=FALSE, echo=FALSE}
+sjp.lm(model_4, 
+       type = "fe")
+```
+
+## Greyscale inference plot
+
+```{r, cache = TRUE, fig.height=5, fig.width=7}
+ratings_summary_data <- passers_df %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_mean_rating = round(mean(mean_rating), 3),
+                   se_mean_rating = round(std.error(mean_rating), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+ggplot(data = ratings_summary_data,
+       aes(x = rmts_mastery, y = mean_mean_rating, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_mean_rating + (1.96*se_mean_rating),
+                      ymin = mean_mean_rating + (-1.96*se_mean_rating)),
+                  position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("Mean ratings") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() 
+```
+
+# Exploratory test 2: H4 is moderated by task order
+
+It is possible that the rmts provided a training context as well as a testing context. The task order might therefore influence the results. This test has been included as a post hoc exploratory test. However, the N per cell is very low, and results should be interpreted with much caution.  
+
+Hypothesis refers to the interaction effect.
+
+```{r, message=FALSE, warning=FALSE}
+e_model_2 <- lm(mean_rating ~ IAT_condition * rmts_mastery * task_order,
+              contrasts = list(IAT_condition = "contr.sum", 
+                               rmts_mastery = "contr.sum", 
+                               task_order = "contr.sum"),
+              data = passers_df)
+
+# anova summary
+Anova(e_model_2, type = 3)
+
+# partial eta squared
+e_model_2 %>%
+  etaSquared() %>%
+  as.data.frame() %>%
+  round_df(3) %>%
+  kable()
+```
+
+## Greyscale inference plot
+
+```{r, cache = TRUE, fig.height=3, fig.width=7}
+rmts_first_group_ratings <- passers_df %>%
+  filter(task_order == "rmts first") %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_mean_rating = round(mean(mean_rating), 3),
+                   se_mean_rating = round(std.error(mean_rating), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+p3 <- 
+  ggplot(data = rmts_first_group_ratings,
+       aes(x = rmts_mastery, y = mean_mean_rating, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_mean_rating + (1.96*se_mean_rating),
+                    ymin = mean_mean_rating + (-1.96*se_mean_rating)),
+                position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("Mean rating") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() +
+  coord_cartesian(ylim = c(2, 7)) +
+  theme(legend.position="none")
+
+rmts_second_group_ratings <- passers_df %>%
+  filter(task_order == "evaluation tasks first") %>%
+  group_by(IAT_condition, rmts_mastery) %>%
+  dplyr::summarize(mean_mean_rating = round(mean(mean_rating), 3),
+                   se_mean_rating = round(std.error(mean_rating), 3)) %>%
+  dplyr::rename(`IAT condition` = IAT_condition)
+
+p4 <- 
+  ggplot(data = rmts_second_group_ratings,
+       aes(x = rmts_mastery, y = mean_mean_rating, colour = `IAT condition`)) +
+  geom_pointrange(aes(ymax = mean_mean_rating + (1.96*se_mean_rating),
+                    ymin = mean_mean_rating + (-1.96*se_mean_rating)),
+                position = position_dodge(width = .1)) +
+  # geom_line(aes(group = `IAT condition`),
+  #           position = position_dodge(width = .1)) +
+  ylab("Mean rating") +
+  xlab("RMTS") +
+  scale_colour_grey() +
+  theme_classic() +
+  coord_cartesian(ylim = c(2, 7)) + 
+  theme(legend.position = c(.2, .9))
+
+grid.arrange(p3, p4, ncol = 2)
+```
