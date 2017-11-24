@@ -1,4 +1,4 @@
-# The IAT as an analogical learning task III - novel attitudes towards known stimuli  
+# The IAT as an analogical learning task I - novel attitudes towards known stimuli  
 
 ## Experiment 3: the analogical nature of the effect 
 
