@@ -1,0 +1,974 @@
+---
+title: "Establishing atttiudes towards novel stimuli via the IAT"
+subtitle: "Experiment 3"
+author: "Ian Hussey^[Ghent University. Email: ian.hussey@ugent.be]"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output:
+  html_document:
+    code_folding: hide
+    highlight: haddock
+    number_sections: no
+    theme: flatly
+    toc: yes
+    toc_float: yes
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE,
+                      cache.lazy = FALSE)
+```
+
+```{r}
+
+# set seed
+set.seed(42)
+
+# options
+options(knitr.table.format = "html")  # comment out if knitting to pdf
+
+# dependencies
+library(tidyverse)
+library(psych)
+library(knitr)
+library(kableExtra)
+library(sjPlot)
+library(plotrix)  # for std.error
+library(lme4)
+library(brms)
+library(parallel)
+library(sjstats)
+library(schoRsch)
+
+# rounds all numerics in a df
+round_df <- function(df, digits) {
+  nums <- vapply(df, is.numeric, FUN.VALUE = logical(1))
+  df[,nums] <- round(df[,nums], digits = digits)
+  (df)
+}
+
+```
+
+# Outlier removal
+
+RTs <300 ms trimmed. Reciprocal transformation applied. Outliers defined as > 2.5 SD from mean and excluded.
+
+```{r}
+
+# exclude participants who had more than 10% of trials in less than 300ms, and make variables factors
+SCIAT_data <- 
+  read.csv("data/processed/processed data - sciat rt data.csv") %>%
+  dplyr::rename(SCIAT_block = task) %>%
+  dplyr::mutate(participant = as.factor(participant),
+                SCIAT_block = as.factor(ifelse(SCIAT_block == "compatibletest_sciat", "Chinese negative", 
+                                               ifelse(SCIAT_block == "incompatibletest_sciat", "Chinese positive",
+                                                      NA))),
+                attribute_condition = as.factor(attribute_condition),
+                IAT_condition = as.factor(ifelse(IAT_condition == as.character("Flowers-Chinese IAT"),
+                                                 "Flowers",
+                                                 ifelse(IAT_condition == as.character("Insects-Chinese IAT"), 
+                                                        "Insects", NA)))) %>%
+  filter(exclude == FALSE) %>%
+  mutate(recip_rt = ifelse(rt >= 300, 1000/rt, NA)) %>%  # trim rts < 300, recip transform to presses per second
+  schoRsch::outlier(dv = "recip_rt",  # trim >2.5 SD from mean
+                    todo = "elim",
+                    upper.z = 2.5,
+                    lower.z = -2.5) %>%
+  select(-outlier, -zscores)
+
+#sapply(SCIAT_data, class)
+
+SCIAT_data %>%
+  group_by(SCIAT_block, attribute_condition, IAT_condition) %>%
+  summarize(mean_recip_rt = mean(recip_rt),
+            sd_recip_rt = sd(recip_rt)) %>%
+  ggplot(aes(x = mean_recip_rt, y = SCIAT_block, color = IAT_condition, group = IAT_condition)) + 
+  coord_flip() +
+  geom_line() +
+  geom_point() +
+  theme_classic() +
+  facet_wrap(~ attribute_condition)
+
+```
+
+# Evaluative learning effect on the SC-IAT is weakened when the analogy within the IAT is undermined (less conservative model)
+
+## Frequentist
+
+### Mixed effects model on RTs
+
+- Hypothesis refers to the IAT_condition \* SCIAT_block \* attribute_condition interaction effect.
+- Confidence intervals via Wald estimation.
+
+```{r}
+
+# scale and centre data
+standarized_data <- SCIAT_data %>%
+  mutate(std_recip_rt = round(as.numeric(scale(recip_rt)), 3))
+
+fit_frequentist <- lmer(std_recip_rt ~ SCIAT_block * IAT_condition * attribute_condition + (1 | participant),
+                        contrasts = list(SCIAT_block = "contr.sum", 
+                                         IAT_condition = "contr.sum", 
+                                         attribute_condition = "contr.sum"),  
+                        data = standarized_data)
+
+```
+
+```{r}
+
+sjp.lmer(fit_frequentist, 
+         p.kr = FALSE,
+         y.offset = 0.4,
+         digits = 4,
+         type = "fe")
+
+sjt.lmer(fit_frequentist,
+         digits.est = 3,
+         digits.ci = 3,
+         p.kr = FALSE)
+
+```
+
+## Bayesian
+
+### Mixed effects model on RTs
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data.
+
+```{r fig.height=4, fig.width=10}
+
+# model
+
+# scale and centre data
+standarized_data <- SCIAT_data %>%
+  mutate(std_recip_rt = round(as.numeric(scale(recip_rt)), 3))
+
+# model formulaa
+model_formula <- std_recip_rt ~ SCIAT_block * IAT_condition * attribute_condition + (1 | participant)
+model_family  <- gaussian(link = "identity")
+
+# prior
+get_prior(model_formula,
+          family = model_family,
+          data   = standarized_data)
+
+prior <- c(set_prior("normal(0, 1)"))
+
+
+## NB model takes 90+ minutes on a decent workstation
+# # fit model
+# fit_mixed <- brm(formula      = model_formula,
+#                  data         = standarized_data,
+#                  family       = model_family,
+#                  prior        = prior,
+#                  iter         = 10000,
+#                  chains       = 4,
+#                  control      = list(adapt_delta = 0.99),
+#                  sample_prior = TRUE,  # to calculate BF
+#                  cores        = detectCores())
+# 
+# save(fit_mixed, file = "fit_mixed.RData")
+load(file = "fit_mixed.RData")
+
+
+# checks
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_mixed, nsamples = 10) 
+
+# plot(fit_mixed, ask = FALSE)
+
+# plot(marginal_effects(fit_mixed), points = TRUE, ask = FALSE)
+
+
+# results
+
+ROPE_data <- rope(fit_mixed, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_mixed)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_mixed %>% 
+  hypothesis(hypothesis = "SCIAT_blockChinesepositive:IAT_conditionInsects:attribute_conditionoppositevalencedattributes = 0", 
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-.1, .25)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H1$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H1$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H1$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+#### Wider prior
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data.
+
+```{r fig.height=4, fig.width=10}
+
+prior <- c(set_prior("normal(0, 1.5)"))
+
+## NB model takes 90+ minutes on a decent workstation
+# fit model
+# fit_mixed_wider <- brm(formula      = model_formula,
+#                        data         = standarized_data,
+#                        family       = model_family,
+#                        prior        = prior,
+#                        iter         = 10000,
+#                        chains       = 4,
+#                        control      = list(adapt_delta = 0.99),
+#                        sample_prior = TRUE,  # to calculate BF
+#                        cores        = detectCores())
+# 
+# save(fit_mixed_wider, file = "fit_mixed_wider.RData")
+load(file = "fit_mixed_wider.RData")
+
+
+# checks
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_mixed_wider, nsamples = 10) 
+
+# plot(fit_mixed_wider, ask = FALSE)
+
+# plot(marginal_effects(fit_mixed_wider), points = TRUE, ask = FALSE)
+
+
+# results
+
+ROPE_data <- rope(fit_mixed_wider, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_mixed_wider)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_mixed_wider %>% 
+  hypothesis(hypothesis = "SCIAT_blockChinesepositive:IAT_conditionInsects:attribute_conditionoppositevalencedattributes = 0", alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-.1, .25)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+### Fixed effects model on D scores
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data. 
+
+```{r fig.height=4, fig.width=10}
+
+SCIAT_data_2 <- read.csv("data/processed/processed data - wide format all tasks exclusions.csv")
+
+# scale and centre data
+standarized_data <- SCIAT_data_2 %>%
+  mutate(SCIAT_D1 = round(as.numeric(scale(SCIAT_D1)), 3))
+
+# model formulaa
+model_formula <- SCIAT_D1 ~ IAT_condition * attribute_condition
+model_family  <- gaussian(link = "identity")
+
+# prior
+get_prior(model_formula,
+          family = model_family,
+          data   = standarized_data)
+
+prior <- c(set_prior("normal(0, 1)"))
+
+
+# # fit model
+# fit_fixed <- brm(formula      = model_formula,
+#                  data         = standarized_data,
+#                  family       = model_family,
+#                  prior        = prior,
+#                  iter         = 5000,
+#                  chains       = 4,
+#                  control      = list(adapt_delta = 0.99),
+#                  sample_prior = TRUE,  # to calculate BF
+#                  cores        = detectCores())
+# 
+# save(fit_fixed, file = "fit_fixed.RData")
+load(file = "fit_fixed.RData")
+
+
+# checks
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_fixed, nsamples = 10) 
+
+# plot(fit_fixed, ask = FALSE)
+
+# plot(marginal_effects(fit_fixed), points = TRUE, ask = FALSE)
+
+
+# results
+ROPE_data <- rope(fit_fixed, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_fixed)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_fixed %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0", 
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-1, 1)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+#### Wider prior
+
+```{r, fig.height=4, fig.width=10}
+
+# model 
+
+prior <- c(set_prior("normal(0, 1.5)"))
+
+# fit model
+# fit_fixed_wider <- brm(formula      = model_formula,
+#                        data         = standarized_data,
+#                        family       = model_family,
+#                        prior        = prior,
+#                        iter         = 5000,
+#                        chains       = 4,
+#                        control      = list(adapt_delta = 0.99),
+#                        sample_prior = TRUE,  # to calculate BF
+#                        cores        = detectCores())
+# 
+# save(fit_fixed_wider, file = "fit_fixed_wider.RData")
+load(file = "fit_fixed_wider.RData")
+
+
+# checks 
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_fixed_wider, nsamples = 10) 
+
+# plot(fit_fixed_wider, ask = FALSE)
+
+# plot(marginal_effects(fit_fixed_wider), points = TRUE, ask = FALSE)
+
+
+# results 
+
+ROPE_data <- rope(fit_fixed_wider, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_fixed_wider)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_fixed_wider %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0",
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p3 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p3 + 
+  #coord_cartesian(xlim = c(-.2, .75)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+# Evaluative learning effect on the ratings is weakened when the analogy within the IAT is undermined
+
+## Frequentist
+
+### Mixed effects model on ratings
+
+```{r}
+
+# scale and centre data
+
+ratings_data <- 
+  read.csv("data/processed/processed data - ratings item data.csv") %>%
+  dplyr::mutate(participant = as.factor(participant),
+                attribute_condition = as.factor(attribute_condition),
+                IAT_condition = as.factor(IAT_condition),
+                std_ratings = round(as.numeric(scale(ratings)), 3)) %>%
+  filter(exclude == FALSE)
+
+fit_frequentist_ratings <- lmer(ratings ~ IAT_condition * attribute_condition + (1 | participant), 
+                                contrasts = list(IAT_condition = "contr.sum", attribute_condition = "contr.sum"),  
+                                data = ratings_data)
+
+```
+
+```{r}
+
+sjp.lmer(fit_frequentist_ratings, 
+         p.kr = FALSE,
+         y.offset = 0.4,
+         digits = 4,
+         type = "fe")
+
+sjt.lmer(fit_frequentist_ratings,
+         digits.est = 3,
+         digits.ci = 3,
+         p.kr = FALSE)
+
+```
+
+## Bayesian
+
+### Mixed effects model on ratings
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data.
+
+```{r fig.height=4, fig.width=10}
+
+# model
+
+# model formulaa
+model_formula <- std_ratings ~ IAT_condition * attribute_condition + (1 | participant)
+model_family  <- gaussian(link = "identity")
+
+# prior
+get_prior(model_formula,
+          family = model_family,
+          data   = ratings_data)
+
+prior <- c(set_prior("normal(0, 1)"))
+
+
+# fit model
+# fit_mixed_ratings <- brm(formula      = model_formula,
+#                          data         = ratings_data,
+#                          family       = model_family,
+#                          prior        = prior,
+#                          iter         = 5000,
+#                          chains       = 4,
+#                          control      = list(adapt_delta = 0.99),
+#                          sample_prior = TRUE,  # to calculate BF
+#                          cores        = detectCores())
+# 
+# save(fit_mixed_ratings, file = "fit_mixed_ratings.RData")
+load(file = "fit_mixed_ratings.RData")
+
+
+# checks
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_mixed, nsamples = 10) 
+
+# plot(fit_mixed, ask = FALSE)
+
+# plot(marginal_effects(fit_mixed), points = TRUE, ask = FALSE)
+
+
+# results
+
+ROPE_data <- rope(fit_mixed_ratings, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_mixed_ratings)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_mixed_ratings %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0", 
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-.5, .7)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+#### Wider prior
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data.
+
+```{r fig.height=4, fig.width=10}
+
+prior <- c(set_prior("normal(0, 1.5)"))
+
+## NB model takes 90+ minutes on a decent workstation
+# fit model
+# fit_mixed_wider_ratings <- brm(formula      = model_formula,
+#                                data         = ratings_data,
+#                                family       = model_family,
+#                                prior        = prior,
+#                                iter         = 5000,
+#                                chains       = 4,
+#                                control      = list(adapt_delta = 0.99),
+#                                sample_prior = TRUE,  # to calculate BF
+#                                cores        = detectCores())
+# 
+# save(fit_mixed_wider_ratings, file = "fit_mixed_wider_ratings.RData")
+load(file = "fit_mixed_wider_ratings.RData")
+
+
+# checks
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_mixed_wider_ratings, nsamples = 10) 
+
+# plot(fit_mixed_wider_ratings, ask = FALSE)
+
+# plot(marginal_effects(fit_mixed_wider_ratings), points = TRUE, ask = FALSE)
+
+
+# results
+
+ROPE_data <- rope(fit_mixed_wider_ratings, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_mixed_wider_ratings)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_mixed_wider_ratings %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0", alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-1, 1)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+### Fixed effects model on mean ratings
+
+Generally, choices can be made re scaling and prior as to whether the model is run on scaled data (producing standardized estimates) or unscaled data (producding unstandardized estimates). If the latter, create different priors for each parameter and multiply the SD of the prior by the observed or expected SD of each parameter.
+
+Current implementation uses the former approach of standarizing the data. 
+
+```{r fig.height=4, fig.width=10}
+
+ratings_data_2 <- read.csv("data/processed/processed data - wide format all tasks exclusions.csv")
+
+# scale and centre data
+standarized_data_ratings <- ratings_data_2 %>%
+  mutate(mean_rating = round(as.numeric(scale(mean_rating)), 3))
+
+# model formulaa
+model_formula <- mean_rating ~ IAT_condition * attribute_condition
+model_family  <- gaussian(link = "identity")
+
+# prior
+get_prior(model_formula,
+          family = model_family,
+          data   = standarized_data_ratings)
+
+prior <- c(set_prior("normal(0, 1)"))
+
+
+# # fit model
+# fit_fixed_ratings <- brm(formula      = model_formula, 
+#                          data         = standarized_data_ratings,
+#                          family       = model_family,
+#                          prior        = prior,
+#                          iter         = 5000,
+#                          chains       = 4,
+#                          control      = list(adapt_delta = 0.99),
+#                          sample_prior = TRUE,  # to calculate BF
+#                          cores        = detectCores())
+# 
+# save(fit_fixed_ratings, file = "fit_fixed_ratings.RData")
+load(file = "fit_fixed_ratings.RData")
+
+
+# checks
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_fixed_ratings, nsamples = 10) 
+
+# plot(fit_fixed_ratings, ask = FALSE)
+
+# plot(marginal_effects(fit_fixed_ratings), points = TRUE, ask = FALSE)
+
+
+# results
+ROPE_data <- rope(fit_fixed_ratings, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_fixed_ratings)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_fixed_ratings %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0", 
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p1 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p1 + 
+  coord_cartesian(xlim = c(-1, 1)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+
+#### Wider prior
+
+```{r, fig.height=4, fig.width=10}
+
+# model 
+
+# prior <- c(set_prior("normal(0, 1.5)"))
+# 
+# # fit model
+# fit_fixed_wider_ratings <- brm(formula      = model_formula,
+#                                data         = ratings_data_2,
+#                                family       = model_family,
+#                                prior        = prior,
+#                                iter         = 5000,
+#                                chains       = 4,
+#                                control      = list(adapt_delta = 0.99),
+#                                sample_prior = TRUE,  # to calculate BF
+#                                cores        = detectCores())
+# 
+# save(fit_fixed_wider_ratings, file = "fit_fixed_wider_ratings.RData")
+load(file = "fit_fixed_wider_ratings.RData")
+
+
+# checks 
+
+# # check the fit between the posterior distribution and the observed data
+# pp_check(fit_fixedz_wider_ratings, nsamples = 10) 
+
+# plot(fit_fixed_wider_ratings, ask = FALSE)
+
+# plot(marginal_effects(fit_fixed_wider_ratings), points = TRUE, ask = FALSE)
+
+
+# results 
+
+ROPE_data <- rope(fit_fixed_wider_ratings, rope = c(-0.1, 0.1)) %>%
+  rename(Parameter = term,
+         `% in ROPE` = rope) %>%
+  select(-outside.rope) %>%
+  filter(grepl("b_", Parameter) & !grepl("prior", Parameter)) %>% 
+  mutate(Parameter = str_replace_all(Parameter, "b_", ""),
+         Parameter = str_replace_all(Parameter, "[.]", ":"))
+
+results_data <- summary(fit_fixed_wider_ratings)$fixed %>%
+  as.data.frame() %>%
+  rownames_to_column(var = "Parameter") %>%
+  rename(SE = Est.Error,
+         Lower = `l-95% CI`,
+         Upper = `u-95% CI`) %>%
+  full_join(ROPE_data, by = "Parameter") %>%
+  round_df(3)
+
+# plot 
+results_data %>%
+  filter(Parameter != "Intercept") %>%
+  ggplot() +
+  # ideally I'd like to shade the ROPE, but can't figure out a solution for this yet.
+  #geom_rect(aes(xmin = as.numeric(Parameter[[1]]), xmax = as.numeric(Parameter[[7]]), ymin = -0.1, ymax = 0.1), fill = "grey70", alpha = 0.1, inherit.aes = FALSE) +
+  geom_linerange(aes(x = Parameter, ymin = Lower, ymax = Upper)) +
+  geom_point(aes(x = Parameter, y = Estimate)) +
+  coord_flip() +
+  theme_minimal() +
+  geom_hline(yintercept = 0, linetype = "dotted")
+
+# table
+results_data %>%
+  kable() %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = FALSE) %>%
+  add_header_above(c(" " = 3, "95% CI" = 2, " " = 3))
+
+
+# Evid.Ratio is BF01 i.e., for this hypothesis
+H <- fit_fixed_wider %>% 
+  hypothesis(hypothesis = "IAT_conditionInsectsMChineseIAT:attribute_conditionoppositevalencedattributes = 0",
+             alpha = .05)  
+# convert BF01 to BF10 (because in this case 01 is null and 10 is alternate):
+H_BF10 <- round(1/H$hypothesis$Evid.Ratio, 2)
+
+H_BF10
+
+p3 <- plot(H, plot = FALSE, theme = theme_get())[[1]]  
+p3 + 
+  coord_cartesian(xlim = c(-.2, .75)) +
+  geom_vline(xintercept = 0, linetype = "dashed") +
+    # ideally I'd like to shade the posterior's mean and 95% HDI, but can't figure out a solution for this. use vertical lines for the moment.
+  geom_vline(xintercept = H$hypothesis$`l-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$`u-95% CI`) +
+  geom_vline(xintercept = H$hypothesis$Estimate) +
+  theme_minimal()
+
+```
+

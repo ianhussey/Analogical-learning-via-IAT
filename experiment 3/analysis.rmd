@@ -26,6 +26,7 @@ library(car)
 library(plotrix)  # for std.error
 library(gridExtra)
 library(lme4)
+library(patchwork)
 
 # rounds all numerics in a df
 round_df <- function(df, digits) {
@@ -125,7 +126,10 @@ SCIAT_data <-
                                                ifelse(SCIAT_block == "incompatibletest_sciat", "Chinese positive",
                                                       NA))),
                 attribute_condition = as.factor(attribute_condition),
-                IAT_condition = as.factor(IAT_condition)) %>%
+                IAT_condition = as.factor(ifelse(IAT_condition == as.character("Flowers-Chinese IAT"),
+                                                 "Flowers",
+                                                 ifelse(IAT_condition == as.character("Insects-Chinese IAT"), 
+                                                        "Insects", NA)))) %>%
   filter(exclude == FALSE) %>%
   mutate(recip_rt = ifelse(rt >= 300, 1000/rt, NA)) %>%  # trim rts < 300, recip transform to presses per second
   schoRsch::outlier(dv = "recip_rt",  # trim >2.5 SD from mean
@@ -153,9 +157,10 @@ SCIAT effects are expected to differ between the IAT conditions, where the Chine
 - Confidence intervals via Wald estimation.
 
 ```{r, message=FALSE, warning=FALSE}
+
 # opposite condition only
 opp_val_data_only <- SCIAT_data %>%
-  filter(attribute_condition == "opposite valenced attributes")
+  filter(attribute_condition == "opposite valenced attributes") 
 
 model_h1 <- lmer(recip_rt ~ SCIAT_block * IAT_condition + (SCIAT_block | participant), 
                 contrasts = list(SCIAT_block = "contr.sum", IAT_condition = "contr.sum"),  
@@ -205,7 +210,7 @@ ggplot(data = model_h1_predicted_effects,
                   position = position_dodge(width = .1)) +
   geom_line(aes(group = `IAT condition`),
             position = position_dodge(width = .1)) +
-  ylab("Speed (1000/RT)") +
+  ylab("Speed") +
   xlab("SC-IAT block") +
   scale_colour_grey() +
   theme_classic()
@@ -350,11 +355,11 @@ p1 <-
                   position = position_dodge(width = .1)) +
   geom_line(aes(group = `IAT condition`),
             position = position_dodge(width = .1)) +
-  ylab("Speed (1000/RT)") +
+  ylab("Speed") +
   xlab("SC-IAT block") +
   scale_colour_grey() +
   theme_classic() + 
-  ggtitle("opposite valenced attributes") +
+  ggtitle("Opposites IAT condition") +
   ylim(1.61, 1.78) +
   theme(legend.position = "none")
   # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
@@ -371,17 +376,20 @@ p2 <-
                   position = position_dodge(width = .1)) +
   geom_line(aes(group = `IAT condition`),
             position = position_dodge(width = .1)) +
-  ylab("Speed (1000/RT)") +
+  ylab("Speed") +
   xlab("SC-IAT block") +
   scale_colour_grey() +
   theme_classic() + 
-  ggtitle("non-opposite valenced attributes") +
+  ggtitle("Non-opposites IAT condition") +
   ylim(1.61, 1.78) +
-  theme(legend.position = c(.3, .8))
+  theme(legend.position = c(.8, .8))
   # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
   #       legend.key = element_rect(colour = "transparent"))
 
-grid.arrange(p1, p2, ncol = 2)
+combined <- grid.arrange(p1, p2, ncol = 2)
+
+#ggsave("combined.pdf")
+
 ```
 
 # E2: Evaluative learning effect on the SC-IAT is weakened when the analogy within the IAT is undermined (less conservative model)
@@ -451,11 +459,11 @@ p1 <-
                   position = position_dodge(width = .1)) +
   geom_line(aes(group = `IAT condition`),
             position = position_dodge(width = .1)) +
-  ylab("Speed (1000/RT)") +
+  ylab("Speed") +
   xlab("SC-IAT block") +
   scale_colour_grey() +
   theme_classic() + 
-  ggtitle("opposite valenced attributes") +
+  ggtitle("Opposite IAT attributes") +
   ylim(1.61, 1.78) +
   theme(legend.position = "none")
   # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
@@ -472,17 +480,21 @@ p2 <-
                   position = position_dodge(width = .1)) +
   geom_line(aes(group = `IAT condition`),
             position = position_dodge(width = .1)) +
-  ylab("Speed (1000/RT)") +
+  ylab("Speed") +
   xlab("SC-IAT block") +
   scale_colour_grey() +
   theme_classic() + 
-  ggtitle("non-opposite valenced attributes") +
+  ggtitle("Non-opposite IAT attributes") +
   ylim(1.61, 1.78) +
-  theme(legend.position = c(.3, .8))
+  theme(legend.position = c(.8, .8))
   # theme(legend.justification=c(0.5,1), legend.position=c(0.5,1),
   #       legend.key = element_rect(colour = "transparent"))
 
-grid.arrange(p1, p2, ncol = 2)
+#combined <- grid.arrange(p1, p2, ncol = 2)
+
+p1 + p2
+
+# copy and past into a fresh R file to save as 9X4 image
 ```
 
 # H3: Differences in ratings effects between IAT contrast category conditions, in the opposite attributes condition

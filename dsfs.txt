@@ -1,0 +1,95 @@
+% Data Storage Fact Sheet 
+
+% Name/identifier study: The Implicit Association Test as an analogical learning task
+% Author: Ian Hussey, Jan De Houwer
+% Date: 2018-04-16
+
+
+1. Contact details
+===========================================================
+
+1a. Main researcher
+-----------------------------------------------------------
+- name: Ian Hussey
+- address: Ghent University, Henri Dunantlaan 2, B-9000 Ghent, Belgium
+- e-mail: ian.hussey@ugent.be
+
+1b. Responsible Staff Member (ZAP) 
+-----------------------------------------------------------
+- name: Jan De Houwer
+- address: Ghent University, Henri Dunantlaan 2, B-9000 Ghent, Belgium
+- e-mail: Jan.DeHouwer@ugent.be
+
+
+If a response is not received when using the above contact details, please send an email to data.pp@ugent.be or contact Data Management, Faculty of Psychology and Educational Sciences, Henri Dunantlaan 2, 9000 Ghent, Belgium.
+
+
+2. Information about the datasets to which this sheet applies 
+===========================================================
+* Reference of the publication in which the datasets are reported:
+
+* Which datasets in that publication does this sheet apply to?:
+All.
+
+
+3. Information about the files that have been stored
+===========================================================
+
+
+3a. Raw data
+-----------------------------------------------------------
+
+* Have the raw data been stored by the main researcher? [x] YES / [ ] NO
+If NO, please justify:
+
+* On which platform are the raw data stored?
+  - [x] researcher PC
+  - [x] research group file server
+  - [x] other (specify): Open Science Framework: https://osf.io/t89fu/
+
+* Who has direct access to the raw data (i.e., without intervention of another person)?
+  - [x] main researcher
+  - [x] responsible ZAP
+  - [ ] all members of the research group
+  - [ ] all members of UGent
+  - [x] other (specify): all visitors of the Open Science Framework website
+   
+
+3b. Other files
+-----------------------------------------------------------
+
+* Which other files have been stored?
+  - [x] file(s) describing the transition from raw data to reported results. Specify: See "data processing" and "analysis" R files.
+  - [x] file(s) containing processed data. Specify: See folders data>processed
+  - [x] file(s) containing analyses. Specify: See "analysis" R files and "study details" markdown files
+  - [x] files(s) containing information about informed consent. Specify: see "Informed Consent" word documents, and "consent.html" html files
+  - [x] a file specifying legal and ethical provisions. Specify: see "README.md"
+  - [x] file(s) that describe the content of the stored files and how this content should be interpreted. Specify: See "README.md" and "study details.md".
+  - [ ] other files. Specify: ...
+
+    
+* On which platform are these other files stored? 
+  - [x] individual PC
+  - [x] research group file server
+  - [x] other (specify): Open Science Framework: https://osf.io/t89fu/
+
+* Who has direct access to these other files (i.e., without intervention of another person)? 
+  - [x] main researcher
+  - [x] responsible ZAP
+  - [ ] all members of the research group
+  - [ ] all members of UGent
+  - [x] other (specify): all visitors of the Open Science Framework website
+
+
+4. Reproduction 
+===========================================================
+* Have the results been reproduced independently?: [ ] YES / [x] NO
+
+* If yes, by whom (add if multiple):
+   - name: 
+   - address: 
+   - affiliation: 
+   - e-mail: 
+
+   
+v0.2
